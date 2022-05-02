@@ -1,0 +1,62 @@
+menu-settings:
+  name: ':offset_-8::stone:'
+  rows: 4
+  auto-reopen: false
+  commands:
+  - /wand
+  - stone
+  - rg
+  - private
+  - region
+  open-actions:
+  - 'sound: UI_BUTTON_CLICK, 2.0, 0.5'
+1:
+  PRICE: 16
+  ACTIONS:
+  - "console: ps give 8 {player}"
+  - 'sound: ENTITY_ITEM_PICKUP, 2.0, 0.5'
+  NAME: '&716x16'
+  KEEP-OPEN: true
+  LORE:
+  - "&7При установке приватит квадрат размером 16х16"
+  POSITION-X: 4
+  POSITION-Y: 1
+  MATERIAL: IRON_ORE
+2:
+  PRICE: 32
+  ACTIONS:
+  - "console: ps give 16 {player}"
+  - 'sound: ENTITY_ITEM_PICKUP, 2.0, 0.5'
+  NAME: '&e32x32'
+  KEEP-OPEN: true
+  LORE:
+  - /home
+  LORE:
+  - "&7При установке приватит квадрат размером 32х32"
+  POSITION-X: 4
+  POSITION-Y: 2
+  MATERIAL: GOLD_ORE
+3:
+  PRICE: 64
+  ACTIONS:
+  - "console: ps give 32 {player}"
+  - 'sound: ENTITY_ITEM_PICKUP, 2.0, 0.5'
+  NAME: '&b64x64'
+  KEEP-OPEN: true
+  LORE:
+  - "&7При установке приватит квадрат размером 64х64"
+  POSITION-X: 4
+  POSITION-Y: 3
+  MATERIAL: DIAMOND_ORE
+4:
+  PRICE: 128
+  ACTIONS:
+  - "console: ps give 64 {player}"
+  - 'sound: ENTITY_ITEM_PICKUP, 2.0, 0.5'
+  NAME: '&a128x128'
+  KEEP-OPEN: true
+  LORE:
+  - "&7При установке приватит квадрат размером 128х128"
+  POSITION-X: 4
+  POSITION-Y: 4
+  MATERIAL: EMERALD_ORE

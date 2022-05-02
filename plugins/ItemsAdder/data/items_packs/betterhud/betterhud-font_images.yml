@@ -1,0 +1,343 @@
+info:
+  namespace: betterhud
+font_images:
+  emerald--8_16:
+    path: images/emerald.png
+    y_position: -8
+    scale_ratio: 16
+  comma--11_8:
+    path: chars/comma.png
+    y_position: -12
+    scale_ratio: 8
+  dot--11_8:
+    path: chars/dot.png
+    y_position: -11
+    scale_ratio: 8
+  minus--11_8:
+    path: chars/minus.png
+    y_position: -11
+    scale_ratio: 8
+  low_line--11_8:
+    path: chars/low_line.png
+    y_position: -11
+    scale_ratio: 8
+  exclamation_mark--11_8:
+    path: chars/exclamation_mark.png
+    y_position: -11
+    scale_ratio: 8
+  question_mark--11_8:
+    path: chars/question_mark.png
+    y_position: -11
+    scale_ratio: 8
+  slash--11_8:
+    path: chars/slash.png
+    y_position: -11
+    scale_ratio: 8
+  back_slash--11_8:
+    path: chars/back_slash.png
+    y_position: -11
+    scale_ratio: 8
+  left_parenthesis--11_8:
+    path: chars/left_parenthesis.png
+    y_position: -11
+    scale_ratio: 8
+  right_parenthesis--11_8:
+    path: chars/right_parenthesis.png
+    y_position: -11
+    scale_ratio: 8
+  left_square_bracket--11_8:
+    path: chars/left_square_bracket.png
+    y_position: -11
+    scale_ratio: 8
+  right_square_bracket--11_8:
+    path: chars/right_square_bracket.png
+    y_position: -11
+    scale_ratio: 8
+  at--11_8:
+    path: chars/at.png
+    y_position: -11
+    scale_ratio: 8
+  hashtag--11_8:
+    path: chars/hashtag.png
+    y_position: -11
+    scale_ratio: 8
+  colon--11_8:
+    path: chars/colon.png
+    y_position: -11
+    scale_ratio: 8
+  semicolon--11_8:
+    path: chars/semicolon.png
+    y_position: -11
+    scale_ratio: 8
+  plus--11_8:
+    path: chars/plus.png
+    y_position: -11
+    scale_ratio: 8
+  percent--11_8:
+    path: chars/percent.png
+    y_position: -11
+    scale_ratio: 8
+  equal--11_8:
+    path: chars/equal.png
+    y_position: -11
+    scale_ratio: 8
+  less_than--11_8:
+    path: chars/less_than.png
+    y_position: -11
+    scale_ratio: 8
+  greater_than--11_8:
+    path: chars/greater_than.png
+    y_position: -11
+    scale_ratio: 8
+  asterisk--11_8:
+    path: chars/asterisk.png
+    y_position: -11
+    scale_ratio: 8
+  0--11_8:
+    path: integers/0.png
+    y_position: -11
+    scale_ratio: 8
+  1--11_8:
+    path: integers/1.png
+    y_position: -11
+    scale_ratio: 8
+  2--11_8:
+    path: integers/2.png
+    y_position: -11
+    scale_ratio: 8
+  3--11_8:
+    path: integers/3.png
+    y_position: -11
+    scale_ratio: 8
+  4--11_8:
+    path: integers/4.png
+    y_position: -11
+    scale_ratio: 8
+  5--11_8:
+    path: integers/5.png
+    y_position: -11
+    scale_ratio: 8
+  6--11_8:
+    path: integers/6.png
+    y_position: -11
+    scale_ratio: 8
+  7--11_8:
+    path: integers/7.png
+    y_position: -11
+    scale_ratio: 8
+  8--11_8:
+    path: integers/8.png
+    y_position: -11
+    scale_ratio: 8
+  9--11_8:
+    path: integers/9.png
+    y_position: -11
+    scale_ratio: 8
+  a--11_8:
+    path: chars/a.png
+    y_position: -11
+    scale_ratio: 8
+  a-big--11_8:
+    path: chars/a-big.png
+    y_position: -11
+    scale_ratio: 8
+  b--11_8:
+    path: chars/b.png
+    y_position: -11
+    scale_ratio: 8
+  b-big--11_8:
+    path: chars/b-big.png
+    y_position: -11
+    scale_ratio: 8
+  c--11_8:
+    path: chars/c.png
+    y_position: -11
+    scale_ratio: 8
+  c-big--11_8:
+    path: chars/c-big.png
+    y_position: -11
+    scale_ratio: 8
+  d--11_8:
+    path: chars/d.png
+    y_position: -11
+    scale_ratio: 8
+  d-big--11_8:
+    path: chars/d-big.png
+    y_position: -11
+    scale_ratio: 8
+  e--11_8:
+    path: chars/e.png
+    y_position: -11
+    scale_ratio: 8
+  e-big--11_8:
+    path: chars/e-big.png
+    y_position: -11
+    scale_ratio: 8
+  f--11_8:
+    path: chars/f.png
+    y_position: -11
+    scale_ratio: 8
+  f-big--11_8:
+    path: chars/f-big.png
+    y_position: -11
+    scale_ratio: 8
+  g--11_8:
+    path: chars/g.png
+    y_position: -12
+    scale_ratio: 8
+  g-big--11_8:
+    path: chars/g-big.png
+    y_position: -11
+    scale_ratio: 8
+  h--11_8:
+    path: chars/h.png
+    y_position: -11
+    scale_ratio: 8
+  h-big--11_8:
+    path: chars/h-big.png
+    y_position: -11
+    scale_ratio: 8
+  i--11_8:
+    path: chars/i.png
+    y_position: -11
+    scale_ratio: 8
+  i-big--11_8:
+    path: chars/i-big.png
+    y_position: -11
+    scale_ratio: 8
+  j--11_8:
+    path: chars/j.png
+    y_position: -12
+    scale_ratio: 8
+  j-big--11_8:
+    path: chars/j-big.png
+    y_position: -11
+    scale_ratio: 8
+  k--11_8:
+    path: chars/k.png
+    y_position: -11
+    scale_ratio: 8
+  k-big--11_8:
+    path: chars/k-big.png
+    y_position: -11
+    scale_ratio: 8
+  l--11_8:
+    path: chars/l.png
+    y_position: -11
+    scale_ratio: 8
+  l-big--11_8:
+    path: chars/l-big.png
+    y_position: -11
+    scale_ratio: 8
+  m--11_8:
+    path: chars/m.png
+    y_position: -11
+    scale_ratio: 8
+  m-big--11_8:
+    path: chars/m-big.png
+    y_position: -11
+    scale_ratio: 8
+  n--11_8:
+    path: chars/n.png
+    y_position: -11
+    scale_ratio: 8
+  n-big--11_8:
+    path: chars/n-big.png
+    y_position: -11
+    scale_ratio: 8
+  o--11_8:
+    path: chars/o.png
+    y_position: -11
+    scale_ratio: 8
+  o-big--11_8:
+    path: chars/o-big.png
+    y_position: -11
+    scale_ratio: 8
+  p--11_8:
+    path: chars/p.png
+    y_position: -12
+    scale_ratio: 8
+  p-big--11_8:
+    path: chars/p-big.png
+    y_position: -11
+    scale_ratio: 8
+  q--11_8:
+    path: chars/q.png
+    y_position: -12
+    scale_ratio: 8
+  q-big--11_8:
+    path: chars/q-big.png
+    y_position: -11
+    scale_ratio: 8
+  r--11_8:
+    path: chars/r.png
+    y_position: -11
+    scale_ratio: 8
+  r-big--11_8:
+    path: chars/r-big.png
+    y_position: -11
+    scale_ratio: 8
+  s--11_8:
+    path: chars/s.png
+    y_position: -11
+    scale_ratio: 8
+  s-big--11_8:
+    path: chars/s-big.png
+    y_position: -11
+    scale_ratio: 8
+  t--11_8:
+    path: chars/t.png
+    y_position: -11
+    scale_ratio: 8
+  t-big--11_8:
+    path: chars/t-big.png
+    y_position: -11
+    scale_ratio: 8
+  u--11_8:
+    path: chars/u.png
+    y_position: -11
+    scale_ratio: 8
+  u-big--11_8:
+    path: chars/u-big.png
+    y_position: -11
+    scale_ratio: 8
+  v--11_8:
+    path: chars/v.png
+    y_position: -11
+    scale_ratio: 8
+  v-big--11_8:
+    path: chars/v-big.png
+    y_position: -11
+    scale_ratio: 8
+  w--11_8:
+    path: chars/w.png
+    y_position: -11
+    scale_ratio: 8
+  w-big--11_8:
+    path: chars/w-big.png
+    y_position: -11
+    scale_ratio: 8
+  x--11_8:
+    path: chars/x.png
+    y_position: -11
+    scale_ratio: 8
+  x-big--11_8:
+    path: chars/x-big.png
+    y_position: -11
+    scale_ratio: 8
+  y--11_8:
+    path: chars/y.png
+    y_position: -12
+    scale_ratio: 8
+  y-big--11_8:
+    path: chars/y-big.png
+    y_position: -11
+    scale_ratio: 8
+  z--11_8:
+    path: chars/z.png
+    y_position: -11
+    scale_ratio: 8
+  z-big--11_8:
+    path: chars/z-big.png
+    y_position: -11
+    scale_ratio: 8

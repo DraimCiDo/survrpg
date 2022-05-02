@@ -1,0 +1,78 @@
+rtp:
+  location: world, -14.482, 49.200, -571.987
+  lines:
+  - ICON:elytra
+ingot:
+  location: spawn, -107.471, 174.699, -123.414
+  lines:
+  - ICON:netherite_ingot
+oasis:
+  location: spawn, -91.500, 175.445, -132.494
+  lines:
+  - 
+portal:
+  location: spawn, -91.500, 174.707, -132.494
+  lines:
+  - '&7Портал случайной телепортации'
+  - '&#00e6a1Войди в него&7, чтобы телепортироваться'
+help:
+  location: spawn, -91.680, 178.000, -128.540
+  lines:
+  - '&aИзумруды &7- это основная валюта на сервере.'
+  - '&7Их можно обменять на &#00e6a1кристаллы&7 (&#00e6a1/crystal&7), которые можно
+    использовать в крафтах'
+  - '&7ценных предметов (&#00e6a1/ia&7), или торговать ими с игроками.'
+  - '&#00e6a1Платина&7 () - это материал для базовых &#00e6a1платиновых&7 предметов,'
+  - '&7которые можно улучшить с помощью &#00e6a1кристаллов&7. (Подробнее о крафтах
+    - &#00e6a1/ia&7)'
+  - ''
+  - '&7Добыть &#00e6a1платину&7 () можно в шахте'
+emerald2:
+  location: spawn, -77.624, 175.024, -123.337
+  lines:
+  - ICON:emerald
+emerald:
+  location: spawn, -77.423, 175.000, -123.675
+  lines:
+  - ICON:emerald
+emerald1:
+  location: spawn, -77.297, 175.000, -123.422
+  lines:
+  - ICON:emerald
+monu:
+  location: world, 178.516, 74.200, -1045.794
+  lines:
+  - '&bМонумент памяти в честь TerraZ'
+oasis1:
+  location: spawn, -77.469, 176.517, -124.499
+  lines:
+  - 
+stick1:
+  location: spawn, -104.622, 174.790, -121.461
+  lines:
+  - ICON:stick
+stick2:
+  location: spawn, -104.549, 174.790, -121.609
+  lines:
+  - ICON:stick
+iron0:
+  location: spawn, -104.483, 175.200, -121.512
+  lines:
+  - ICON:iron_ingot
+iron2:
+  location: spawn, -104.635, 175.200, -121.635
+  lines:
+  - ICON:iron_ingot
+iron1:
+  location: spawn, -104.635, 175.200, -121.635
+  lines:
+  - ICON:iron_ingot
+boss:
+  location: spawn, -106.448, 174.117, -84.445
+  lines:
+  - '&7Арена &cмирового босса &7внизу!'
+boss1:
+  location: boss, -13.455, 63.788, 13.435
+  lines:
+  - '&7Спавнер &cмирового босса'
+  - '&7Задержка спавна - &c1 час'

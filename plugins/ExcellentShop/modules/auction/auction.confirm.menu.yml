@@ -1,0 +1,25 @@
+title: ':offset_-16::confirm_menu::offset_-176:  &8Подтверждение'
+Size: 9
+Item_Slot: 4
+
+Content:
+  accept:
+    Display:
+      default:
+        Item:
+          Material: 'LIME_STAINED_GLASS_PANE'
+          Name: '&a&nПодтвердить'
+          Lore:
+            - '&f▸ &7Цена: &a%listing_price%:emerald:'
+            - '&f▸ &7Продавец: &f%listing_seller%'
+    Type: CONFIRMATION_ACCEPT
+    Slots: 5,6,7,8
+
+  decline:
+    Display:
+      default:
+        Item:
+          Material: 'RED_STAINED_GLASS_PANE'
+          Name: '&c&nОтменить'
+    Type: CONFIRMATION_DECLINE
+    Slots: 0,1,2,3

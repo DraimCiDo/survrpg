@@ -1,0 +1,43 @@
+info:
+  namespace: draim
+items:
+  sword_1:
+    display_name: Тестовый меч
+    permission: sword_1
+    durbaility:
+      max_custom_durability: 1324
+      custom_durability: 800
+      disappear_when_broken: false
+      unbrekable: false
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/sword_1.png
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 19
+        attackSpeed: 1.1
+      offhand:
+        attackDamage: 19
+        attackSpeed: 1.1
+  sword_2:
+    display_name: Тестовый меч 2
+    permission: sword_2
+    durbaility:
+      max_custom_durability: 1324
+      custom_durability: 800
+      disappear_when_broken: false
+      unbrekable: false
+    resource:
+      material: NETHERITE_SWORD
+      generate: false
+      model_path: mythril_sword
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 19
+        attackSpeed: 1.1
+      offhand:
+        attackDamage: 19
+        attackSpeed: 1.1
+      

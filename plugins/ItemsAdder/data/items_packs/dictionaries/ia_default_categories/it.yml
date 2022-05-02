@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "it"
+dictionary:
+  display-category-all: Tutti
+  display-category-armors: Armature
+  display-category-swords: Spade
+  display-category-pickaxes: Picconi
+  display-category-axes: Asce
+  display-category-hoes: Zappe
+  display-category-shovels: Pale
+  display-category-fishing_rods: Canne da pesca
+  display-category-shears: Cesoie
+  display-category-weapons: Armi
+  display-category-shields: Scudi
+  display-category-bows: Archi
+  display-category-eatables: Cibi
+  display-category-drinks: Bevande
+  display-category-vegetables: Frutta & Verdura
+  display-category-seeds: Semi
+  display-category-fishes: Pesci
+  display-category-potions: Pozioni
+  display-category-furnitures: Mobili
+  display-category-paintings: Quadri
+  display-category-chairs: Sedie
+  display-category-hats: Cappelli
+  display-category-wearables: Indossabili
+  display-category-machines: Macchinari
+  display-category-blocks: Blocchi
+  display-category-ores: Ori
+  display-category-minerals: Minerali
+  display-category-instruments: Strumenti
+  display-category-various: Ingredienti
+  display-category-alchemy: Alchimia
+  display-category-musicdiscs: Dischi musicali
+  display-category-throwables: Lanciabili
+  display-category-books: Libri
+  display-category-vehicles: Veicoli
+  display-category-icons: Icone
+  display-category-generic_items: Oggetti vari
+  display-category-halloween: Halloween
+  display-category-christmas: Natale
+  display-category-special: Speciali
+  display-category-realcraft: RealCraft

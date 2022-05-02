@@ -1,0 +1,6 @@
+uuid: c54909f3-5971-3fa9-ac75-493a06a66691
+name: BogamChIk
+primary-group: default
+parents:
+- default
+- delta

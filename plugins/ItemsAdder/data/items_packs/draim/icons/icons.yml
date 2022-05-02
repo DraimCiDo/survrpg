@@ -1,0 +1,161 @@
+info:
+  namespace: draim
+font_images:
+  jc_icon_emerald:
+    path: images/emerald.png
+    y_position: 10
+    scale_ratio: 16
+  emerald:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/emerald.png"
+    scale_ratio: 12
+    y_position: 10
+  server:
+    permission: "example.server"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/error_green.png"
+    scale_ratio: 0.1
+    y_position: 8
+  earth:
+    permission: "example.earth"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/earth.png"
+    scale_ratio: 0.1
+    y_position: 8
+  confirm:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/icon_confirm.png"
+    scale_ratio: 9
+    y_position: 8
+  deny:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/icon_cancel.png"
+    scale_ratio: 9
+    y_position: 8
+  battle:
+    permission: "example.server"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/error_red.png"
+    scale_ratio: 0.1
+    y_position: 8
+  ruby:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/ruby.png"
+    scale_ratio: 0.1
+    y_position: 10
+  platinum:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/platinum.png"
+    scale_ratio: 0.1
+    y_position: 10
+  red:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/red_crystal.png"
+    scale_ratio: 0.1
+    y_position: 10
+  orange:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/orange_crystal.png"
+    scale_ratio: 0.1
+    y_position: 10
+  yellow:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/yellow_crystal.png"
+    scale_ratio: 0.1
+    y_position: 10
+  green:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/green_crystal.png"
+    scale_ratio: 0.1
+    y_position: 10
+  blue:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/blue_crystal.png"
+    scale_ratio: 0.1
+    y_position: 10
+  purple:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/purple_crystal.png"
+    scale_ratio: 0.1
+    y_position: 10
+  pog:
+    permission: "example.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/pog.png"
+    scale_ratio: 9
+    y_position: 9
+  kek:
+    permission: "example.meme"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/kekw.png"
+    scale_ratio: 9
+    y_position: 9
+  lmao:
+    permission: "example.meme"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/kekwhyper.png"
+    scale_ratio: 9
+    y_position: 9
+  wut:
+    permission: "example.meme"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/wut.png"
+    scale_ratio: 9
+    y_position: 9
+  rg:
+    permission: "example.server"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/error_yellow.png"
+    scale_ratio: 0.1
+    y_position: 8
+  broadcast:
+    permission: "example.server"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/error_discord.png"
+    scale_ratio: 0.1
+    y_position: 8
+  local:
+    permission: "example.local"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/speech.png"
+    scale_ratio: 0.1
+    y_position: 8
+  mail:
+    permission: "example.mail"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "images/mail_icon.png"
+    scale_ratio: 10
+    y_position: 8

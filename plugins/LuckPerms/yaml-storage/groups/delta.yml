@@ -1,0 +1,17 @@
+name: delta
+permissions:
+- cmi.command.feed
+- cmi.command.fly
+- cmi.command.hat
+- cmi.command.sethome.delta
+- cmi.command.suicide
+- cmi.command.workbench
+- cmi.kit.delta
+- cmi.kit.delta.preview
+- protectionstones.limit.4
+- weight.2
+parents:
+- default
+prefixes:
+- ':delta: &7':
+    priority: 2

@@ -1,0 +1,35 @@
+prefix: '&8[&6RWG&8]'
+suffix: ' &7'
+error:
+  no_permission: '&cYou''re lacking the permission ''&4%perm%&c'' to do that!'
+  command:
+    no_permission: '&cYou''re lacking the permission ''&4%perm%&c'' to perform the
+      subcommand ''&4%cmd%&c''!'
+    no_alias: '&cThe subcommand ''&4%cmd%&c'' has no alias!'
+    not_exists: '&cThe subcommand ''&4%cmd%&c'' doesn''t exist!'
+    only_player: '&cOnly a player can run the subcommand ''&4%cmd%&c''!'
+    not_enough_args: '&cNot enough arguments to run subcommand ''&4%cmd%&c''! &8[&eargs
+      missing: &6%number%&8]'
+    invalid_arg: Invalid argument -> "&c%argument%&7" &4(Argument [%number%])
+  work_in_progress: '&5The feature "&d%feature%&5" is work in progress!'
+  player_not_online: The player "&c%name%&7" isn't online!
+position:
+  tool:
+    toggle: '&7You can &e%stat%&7 use the Position tool.'
+    position: '&7You &e%stat%&7 the Position tool.'
+  set: '&e%pos% &7position set.'
+  error:
+    no_position: '&cYou need to define a region first!'
+schematic:
+  saved: '&7Structure &e''%name%'' &7saved &asuccessfully&7!'
+  update: '&7Structure &e''%name%'' &7saved &asuccessfully&7!'
+  error:
+    invalid_name: '&7The name &e''%name%'' &7is not a valid Schematic name!'
+    failed_save: '&7Failed to save Schematic &c''%name%''&7!'
+    doesnt_exist: '&7Cannot find a Structure with the name &c''%name%''&7!'
+    invalid_paste_position: '&7Cannot find a valid position to paste the schematic
+      &c''%name%'' &7at!'
+    invalid_alignment: '&7The alignment &c''%alignment%''&7 is not ready yet, please
+      use one of the others!'
+    invalid_position: '&7The position you entered is invalid, please use a valid position:
+      &c%positions%&7.'

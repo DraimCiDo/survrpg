@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "25eaf987-6f6c-39f5-ae67-5961b3f6cfbd",
+    "name": "DraimEnot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "53921267-61cf-47fc-bc68-3ba45ddda0dd",
+    "name": "DanichMan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "fc0876df-741b-3437-a046-f73aa9cce0dd",
+    "name": "DraimRevol",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "68a315d1-d6f1-3999-bb31-43b1ec5aaebc",
+    "name": "DanichMan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

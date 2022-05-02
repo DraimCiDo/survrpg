@@ -1,0 +1,24 @@
+name: gamma
+permissions:
+- cmi.command.anvil
+- cmi.command.ender
+- cmi.command.ext
+- cmi.command.heal
+- cmi.command.notarget
+- cmi.command.ptime
+- cmi.command.pweather
+- cmi.command.sethome.gamma
+- cmi.command.workbench
+- cmi.kit.delta:
+    value: false
+- cmi.kit.delta.preview:
+    value: false
+- cmi.kit.gamma
+- cmi.kit.gamma.preview
+- protectionstones.limit.5
+- weight.3
+parents:
+- delta
+prefixes:
+- ':gamma: &7':
+    priority: 3

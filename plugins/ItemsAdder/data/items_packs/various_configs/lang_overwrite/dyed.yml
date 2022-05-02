@@ -1,0 +1,9 @@
+info:
+  namespace: ia_various_configs
+minecraft_lang_overwrite:
+  disable_dyed_text:
+    entries:
+      "item.dyed": ""
+      "item.color": ""
+    languages:
+      - ALL

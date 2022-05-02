@@ -1,0 +1,39 @@
+delta:
+  tabprefix: '%img_delta% '
+  tagprefix: '%img_delta% '
+gamma:
+  tabprefix: '%img_gammma% '
+  tagprefix: '%img_gamma% '
+beta:
+  tabprefix: '%img_beta% '
+  tagprefix: '%img_beta% '
+alpha:
+  tabprefix: '%img_alpha% '
+  tagprefix: '%img_alpha% '
+omega:
+  tabprefix: '%img_omega% '
+  tagprefix: '%img_omega% '
+youtube:
+  tabprefix: '%img_youtube% '
+  tagprefix: '%img_youtube% '
+helper:
+  tabprefix: '%img_helper% '
+  tagprefix: '%img_helper% '
+default:
+  tabprefix: '%img_player% '
+  tagprefix: '%img_player% '
+
+ # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+_DEFAULT_:
+  tabprefix: "%vault-prefix%"
+  tagprefix: "%vault-prefix%"
+  customtabname: "%essentials_nickname%"
+  customtagname: "%essentials_nickname%" # don't forget to enable unlimited nametag mode to make this one work
+  tabsuffix: "%afk%"
+  tagsuffix: "%afk%"
+
+per-world:
+  world1:
+    Owner:
+      tabprefix: "&0&l[&a&lOwner&0&l] &a"
+      tagprefix: "&2&lOwner &a"

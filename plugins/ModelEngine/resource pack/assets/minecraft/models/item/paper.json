@@ -1,0 +1,16 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/fishing_rod"
+    },
+    "overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "littleroom_npcpack3:bard_hat"},
+		{"predicate": {"custom_model_data":2}, "model": "littleroom_npcpack3:bard_lute"},
+		{"predicate": {"custom_model_data":3}, "model": "littleroom_npcpack3:fisherman_disguise"},
+		{"predicate": {"custom_model_data":4}, "model": "littleroom_npcpack3:lumberjack_beanie"},
+		{"predicate": {"custom_model_data":5}, "model": "littleroom_npcpack3:lumberjack_disguise"},
+		{"predicate": {"custom_model_data":6}, "model": "littleroom_npcpack3:queen_wig"},
+		{"predicate": {"custom_model_data":7}, "model": "littleroom_npcpack3:roman_soldier_helmet"},
+		{"predicate": {"custom_model_data":8}, "model": "littleroom_npcpack3:jester_staff"}
+        ]
+}

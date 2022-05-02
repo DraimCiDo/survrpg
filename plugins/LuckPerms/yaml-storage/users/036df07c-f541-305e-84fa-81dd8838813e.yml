@@ -1,0 +1,6 @@
+uuid: 036df07c-f541-305e-84fa-81dd8838813e
+name: urmo
+primary-group: default
+parents:
+- default
+- resourcepack

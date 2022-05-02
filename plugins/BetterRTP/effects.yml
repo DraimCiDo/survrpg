@@ -1,0 +1,44 @@
+Sounds:
+  Enabled: false
+  ProtocolLibSound: false
+  Delay: entity_tnt_primed
+  Success: entity_generic_explode
+Titles:
+  Enabled: false
+  NoDelay:
+    Title: '&bТелепортация...'
+    Subtitle: '&7Пожалуйста, подождите'
+    SendMessage: true
+  Teleport:
+    Title: '&bТелепортировался!'
+    Subtitle: '&7Вы были телепортированы на: &b%x%&7, &b%y%&7, &b%z%'
+    SendMessage: false
+  Delay:
+    Title: ''
+    Subtitle: '&7Телепортация через &f%time% &7секунд...'
+    SendMessage: false
+  Cancelled:
+    Title: '&eТы двинулся...'
+    Subtitle: '&7Телепортация была отменена!'
+    SendMessage: false
+  Loading:
+    Title: ''
+    Subtitle: ''
+    SendMessage: dalse
+  Failed:
+    Title: ''
+    Subtitle: '&cНе удалось! Безопасных мест нет'
+    SendMessage: false
+Particles:
+  Enabled: true
+  Type:
+  - EXPLOSION_NORMAL
+  Shape: EXPLODE
+Invincible:
+  Enabled: true
+  Seconds: 5
+Potions:
+  Enabled: true
+  Types:
+  - Blindness:60:1
+  - Invisibility:60:1

@@ -1,0 +1,64 @@
+# Translated to Russian by Logan (https://t.me/icemine_ru)
+Messages:
+  Prefix: ''
+  Success:
+    Loading: ''
+    Teleport: ''
+    Paid: ''
+    Bypass: ''
+  Failed:
+    Hunger: ''
+    Price: ''
+    NotSafe: ''
+  Other:
+    Biome: ''
+    Success: ''
+    NotSafe: ''
+  Reload: '&7Конфигурация удачно перезагружена!'
+  NoPermission:
+    Basic: ''
+    World: ''
+  DisabledWorld: ''
+  Cooldown: '&8Вы не сможете использовать телепортацию ближайшие &b%time% &7сек.'
+  Locked: '&7(&b!&7) Сожалею! Вы израсходовали все свои телепортации!'
+  Invalid: '&7(&b!&7) Неправильные параметры. Попробуйте &7/&2%command% help'
+  NotOnline: '&7(&b!&7) Игрок &b%player% &7не онлайн!'
+  Delay: ''
+  Moved: ''
+  NotExist: '&7(&b!&7) Похоже что мир &b%world% &7не существует!'
+  Already: '&7(&b!&7) Ууупс! &7Похоже вы уже телепортируетесь. Имейте терпение!'
+  Sign: '&7(&b!&7) Знак команды создан! &7Команда... ''&b/rtp %command%&7'''
+  Edit:
+    Error: '&7(&c&l✘&7)&7 Ошибка! Предоставлен неверный ввод!'
+    Set: '&7(&a&l✔&7)&7 Успех! &e%type% &7установлен в &e%value%'
+    Remove: '&7(&a&l✔&7)&7 Удалено! &7Вы удалили кастомный мир - &e%world%'
+Help:
+  Prefix: '&e&m-----&6&l Телепортация &7| Помощь &e&m-----'
+  Main: ' &7- &7/&2%command% &7- случайно телепортирует вас!'
+  Biome: ' &7- &7/&2%command% biome &7(&bбиом&7) &7- &bСлучайно телепортироваться
+    в эти биомы'
+  Edit: ' &7- &7/&2%command% edit &7(&bdefault&7/&bworld&7) &7(&bаргумент&7) &7- &bОтредактируйте
+    некоторые настройки плагина'
+  Help: ' &7- &7/&2%command% help &7- показывает этот список'
+  Info: ' &7- &7/&2%command% info &7(&bworld&7/&bparticles&7/&bshapes&7/&bpotion_effects&7)
+    &7- &bПросмотр конкретной информации о параметрах плагина'
+  Player: ' &7- &7/&2%command% player &7(&bигрок&7) &7(&bмир&7) &7- случайно телепортирует
+    игрока'
+  Reload: ' &7- &7/&2%command% reload &7- перезагружает плагин'
+  Settings: ' &7- &7/&2%command% settings &7- Поднимите графический интерфейс и отредактируйте
+    некоторые настройки'
+  Test: ' &7- &7/&2%command% test &7- Протестируйте эффекты плагина после телепортации
+    без движения'
+  Version: ' &7- &7/&2%command% version &7- Посмотреть текущую версию'
+  World: ' &7- &7/&2%command% world &7(&bмир&7) &7- случайно телепортирует в другой
+    мир'
+Usage:
+  Player: '&cИспользование&7: &7/&2%command% player &7(&bигрок&7) &7(&bмир&7)'
+  World: '&cИспользование&7: &7/&2%command% world &7(&bмир&7)'
+  Biome: '&7Использование&7: &7/&2%command% biome &7(&bбиом&7)'
+  Edit:
+    Base: '&7Использование&7: &7/&2%command% edit &7(&bdefault&7/&bworld&7) &7(&bаргумент&7)'
+    Default: '&7Использование&7: &7/&2%command% edit default &7(&bmax&7/&bmin&7/&buseworldborder&7/&bcenter&7)
+      &7(&bvalue&7)'
+    World: '&7Использование&7: &7/&2%command% edit world &7(&bworld&7) &7(&bmax&7/&bmin&7/&buseworldborder&7/&bcenter&7)
+      &7(&bvalue&7)'

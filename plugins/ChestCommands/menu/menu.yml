@@ -1,0 +1,16 @@
+menu-settings:
+  name: ':offset_-16::menu:'
+  rows: 2
+  commands:
+  - menu
+  auto-reopen: false
+ruby:
+  ACTIONS:
+  - 'open: welcome.yml'
+  NAME: '%vault_eco_balance%'
+  KEEP-OPEN: true
+  LORE:
+  - /home
+  BLANK: true
+  POSITION-X: 5
+  POSITION-Y: 2

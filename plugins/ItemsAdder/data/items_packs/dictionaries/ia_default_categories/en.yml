@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "en"
+dictionary:
+  display-category-all: All
+  display-category-armors: Armors
+  display-category-swords: Swords
+  display-category-pickaxes: Pickaxes
+  display-category-axes: Axes
+  display-category-hoes: Hoes
+  display-category-shovels: Shovels
+  display-category-fishing_rods: Fishing Rods
+  display-category-shears: Shears
+  display-category-weapons: Weapons
+  display-category-shields: Shields
+  display-category-bows: Bows
+  display-category-eatables: Food
+  display-category-drinks: Drinks
+  display-category-vegetables: Vegetables & Fruit
+  display-category-seeds: Seeds
+  display-category-fishes: Fishes
+  display-category-potions: Potions
+  display-category-furnitures: Furnitures
+  display-category-paintings: Paintings
+  display-category-chairs: Chairs
+  display-category-hats: Hats
+  display-category-wearables: Wearables
+  display-category-machines: Machines
+  display-category-blocks: Blocks
+  display-category-ores: Ores
+  display-category-minerals: Minerals
+  display-category-instruments: Instruments
+  display-category-various: Items & ingredients
+  display-category-alchemy: Alchemy items
+  display-category-musicdiscs: Music Discs
+  display-category-throwables: Throwables
+  display-category-books: Books
+  display-category-vehicles: Vehicles
+  display-category-icons: Icons
+  display-category-generic_items: Generic Items
+  display-category-halloween: Halloween Items
+  display-category-christmas: Christmas Items
+  display-category-special: Special
+  display-category-realcraft: RealCraft

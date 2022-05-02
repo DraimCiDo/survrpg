@@ -1,0 +1,21 @@
+info:
+  namespace: worlddeco
+  dictionary-lang: "en"
+dictionary:
+  display-category-worlddeco: World Decorations
+  display-name-rose: Rose
+  display-name-white_rose: White Rose
+  display-name-blue_rose: Blue Rose
+  display-name-plastic_waste: Plastic Waste
+  display-name-desert_rose: Desert Rose
+  display-name-fallen_leaves: Fallen Leaves
+  display-name-trap_block: Trap Block
+  display-name-small_rocks: Small Rocks
+  display-name-mossy_small_rocks: Mossy Small Rocks
+  display-name-coins_pot: Coins Pot
+  display-name-dead_tall_grass: Dead Tall Grass
+  lore-1-coins_pot: ':rare_artifact:'
+  lore-2-coins_pot: '&7This item can be found'
+  lore-3-coins_pot: '&7around the world and'
+  lore-4-coins_pot: '&7it contains precious items.'
+  lore-1-trap_block: '&7Ghost block to create traps.'

@@ -1,0 +1,67 @@
+{
+   "littleroom.npcpack3.jingle1":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/jingle1"
+		 ]
+	},
+   "littleroom.npcpack3.jingle2":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/jingle2"
+		 ]
+	},
+   "littleroom.npcpack3.sparkle":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/sparkle"
+		 ]
+	},
+   "littleroom.npcpack3.poof":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/poof"
+		 ]
+	},
+   "littleroom.npcpack3.happy":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/happy"
+		 ]
+	},
+   "littleroom.npcpack3.sad":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/sad"
+		 ]
+	},
+   "littleroom.npcpack3.toy_pop":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/jester/toy_pop"
+		 ]
+	},
+   "littleroom.npcpack3.stand":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/bard/stand"
+		 ]
+	},
+   "littleroom.npcpack3.sit":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/bard/sit"
+		 ]
+	},
+   "littleroom.npcpack3.frets":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/bard/frets"
+		 ]
+	},
+   "littleroom.npcpack3.cast":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/fisherman/cast"
+		 ]
+	},
+   "littleroom.npcpack3.reel":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/fisherman/reel"
+		 ]
+	},
+   "littleroom.npcpack3.song1":{
+		 "sounds": [
+			"LittleRoom/NPCPACK3/bard/song1"
+		 ]
+	}
+}

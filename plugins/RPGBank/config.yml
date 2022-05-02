@@ -1,0 +1,80 @@
+lang: en
+bank-gui:
+  max-pages: 10
+  unlock-slot-price: 10
+  sounds:
+    open-bank: UI_BUTTON_CLICK
+    take-item: ITEM_PICKUP
+    put-item: ENTITY_CHICKEN_EGG
+    deposit-money: NOTE_PLING
+    deposit-exp: LEVEL_UP
+    error: NOTE_BASS
+    unlock-slot: ORB_PICKUP
+    edit-banker: LEVEL_UP
+  deposit-money-buttons:
+    enabled: false
+    amounts:
+      '1': 1
+      '2': 5
+      '3': 10
+      '4': 50
+      '5': 100
+      '6': 1000
+      '7': 10000
+  deposit-exp-buttons:
+    enabled: false
+  icons:
+    _:
+    - You can customize GUI icons. This plugin supports Minecraft materials (1.16
+      names)
+    - and also support ItemsAdder custom items names! :D
+    - 'EXAMPLE: You can set for example money-indicator: GOLD_NUGGET or money-indicator:
+      ruby'
+    money-indicator: EMERALD
+    deposit-exp: EXPERIENCE_BOTTLE
+    next-page: icon_right_blue
+    previous-page: icon_left_blue
+    page-indicator: PAPER
+    locked: icon_lock
+    deposit-money: icon_arrow_chest
+    blank: icon_empty
+items:
+  bank-check:
+    sounds:
+      receive: ITEM_PICKUP
+      use: LEVEL_UP
+    _: You can add as many thresholds as you want. It also supports ItemsAdder items.
+    item-icon-threshold:
+      '0': PAPER
+      '150': PAPER
+      '1000': PAPER
+  exp-bottle:
+    sounds:
+      receive: ORB_PICKUP
+      drink-1: DRINK
+      drink-2: LEVEL_UP
+    _: You can add as many thresholds as you want. It also supports ItemsAdder items.
+    item-icon-threshold:
+      '0': EXPERIENCE_BOTTLE
+      '400': EXPERIENCE_BOTTLE
+      '800': EXPERIENCE_BOTTLE
+interests:
+  enabled: true
+  percentage: 5
+  interval-hours: 1
+commands-fees:
+  exp:
+    amount: 1
+    fee: 3.03
+  bank-check:
+    amount: 1000
+    fee: 100
+deposit-fees:
+  exp:
+    amount: 1
+    fee: 2
+  bank-check:
+    amount: 1
+    fee: 1.5
+npc:
+  silent: true

@@ -1,0 +1,75 @@
+default:
+  data:
+    spruceFence:
+      exact: false
+      value: minecraft:spruce_wood[axis=y]
+      key: minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    jungleFence:
+      exact: false
+      value: minecraft:jungle_wood[axis=y]
+      key: minecraft:jungle_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    oakFence:
+      exact: false
+      value: minecraft:oak_wood[axis=y]
+      key: minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    acaciaFence:
+      exact: false
+      value: minecraft:acacia_wood[axis=y]
+      key: minecraft:acacia_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    darkOakFence:
+      exact: false
+      value: minecraft:dark_oak_wood[axis=y]
+      key: minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+    birchFence:
+      exact: false
+      value: minecraft:birch_wood[axis=y]
+      key: minecraft:birch_fence[east=false,north=false,south=false,waterlogged=false,west=false]
+  schematics:
+  - OAK_TREE_1
+  - OAK_TREE_2
+  - OAK_TREE_3
+  - OAK_TREE_4
+  - OAK_TREE_5
+  - BIG_OAK_TREE_1
+  - BIG_OAK_TREE_2
+  - BIG_OAK_TREE_3
+  - BIG_OAK_TREE_4
+  - PINE_TREE_1
+  - PINE_TREE_2
+  - PINE_TREE_3
+  - PINE_TREE_4
+  - PINE_TREE_5
+  - PINE_TREE_6
+  - PINE_TREE_7
+  - PINE_TREE_8
+  - PINE_TREE_9
+  - PINE_TREE_10
+  - PINE_TREE_11
+  - PINE_TREE_12
+  - BIRCH_TREE_1
+  - BIRCH_TREE_2
+  - BIRCH_TREE_3
+  - BIRCH_TREE_4
+  - BIRCH_TREE_5
+  - BIRCH_TREE_6
+  - BIRCH_TREE_7
+  - BIRCH_TREE_8
+  - BIRCH_TREE_9
+  - JUNGLE_TREE_2
+  - JUNGLE_TREE_3
+  - JUNGLE_TREE_5
+  - JUNGLE_TREE_6
+  - JUNGLE_TREE_1
+  - JUNGLE_TREE_4
+  - ACACIA_TREE_1
+  - ACACIA_TREE_2
+  - ACACIA_TREE_3
+  - ACACIA_TREE_4
+  - ROOF_TREE_2
+  - ROOF_TREE_3
+  - ROOF_TREE_4
+  - TAIGA_TREE_5
+  - TAIGA_TREE_6
+  - TAIGA_TREE_7
+  - TAIGA_TREE_9
+  enabled: false

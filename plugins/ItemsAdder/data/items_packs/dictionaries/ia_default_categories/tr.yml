@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "tr"
+dictionary:
+  display-category-all: Herşey
+  display-category-armors: Zırhlar
+  display-category-swords: Kılıçlar
+  display-category-pickaxes: Kazmalar
+  display-category-axes: Baltalar
+  display-category-hoes: Çapalar
+  display-category-shovels: Kürekler
+  display-category-fishing_rods: Oltalar
+  display-category-shears: Makaslar
+  display-category-weapons: Silahlar
+  display-category-shields: Kalkanlar
+  display-category-bows: Yaylar
+  display-category-eatables: Yemek
+  display-category-drinks: İçecekler
+  display-category-vegetables: Sebze ve Meyve
+  display-category-seeds: Tohumlar
+  display-category-fishes: Balıklar
+  display-category-potions: İksirler
+  display-category-furnitures: Mobilyalar
+  display-category-paintings: Resimler
+  display-category-chairs: Sandalyeler
+  display-category-hats: Şapka
+  display-category-wearables: Giyilebilir cihazlar
+  display-category-machines: Makineler
+  display-category-blocks: Bloklar
+  display-category-ores: Cevher
+  display-category-minerals: Mineraller
+  display-category-instruments: Enstrümanlar
+  display-category-various: Öğeler ve malzemeler
+  display-category-alchemy: Simya eşyaları
+  display-category-musicdiscs: Müzik Diskleri
+  display-category-throwables: Fırlatılabilirler
+  display-category-books: Kitablar
+  display-category-vehicles: Araçlar
+  display-category-icons: Simgeler
+  display-category-generic_items: Genel Öğeler
+  display-category-halloween: Cadılar Bayramı Öğeleri
+  display-category-christmas: Noel Öğeleri
+  display-category-special: Özel
+  display-category-realcraft: RealCraft

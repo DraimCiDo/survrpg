@@ -1,0 +1,21 @@
+info:
+  namespace: worlddeco
+items:
+  plastic_waste:
+    enabled: true
+    display_name: display-name-plastic_waste
+    resource:
+      generate: false
+      material: PAPER
+      model_path: plastic_waste
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          placeable_on_water: true
+        cancel_drop: true
+        sound:
+          place:
+            name: block.slime_block.place
+          break:
+            name: block.slime_block.place

@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "pt"
+dictionary:
+  display-category-all: Tudo
+  display-category-armors: Armaduras
+  display-category-swords: Espadas
+  display-category-pickaxes: Picaretas
+  display-category-axes: Machados
+  display-category-hoes: Enxadas
+  display-category-shovels: Pás
+  display-category-fishing_rods: Canas de Pesca
+  display-category-shears: Tesouras
+  display-category-weapons: Armas
+  display-category-shields: Escudos
+  display-category-bows: Arcos
+  display-category-eatables: Comida
+  display-category-drinks: Bebida
+  display-category-vegetables: Fruta & Vegetais
+  display-category-seeds: Sementes
+  display-category-fishes: Peixes
+  display-category-potions: Poções
+  display-category-furnitures: Mobilia
+  display-category-paintings: Quadros
+  display-category-chairs: Cadeiras
+  display-category-hats: Chapeus
+  display-category-wearables: Vestuario
+  display-category-machines: Maquinas
+  display-category-blocks: Blocos
+  display-category-ores: Minérios
+  display-category-minerals: Minerais
+  display-category-instruments: Instrumentos
+  display-category-various: Artigos & Ingredientes
+  display-category-alchemy: Artigos de Alquimia
+  display-category-musicdiscs: Discos Musicas
+  display-category-throwables: Jogáveis
+  display-category-books: Livros
+  display-category-vehicles: Veiculos
+  display-category-icons: Ícones
+  display-category-generic_items: Artigos Genéricos
+  display-category-halloween: Artigos de Halloween
+  display-category-christmas: Artigos de Natal
+  display-category-special: Especial
+  display-category-realcraft: RealCraft

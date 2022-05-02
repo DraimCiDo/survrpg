@@ -1,0 +1,16 @@
+name: resourcepack
+permissions:
+- chatty.chat.admin.see:
+    value: false
+- chatty.chat.global.see:
+    value: false
+- chatty.chat.local.see:
+    value: false
+- chatty.chat.trade.see:
+    value: false
+- chatty.chat.vopros.see:
+    value: false
+- cmi.command.mutechat
+- cmi.command.unmutechat
+- ia.user.iatexture
+- weight.30

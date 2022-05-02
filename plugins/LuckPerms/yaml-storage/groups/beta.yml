@@ -1,0 +1,24 @@
+name: beta
+permissions:
+- cmi.command.dback
+- cmi.command.glow
+- cmi.command.god
+- cmi.command.head
+- cmi.command.itemlore
+- cmi.command.itemname
+- cmi.command.repair
+- cmi.command.repair.hand
+- cmi.command.sethome.beta
+- cmi.kit.beta
+- cmi.kit.beta.preview
+- cmi.kit.gamma:
+    value: false
+- cmi.kit.gamma.preview:
+    value: false
+- protectionstones.limit.6
+- weight.4
+parents:
+- gamma
+prefixes:
+- ':beta: &7':
+    priority: 4

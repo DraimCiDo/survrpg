@@ -1,0 +1,7 @@
+uuid: f715eac2-d732-3b8f-8f04-36b2ebdcea17
+name: Katiaaaa
+primary-group: default
+permissions:
+- cmi.keepinventory
+parents:
+- default

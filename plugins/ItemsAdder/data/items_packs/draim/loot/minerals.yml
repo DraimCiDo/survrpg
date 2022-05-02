@@ -1,0 +1,51 @@
+info:
+  namespace: draim
+items:
+  yellow_comp:
+    display_name: Песчаный компонент
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/yellow_comp.png
+  blue_comp:
+    display_name: Аквамариновый компонент
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/blue_comp.png
+  purple_comp:
+    display_name: Пурпурный компонент
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/purple_comp.png
+  red_comp:
+    display_name: Багряный компонент
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/red_comp.png
+  green_comp:
+    display_name: Токсичный компонент
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/green_comp.png
+  orange_comp:
+    display_name: Огненный компонент
+    permission: ruby
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/orange_comp.png

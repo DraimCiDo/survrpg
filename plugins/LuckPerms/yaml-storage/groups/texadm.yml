@@ -1,0 +1,15 @@
+name: texadm
+permissions:
+- luckperms.*
+- minecraft.command.*
+- worldedit.*
+- '*'
+- weight.21
+parents:
+- ga_admin
+prefixes:
+- '{#696969}({#e60000>}Тех.Админ{#e6cf00<}{#696969}) {#e6cf00}':
+    priority: 21
+suffixes:
+- '{#e60000>}Тех.Админ{#e6cf00<}':
+    priority: 0

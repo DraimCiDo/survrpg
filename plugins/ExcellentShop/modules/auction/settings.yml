@@ -1,0 +1,59 @@
+Command_Aliases: auction,auc,ah
+
+Settings:
+  Date_Format: MM/dd/yyyy HH:mm:ss
+  Disabled_Worlds:
+    - world1
+    - world_name
+  Disabled_Gamemodes:
+    - CREATIVE
+    - SPECTATOR
+  Listings:
+    Announce: true
+    Price:
+      Min: 5.0
+      Max: 1000000.0
+      Tax: 0.0
+      Per_Material:
+        beacon:
+          Min: 100
+          Max: -1
+        totem_of_undying:
+          Min: 1000
+          Max: -1
+        netherite_ingot:
+          Min: 50
+          Max: -1
+        golden_apple:
+          Min: 10
+          Max: -1
+        enchanted_golden_apple:
+          Min: 40
+          Max: -1
+        nether_star:
+          Min: 100
+          Max: -1
+        wither_skeleton_skull:
+          Min: 80
+          Max: -1
+    Listings_Per_Rank:
+      default: 3
+      delta: 4
+      gamma: 5
+      beta: 6
+      alpha: 8
+      omega: 10
+      youtube: 6
+    Disabled_Materials:
+      - BARRIER
+      - BEDROCK
+    Disabled_Names:
+      - item name
+      - some word
+    Disabled_Lores:
+      - lore text
+      - some word
+  Storage:
+    Expire_In: 604800
+    Delete_Expired: 604800
+    Sales_History: 604800

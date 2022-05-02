@@ -1,0 +1,44 @@
+info:
+  namespace: ia_various_configs
+categories:
+  ores:
+    enabled: true
+    skip_if_already: false
+    icon: draim:coal_ore
+    name: Руды
+    permission: ia.menu.icons
+    items:
+      - draim:coal_ore
+      - draim:copper_ore
+      - draim:tin_ore
+      - draim:iron_ore
+      - draim:lead_ore
+      - draim:gold_ore
+      - draim:platinum_ore
+  loot:
+    enabled: true
+    skip_if_already: false
+    icon: draim:coal
+    name: Лут с руд
+    permission: ia.menu.icons
+    items:
+      - draim:coal
+      - draim:copper
+      - draim:tin
+      - draim:iron
+      - draim:lead
+      - draim:gold
+      - draim:platinum
+  bar:
+    enabled: true
+    skip_if_already: false
+    icon: draim:copper_bar
+    name: Слитки
+    permission: ia.menu.icons
+    items:
+      - draim:copper_bar
+      - draim:tin_bar
+      - draim:iron_bar
+      - draim:lead_bar
+      - draim:gold_bar
+      - draim:platinum_bar

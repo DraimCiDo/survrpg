@@ -1,0 +1,10 @@
+name: youtube
+permissions:
+- cmi.command.sethome.youtube
+- cmi.command.tp
+- cmi.command.tphere
+- protectionstones.limit.9
+- weight.9
+prefixes:
+- '§f§r ':
+    priority: 31

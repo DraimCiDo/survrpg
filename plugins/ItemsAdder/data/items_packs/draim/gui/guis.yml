@@ -1,0 +1,27 @@
+info:
+  namespace: "draim"
+font_images:
+  welcome_menu:
+    path: "font/gui/welcome_menu.png"
+    y_position: 47
+  welcome_accepted:
+    path: "font/gui/welcome_accepted.png"
+    y_position: 47
+  auc_main:
+    path: "font/gui/auc_main.png"
+    y_position: 19
+  menu:
+    path: "font/gui/menu.png"
+    y_position: 47
+  stone:
+    path: "font/gui/stone.png"
+    y_position: 19
+  donate:
+    path: "font/gui/donate.png"
+    y_position: 47
+  blank_vanilla_menu:
+    path: "font/gui/blank_vanilla_menu.png"
+    y_position: 47
+  blank_bank:
+    path: "font/gui/blank_bank.png"
+    y_position: 47

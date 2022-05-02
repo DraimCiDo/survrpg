@@ -1,0 +1,34 @@
+# This plugin is developed by Chriis (https://chriis.de)
+#
+#  Please always update to the newest version
+#
+settings:
+  # The ip address of the BungeeCord Server
+  # !!! -> IT MUST BE THE SAME AS IN THE BUNGEECORD config.yml UNDER 'host: '
+  # default is 0.0.0.0
+  # !!! -> Please change your BungeeCord Address to your origin server address (e.g from your v- or rootserver). Example: 12.34.56.78
+  ProxyAddress: 78.84.19.225
+  #NEW UPDATE 1.1 -> Whitelist multiple bungeecord servers by splitting them with a ";" -> Example: 33.44.55.66;1.23.45.56;5.6.77.88
+
+# Here you can edit the messages
+messages:
+  # The message if a player doesn't join over the 'ProxyAddress'
+  # You can use 'NEXTLINE' to go to a new line
+  KickMessage: '&fА ну брысь блять, мамкин хацкер'
+  # The prefix before every message - Write '' to disable it
+  Prefix: '&8» &7'
+  # The message if the player doesn't have the permission to execute the /ppb and /preventportbypass command
+  NoPermissionMessage: '&fУ вас&c нет &fдоступа.'
+  # The message if the console is not allowed to execute a command
+  NoConsoleMessage: '&fДоступно только для игроков'
+  # The message if the config was reloaded
+  ReloadComplete: '&fКонфигурация перезапущена'
+  # The message if a typed Text is not a valid ip address
+  NoValidIP: '&fК сожалению, ваш IP не является валидным.'
+  # The message if you successfully edit the ip by command
+  IPUpdated: 'IP был обновлен до: '
+
+permissions:
+  # The permission to execute the command /ppb and /preventportbypass command
+  Command: 'ppb.use'
+

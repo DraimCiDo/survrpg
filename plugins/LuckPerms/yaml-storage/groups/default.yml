@@ -1,0 +1,752 @@
+name: default
+permissions:
+- headdb.allow.buy.*:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- ecoenchants.fromtable.*:
+    value: false
+    context:
+      server:
+      - survival2
+      - survival
+- headdb.category.*:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- GSit.Crawl:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- GSit.Lay:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- GSit.Sit:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- GSit.SitCommand:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- auctionmaster.limit.bids.3:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- betterrtp.world:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- betterrtp.world.world:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.global.see:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.global.write:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.local.see:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.local.write:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.trade.see:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.trade.write:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.vopros.see:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.vopros.write:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.command.ignore:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.command.msg:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.command.reply:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.notification.chat.default:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.anvil.colors:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.afk:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.afk.auto:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.afkcheck:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.balance:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.balance.others:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.baltop:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.colorlimits:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.colors:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.flyc:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.home:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.homes:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.ignore:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.kit:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.kitpreview:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.mail:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.mail.send:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.msg:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.pay:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.paytoggle:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.playtimetop:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.recipe:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.removehome:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.reply:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.sethome:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.sethome.2:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.sethome.overwrite:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.sit:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.spawn:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.tpa:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.tpaccept:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.command.tpdeny:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.dropspawner:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.elytra:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.elytra.speedometer:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.kit.*.preview:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.kit.start:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.openshulker:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.safeteleport:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- cmi.spawngroup.default:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- deluxecombat.grace:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- deluxecombat.grace.disable:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- deluxecombat.stats.check:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- deluxecombat.stats.check.other:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- deluxecombat.view.kill-recaps:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- deluxecombat.view.leaderboards:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- guilds.chat:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- guilds.command.chat:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- guilds.command.confirm:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- guilds.command.create:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- litebans.notify.broadcast:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- litebans.notify.clearchat:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- litebans.notify.mutechat:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- litebans.notify.muted:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- litebans.notify.warned:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.chat:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.default:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.gift:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.home:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.marry:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.seen:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.sethome:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- marry.tp:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.amount:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.category:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.cost:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.desc:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.desc.color:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.icon:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.list:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.lock:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.open:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.password:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.rate:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.remove:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.rename:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.reset:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.setowner:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.warp:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- pw.warp.notify:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- quantumshop.auction.cmd:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- quantumshop.auction.cmd.open:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- quantumshop.auction.cmd.sell:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- quantumshop.gui.cmd.open:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- quantumshop.gui.shop.blocks:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- quantumshop.user:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- tradeplus.trade:
+    value: true
+    context:
+      server:
+      - survival2
+      - survival
+- chatty.chat.global.see:
+    value: true
+    context:
+      server: random
+- chatty.chat.global.write:
+    value: true
+    context:
+      server: random
+- chatty.chat.trade.see:
+    value: true
+    context:
+      server: random
+- chatty.chat.trade.write:
+    value: true
+    context:
+      server: random
+- chatty.mentions:
+    value: true
+    context:
+      server: random
+- chatty.style.colors.global:
+    value: true
+    context:
+      server: random
+- cmi.command.afk:
+    value: true
+    context:
+      server: random
+- cmi.command.afk.auto:
+    value: true
+    context:
+      server: random
+- chatty.chat.local.see:
+    value: true
+    context:
+      server: lobby
+- chatty.chat.local.write:
+    value: true
+    context:
+      server: lobby
+- itemjoin.menuserva:
+    value: true
+    context:
+      server: lobby
+- ia.user.craft.*
+- ia.user.ia.*
+- bukkit.command.*:
+    value: false
+- minecraft.command.*:
+    value: false
+- boss.spawn.pidor
+- boss.use.spawneregg
+- chatbubbles.chat
+- chatty.mentions
+- chestcommands.open.donate.yml
+- chestcommands.open.menu.yml
+- chestcommands.open.prot.yml
+- chestcommands.open.welcome.yml
+- craft
+- deluxemenus.open
+- ia.menu.user
+- ia.user.ia
+- ia.user.iarecipe
+- ia.user.iatexture
+- ia.user.image.use.example.meme
+- ia.user.image.use.welcome_menu
+- mmocore.class-select
+- mmocore.waypoints
+- music.command
+- platinumarmor
+- protectionstones.create
+- protectionstones.destroy
+- protectionstones.limit.2
+- protectionstones.members
+- pw.limit.2
+- skinsrestorer.command.clear
+- skinsrestorer.command.set
+- skinsrestorer.command.update
+- trmenu.use
+- weight.1
+- worldedit.brush.targetoffset:
+    value: false
+prefixes:
+- ':player: &7':
+    priority: 1
+suffixes:
+- ꑡ:
+    priority: 0
+- '{#00e677>}Civ{#00e6ca<}':
+    priority: 1

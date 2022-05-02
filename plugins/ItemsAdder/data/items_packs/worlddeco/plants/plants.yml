@@ -1,0 +1,101 @@
+info:
+  namespace: worlddeco
+items:
+  rose:
+    enabled: true
+    display_name: display-name-rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  white_rose:
+    enabled: true
+    display_name: display-name-white_rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: white_rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  blue_rose:
+    enabled: true
+    display_name: display-name-blue_rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: blue_rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  desert_rose:
+    enabled: true
+    display_name: display-name-desert_rose
+    resource:
+      generate: false
+      material: PAPER
+      model_path: desert_rose
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  fallen_leaves:
+    enabled: true
+    display_name: display-name-fallen_leaves
+    resource:
+      generate: false
+      material: PAPER
+      model_path: fallen_leaves
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  dead_tall_grass:
+    enabled: true
+    display_name: display-name-dead_tall_grass
+    resource:
+      generate: false
+      material: PAPER
+      model_path: dead_tall_grass
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          shift_up: true
+        cancel_drop: true
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break

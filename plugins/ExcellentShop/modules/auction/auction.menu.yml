@@ -1,0 +1,111 @@
+title: ':offset_-16::blank_vanilla_menu::offset_-176:  &8Торговля'
+Size: 54
+
+Animation:
+  Tick: 40
+
+Items:
+  Name: '&f%listing_item_name%'
+  Lore:
+    - '%listing_item_lore%'
+    - '&7'
+    - '&f▸ &7Цена: &a$%listing_price%%img_emerald%'
+    - '&f▸ &7Продавец: &f%listing_seller%'
+    - '&f▸ &7Истекает: &f%listing_expires_in%'
+    - '&7'
+    - '&6Shift+ПКМ: &eУбрать предмет'
+  Slots: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+
+Special:
+  expire:
+    Display:
+      default:
+        Item:
+          Material: 'HOPPER'
+          Name: '&bПросроченные товары'
+          Lore:
+            - '&7Здесь вы можете просмотреть все ваши'
+            - '&7непроданные товары с истекшим сроком годности.'
+    Type: AUCTION_EXPIRED
+    Slots: 47
+
+  sold:
+    Display:
+      default:
+        Item:
+          Material: 'EMERALD'
+          Name: '&aПроданные товары'
+          Lore:
+            - '&7Вот ваша история продаж.'
+    Type: AUCTION_HISTORY
+    Slots: 51
+
+  category:
+    Display:
+      default:
+        Item:
+          Material: 'COMPASS'
+          Name: '&6Распределение предметов'
+          Lore:
+            - '&7'
+            - '&7Выбранная категория: &6%category-name%'
+            - '&7'
+            - '&2ПКМ&7, чтобы изменить.'
+    Type: AUCTION_CATEGORY
+    Slots: 46
+
+  sort:
+    Display:
+      default:
+        Item:
+          Material: 'NAME_TAG'
+          Name: '&7Сортировка по дате'
+          Lore:
+            - '&7Показывать только'
+            - '&6%sort-type% &7аукционы.'
+            - '&7'
+            - '&2ПКМ&7, чтобы изменить.'
+    Type: AUCTION_SORTING
+    Slots: 52
+
+Content:
+  page_next:
+    Display:
+      default:
+        Item:
+          Material: ENDER_EYE
+          Name: '&aСледующая Страница »'
+    Slots: 53
+    Type: PAGE_NEXT
+
+  page_previous:
+    Display:
+      default:
+        Item:
+          Material: ENDER_EYE
+          Name: '&c« Предыдущая страница'
+    Slots: 45
+    Type: PAGE_PREVIOUS
+
+  info:
+    Display:
+      default:
+        Item:
+          Material: 'BOOK'
+          Name: '&bИнформация'
+          Lore:
+            - '&bПродажа предметов::'
+            - '&b▸ &7Удерживайте предмет и введите'
+            - ' &8/&aauc sell &8(&7цена&8'
+            - '&7'
+            - '&bСрок действия товара:'
+            - '&b▸ &7Когда вы помещаете предмет в'
+            - '  &7аукцион, у вас будет &b%expire%'
+            - '  &7чтобы предмет продался, прежде чем он'
+            - '  &7будет удален из аукциона.'
+            - '&7'
+            - '&bОтменить товары:'
+            - '&b▸ &7Используй Shift+ПКМ'
+            - '&7  чтобы отменить любой продаваемый вами товар.'
+    Type: NONE
+    Slots: 49

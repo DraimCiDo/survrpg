@@ -1,0 +1,13 @@
+name: dev
+permissions:
+- '*'
+- weight.21
+parents:
+- default
+- soldier
+prefixes:
+- ':developer: &7':
+    priority: 1
+suffixes:
+- '{#4dffff>}Основатель{#ff1a8c<}':
+    priority: 0

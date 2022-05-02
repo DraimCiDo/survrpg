@@ -1,0 +1,6 @@
+uuid: cc84fc5d-f8fc-39b5-a289-179d33dde8f1
+name: WaterMyLawn
+primary-group: default
+parents:
+- default
+- resourcepack

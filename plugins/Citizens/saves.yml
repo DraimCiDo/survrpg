@@ -1,0 +1,370 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 7
+npc:
+  '1':
+    name: §aАукционист
+    uuid: 66252ce9-66e8-4190-a248-470d2929b322
+    traits:
+      spawned: true
+      location:
+        bodyYaw: 136.604
+        world: spawn
+        x: '-78.2577'
+        y: '173.0'
+        z: '-119.0425'
+        yaw: '146.9491'
+        pitch: '0.0'
+      type: VILLAGER
+      age:
+        age: 0
+        locked: true
+      profession: MASON
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_ingot
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACTeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0Ijoi0KDRg9Cx0LjQvSJ9XSwidGV4dCI6IiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAF0AFRINHNJQUFBQUFBQUEvK05pWU9CaTRNb3NTYzB0VGt4SlNTM2lZT0RNUzh4TkxTNUlURTVGRldmS1RHRmdLU3BOcW1SZ0FBRFBJUUM3TlFBQUFBPT0=
+      villagertrait:
+        level: 1
+        type: SWAMP
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: auc
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: fd155720-26c1-3dac-8ac9-5be90ed7a875
+      model:
+        model:
+          '0':
+            id: king
+            hitbox: true
+            mode: B
+            tint: true
+            clamp: '50.0'
+        lockPitch: false
+        lockYaw: false
+        stepHeight: '0.5'
+    traitnames: type,equipment,profession,location,age,spawned,lookclose,villagertrait,model,scoreboardtrait,commandtrait,owner,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '2':
+    name: §aТорговец
+    uuid: ec217fa3-534f-4642-bb5c-9d558b05b916
+    traits:
+      age:
+        age: 0
+        locked: true
+      spawned: true
+      villagertrait:
+        level: 1
+        type: SWAMP
+      type: VILLAGER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: crystal
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: iron_ingot
+          amount: 1
+          durability: 0
+          meta:
+            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAlsABGtleXN0ABNbTGphdmEvbGFuZy9PYmplY3Q7WwAGdmFsdWVzcQB+AAR4cHVyABNbTGphdmEubGFuZy5PYmplY3Q7kM5YnxBzKWwCAAB4cAAAAAV0AAI9PXQACW1ldGEtdHlwZXQADGRpc3BsYXktbmFtZXQAEWN1c3RvbS1tb2RlbC1kYXRhdAAIaW50ZXJuYWx1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdACoeyJleHRyYSI6W3siYm9sZCI6ZmFsc2UsIml0YWxpYyI6ZmFsc2UsInVuZGVybGluZWQiOmZhbHNlLCJzdHJpa2V0aHJvdWdoIjpmYWxzZSwib2JmdXNjYXRlZCI6ZmFsc2UsImNvbG9yIjoid2hpdGUiLCJ0ZXh0Ijoi0JfQtdC70ZHQvdGL0Lkg0LrRgNC40YHRgtCw0LvQuyJ9XSwidGV4dCI6IiJ9c3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAABV0AGBINHNJQUFBQUFBQUEvK05pWU9CaTRNb3NTYzB0VGt4SlNTM2lZT0RNUzh4TkxTNUlURTVGRldmS1RHSGdUUzlLVGMyTFR5NnFMQzVKekdGZ0FBQjdQL0dFUGdBQUFBPT0=
+      profession: LIBRARIAN
+      location:
+        bodyYaw: 86.61694
+        world: spawn
+        x: '-77.7'
+        y: '173.0625'
+        z: '-129.3193'
+        yaw: '10.9451'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: fd155720-26c1-3dac-8ac9-5be90ed7a875
+      model:
+        model:
+          '0':
+            id: blacksmith
+            hitbox: true
+            mode: B
+            tint: true
+            clamp: '50.0'
+        lockPitch: false
+        lockYaw: false
+        stepHeight: '0.5'
+    traitnames: type,equipment,profession,location,age,lookclose,spawned,villagertrait,model,scoreboardtrait,commandtrait,owner,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '4':
+    name: §aЗемлевладелец
+    uuid: 40c08607-389c-4a9b-b3d9-f51f621b6023
+    traits:
+      type: VILLAGER
+      age:
+        age: 0
+        locked: true
+      profession: MASON
+      villagertrait:
+        level: 1
+        type: SWAMP
+      spawned: true
+      location:
+        bodyYaw: 86.91553
+        world: spawn
+        x: '-76.7'
+        y: '173.0'
+        z: '-125.3751'
+        yaw: '86.9155'
+        pitch: '0.0'
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      equipment:
+        hand:
+          type_namespace: minecraft
+          type_key: emerald_block
+          amount: 1
+          durability: 0
+      owner:
+        uuid: fd155720-26c1-3dac-8ac9-5be90ed7a875
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: rg
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      model:
+        model:
+          '0':
+            id: wizard
+            hitbox: true
+            mode: B
+            tint: true
+            clamp: '50.0'
+        lockPitch: false
+        lockYaw: false
+        stepHeight: '0.5'
+    traitnames: type,equipment,profession,location,age,spawned,lookclose,villagertrait,model,scoreboardtrait,constants,commandtrait,owner,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '5':
+    name: §aРецептовед
+    uuid: 8eacf541-e161-422b-bd93-e1b4136568a5
+    traits:
+      location:
+        bodyYaw: -103.971436
+        world: spawn
+        x: '-95.5822'
+        y: '173.0'
+        z: '-120.0967'
+        yaw: '-128.2048'
+        pitch: '0.0'
+      profession: LIBRARIAN
+      type: VILLAGER
+      villagertrait:
+        level: 1
+        type: SWAMP
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        disablewhilenavigating: true
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: fd155720-26c1-3dac-8ac9-5be90ed7a875
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: ia
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      model:
+        model:
+          '0':
+            id: lumberjack
+            hitbox: true
+            mode: B
+            tint: true
+            clamp: '50.0'
+        lockPitch: false
+        lockYaw: false
+        stepHeight: '0.5'
+    traitnames: type,equipment,profession,location,lookclose,spawned,skintrait,villagertrait,model,scoreboardtrait,commandtrait,owner,inventory,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+  '7':
+    metadata:
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
+    name: §7
+    uuid: 5e2bf2b4-fa30-435e-ad69-5ef9ce713a6e
+    traits:
+      age:
+        age: 0
+        locked: true
+      type: VILLAGER
+      spawned: true
+      owner:
+        uuid: 68a315d1-d6f1-3999-bb31-43b1ec5aaebc
+      model:
+        model:
+          '0':
+            id: lootbag
+            hitbox: true
+            mode: B
+            tint: true
+            clamp: '50.0'
+        lockPitch: false
+        lockYaw: false
+        stepHeight: '0.5'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: banker open
+            hand: BOTH
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      location:
+        bodyYaw: -78.31012
+        world: spawn
+        x: '-110.9606'
+        y: '173.0'
+        z: '-123.6818'
+        yaw: '-78.3101'
+        pitch: '0.0'
+    traitnames: scoreboardtrait,type,commandtrait,owner,location,age,spawned,mounttrait,model
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

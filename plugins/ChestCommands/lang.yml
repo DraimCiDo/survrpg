@@ -1,0 +1,7 @@
+no-open-permission: ':server: &7У вас нет права &e{permission} &7для использования этого меню'
+default-no-icon-permission: ':server: &7У вас нет права для использования этого'
+no-required-item: ':server: &cВам требуется &e{amount}x {material} &c(durability: {durability}) &fчтобы купить это.'
+no-money: ':server: &7Вам требуется &a{money}&f:emerald: &7чтобы купить это.'
+no-exp: ':server: &7Вам требуется {levels} опыта, для использования.'
+menu-not-found: ':server: &7Меню не найдено, обратитесь к администрации.'
+any: any

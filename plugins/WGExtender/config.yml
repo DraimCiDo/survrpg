@@ -1,0 +1,44 @@
+claim:
+  vertexpand: false
+  blocklimits:
+    enabled: true
+    limits:
+      default: 60000
+      alpha: 80000
+      youtube: 200000
+      epsilon: 100000
+      delta: 120000
+      yota: 120000
+      blaze: 170000
+      sigma: 170000
+      omega: 500000
+      support: 1000000
+      builder: 100000
+      stazer: 60000
+      moder: 80000
+      admin: 80000
+regionprotect:
+  flow:
+    lava: true
+    water: false
+    other: false
+  fire:
+    spread:
+      toregion: true
+      inregion: true
+    burn: true
+  explosion:
+    block: false
+    entity: false
+autoflags:
+  enabled: true
+  flags:
+    pvp: ALLOW
+restrictcommands:
+  enabled: true
+  commands:
+  - sethome
+  - setwarp
+extendedwewand: false
+misc:
+  pvpmode: default

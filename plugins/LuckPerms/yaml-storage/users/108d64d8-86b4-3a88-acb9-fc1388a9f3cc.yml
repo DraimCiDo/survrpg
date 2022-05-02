@@ -1,0 +1,6 @@
+uuid: 108d64d8-86b4-3a88-acb9-fc1388a9f3cc
+name: zLicky
+primary-group: default
+parents:
+- default
+- youtube

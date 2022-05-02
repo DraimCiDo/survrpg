@@ -1,0 +1,17 @@
+[14.04.2022 / 22:37:47][Server thread => Info] RealisticWorldGenerator: 4.39.2
+[14.04.2022 / 22:37:47][Server thread => Info] Server: 1.17.1-R0.1-SNAPSHOT / git-Purpur-1428 (MC: 1.17.1)
+[14.04.2022 / 22:37:50][WorldLoader - world => Info] Starting to load cache for world "world"...
+[14.04.2022 / 22:37:50][WorldLoader - world => Info] Successfully loaded cache for world "world"!
+[14.04.2022 / 22:47:05][WorldCacher - world => Info] Starting to save cache for world "world"...
+[14.04.2022 / 22:47:05][WorldCacher - world => Info] Successfully saved cache for world "world"!
+[14.04.2022 / 22:47:05][Server thread => Info] Saving Block Cache... (1 / 1) [0,000]
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Generator-P/Finish -> {average=0.0}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Generator-P/Main -> {average=0.05}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Generator-P/Post -> {average=0.0}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Generator-P/Post-G/SugarCane -> {average=0.0}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Generator-P/Post-G/WaterFix -> {average=0.0}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Plugin-GetGen -> {average=0.22}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Plugin-LoadGenCache -> {average=0.2}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Plugin-Reload -> {average=0.0}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] Plugin-Start -> {average=3.44}
+[14.04.2022 / 22:47:06][Server thread => Info] [Timings] z-Complete-Time -> {average=3.91}

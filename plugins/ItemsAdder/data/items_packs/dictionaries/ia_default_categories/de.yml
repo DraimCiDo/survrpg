@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "de"
+dictionary:
+  display-category-all: Alles
+  display-category-armors: Rüstung
+  display-category-swords: Schwerter
+  display-category-pickaxes: Spitzhacken
+  display-category-axes: Äxte
+  display-category-hoes: Hacken
+  display-category-shovels: Schaufeln
+  display-category-fishing_rods: Angelruten
+  display-category-shears: Scheren
+  display-category-weapons: Waffen
+  display-category-shields: Schilde
+  display-category-bows: Bögen
+  display-category-eatables: Essen
+  display-category-drinks: Trinken
+  display-category-vegetables: Gemüse & Obst
+  display-category-seeds: Samen
+  display-category-fishes: Fische
+  display-category-potions: Tränke
+  display-category-furnitures: Möbel
+  display-category-paintings: Gemälde
+  display-category-chairs: Stühle
+  display-category-hats: Hüte
+  display-category-wearables: Tragbares
+  display-category-machines: Maschinen
+  display-category-blocks: Blöcke
+  display-category-ores: Erze
+  display-category-minerals: Mineralien
+  display-category-instruments: Instrumente
+  display-category-various: Gegenstände und Zutaten
+  display-category-alchemy: Alchemie-Gegenstände
+  display-category-musicdiscs: Musikplatten
+  display-category-throwables: Werfbares
+  display-category-books: Bücher
+  display-category-vehicles: Fahrzeuge
+  display-category-icons: Icons
+  display-category-generic_items: Generische Gegestände
+  display-category-halloween: Halloween Gegenstände
+  display-category-christmas: Weihnachts Gegenstände
+  display-category-special: Spezielles
+  display-category-realcraft: RealCraft

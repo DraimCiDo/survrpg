@@ -1,0 +1,27 @@
+info:
+  namespace: worlddeco
+items:
+  coins_pot:
+    enabled: true
+    display_name: display-name-coins_pot
+    lore:
+      - "lore-1-coins_pot"
+      - "lore-2-coins_pot"
+      - "lore-3-coins_pot"
+      - "lore-4-coins_pot"
+    resource:
+      generate: false
+      material: PAPER
+      model_path: coins_pot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          break_particles: ITEM
+        light_level: 15
+        cancel_drop: true
+        sound:
+          place:
+            name: block.metal.place
+          break:
+            name: block.metal.break

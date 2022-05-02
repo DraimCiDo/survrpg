@@ -1,0 +1,35 @@
+info:
+  namespace: worlddeco
+items:
+  small_rocks:
+    enabled: true
+    display_name: display-name-small_rocks
+    resource:
+      generate: false
+      material: PAPER
+      model_path: small_rocks
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+  mossy_small_rocks:
+    enabled: true
+    display_name: display-name-mossy_small_rocks
+    resource:
+      generate: false
+      material: PAPER
+      model_path: mossy_small_rocks
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break

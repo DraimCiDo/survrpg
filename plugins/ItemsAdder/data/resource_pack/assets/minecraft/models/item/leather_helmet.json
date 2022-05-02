@@ -1,0 +1,63 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/leather_helmet",
+    "layer1": "item/leather_helmet_overlay"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/ruby_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/spinel_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:auto_generated/turquoise_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/aqua_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "itemsadder:auto_generated/amethyst_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "itemsadder:auto_generated/emerald_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "itemsadder:auto_generated/obsidian_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "itemsadder:auto_generated/bronze_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "minecraft:item/leather_helmet"
+    }
+  ]
+}

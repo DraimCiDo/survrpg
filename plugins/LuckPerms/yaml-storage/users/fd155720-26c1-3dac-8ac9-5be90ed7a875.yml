@@ -1,0 +1,8 @@
+uuid: fd155720-26c1-3dac-8ac9-5be90ed7a875
+name: Gusya_
+primary-group: default
+permissions:
+- minecraft.command.*
+parents:
+- default
+- dev

@@ -1,0 +1,398 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/empty_cup"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/flour"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:auto_generated/dough"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/cup_of_water"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "itemsadder:auto_generated/cup_of_hot_water"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "itemsadder:auto_generated/projectile"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "itemsadder:auto_generated/plastic"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "itemsadder:auto_generated/plastic_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "itemsadder:auto_generated/clip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10009
+      },
+      "model": "itemsadder:auto_generated/blank_disc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10010
+      },
+      "model": "itemsadder:auto_generated/music_disc_electric_keys"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10011
+      },
+      "model": "itemsadder:auto_generated/music_disc_cdk_sunday"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10012
+      },
+      "model": "itemsadder:auto_generated/music_disc_vidian_aether_theories"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10013
+      },
+      "model": "itemsadder:auto_generated/ketchup_bottle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10014
+      },
+      "model": "itemsadder:auto_generated/ketchup"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10015
+      },
+      "model": "itemsadder:auto_generated/chili_powder"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10016
+      },
+      "model": "itemsadder:auto_generated/drink_glass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10017
+      },
+      "model": "itemsadder:auto_generated/bug_medal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10018
+      },
+      "model": "itemsadder:auto_generated/cute_medal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10019
+      },
+      "model": "itemsadder:auto_generated/donator_medal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10020
+      },
+      "model": "itemsadder:auto_generated/energy_orb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10021
+      },
+      "model": "itemsadder:auto_generated/small_energy_capsule"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10022
+      },
+      "model": "itemsadder:auto_generated/energy_capsule"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10023
+      },
+      "model": "itemsadder:auto_generated/iron_plate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10024
+      },
+      "model": "itemsadder:auto_generated/tobacco"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10025
+      },
+      "model": "itemsadder:auto_generated/nest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10026
+      },
+      "model": "itemsadder:auto_generated/eggs_nest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10027
+      },
+      "model": "itemsadder:item/mysterious_artifact"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10028
+      },
+      "model": "itemsadder:auto_generated/coin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10029
+      },
+      "model": "itemsadder:auto_generated/banknote"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10030
+      },
+      "model": "itemsadder:auto_generated/sack_of_money"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10031
+      },
+      "model": "itemsadder:auto_generated/plastic_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10032
+      },
+      "model": "itemsadder:auto_generated/four_leaf_clover"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10033
+      },
+      "model": "itemsadder:auto_generated/light_blue_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10034
+      },
+      "model": "itemsadder:auto_generated/turquoise_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10035
+      },
+      "model": "itemsadder:auto_generated/purple_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10036
+      },
+      "model": "itemsadder:auto_generated/green_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10037
+      },
+      "model": "itemsadder:auto_generated/red_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10038
+      },
+      "model": "itemsadder:auto_generated/black_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10039
+      },
+      "model": "itemsadder:auto_generated/white_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10040
+      },
+      "model": "itemsadder:auto_generated/golden_coupon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10041
+      },
+      "model": "itemsadder:auto_generated/blue_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10042
+      },
+      "model": "itemsadder:auto_generated/light_blue_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10043
+      },
+      "model": "itemsadder:auto_generated/turquoise_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10044
+      },
+      "model": "itemsadder:auto_generated/purple_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10045
+      },
+      "model": "itemsadder:auto_generated/green_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10046
+      },
+      "model": "itemsadder:auto_generated/red_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10047
+      },
+      "model": "itemsadder:auto_generated/black_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10048
+      },
+      "model": "itemsadder:auto_generated/white_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10049
+      },
+      "model": "itemsadder:auto_generated/golden_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10050
+      },
+      "model": "itemsadder:auto_generated/marriage_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10051
+      },
+      "model": "itemsadder:auto_generated/jar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10052
+      },
+      "model": "itemsadder:auto_generated/blue_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10053
+      },
+      "model": "itemsadder:auto_generated/light_blue_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10054
+      },
+      "model": "itemsadder:auto_generated/turquoise_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10055
+      },
+      "model": "itemsadder:auto_generated/purple_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10056
+      },
+      "model": "itemsadder:auto_generated/green_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10057
+      },
+      "model": "itemsadder:auto_generated/red_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10058
+      },
+      "model": "itemsadder:auto_generated/black_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10059
+      },
+      "model": "itemsadder:auto_generated/white_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10060
+      },
+      "model": "itemsadder:auto_generated/golden_key"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10061
+      },
+      "model": "itemsadder:item/carton_box"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10062
+      },
+      "model": "itemsadder:item/cut_spruce_log"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10063
+      },
+      "model": "itemsadder:auto_generated/shotgun_cartridge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10064
+      },
+      "model": "minecraft:item/stick"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+uuid: 33193974-24a5-33ce-83af-ac0de5649896
+name: urmom
+primary-group: omega
+permissions:
+- cmi.command.maintenance.bypass
+parents:
+- omega

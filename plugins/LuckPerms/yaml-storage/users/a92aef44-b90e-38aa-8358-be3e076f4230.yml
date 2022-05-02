@@ -1,0 +1,6 @@
+uuid: a92aef44-b90e-38aa-8358-be3e076f4230
+name: GameSense1User
+primary-group: default
+parents:
+- default
+- resourcepack

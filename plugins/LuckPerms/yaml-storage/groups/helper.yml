@@ -1,0 +1,21 @@
+name: helper
+permissions:
+- cmi.command.fly
+- cmi.command.kick
+- cmi.command.tp
+- cmi.kit.delta
+- litebans.checkban
+- litebans.checkmute
+- litebans.ipban
+- litebans.ipmute
+- litebans.kick
+- litebans.mute
+- litebans.tempmute
+- litebans.unban
+- litebans.unmute
+- weight.10
+parents:
+- default
+prefixes:
+- ':helper: ':
+    priority: 10

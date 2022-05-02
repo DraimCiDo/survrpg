@@ -1,0 +1,122 @@
+species:
+  SmallJungle:
+    weight: 1.0
+    trees:
+    - JUNGLE_TREE_1::1.0
+    - JUNGLE_TREE_4::1.0
+  MegaRedwood:
+    weight: 1.0
+    trees:
+    - TAIGA_TREE_5::1.0
+    - TAIGA_TREE_6::1.0
+    - TAIGA_TREE_7::1.0
+    - TAIGA_TREE_9::1.0
+  Birch:
+    weight: 1.0
+    trees:
+    - BIRCH_TREE_1::1.0
+    - BIRCH_TREE_2::1.0
+    - BIRCH_TREE_3::1.0
+    - BIRCH_TREE_4::1.0
+    - BIRCH_TREE_5::1.0
+    - BIRCH_TREE_6::1.0
+    - BIRCH_TREE_7::1.0
+    - BIRCH_TREE_8::1.0
+    - BIRCH_TREE_9::1.0
+  WarpedFungus:
+    weight: 1.0
+    trees: [
+      ]
+  TallBirch:
+    weight: 1.0
+    trees: [
+      ]
+  DarkOak:
+    weight: 1.0
+    trees:
+    - ROOF_TREE_2::1.0
+    - ROOF_TREE_3::1.0
+    - ROOF_TREE_4::1.0
+  BigTree:
+    weight: 1.0
+    trees:
+    - BIG_OAK_TREE_1::1.0
+    - BIG_OAK_TREE_2::1.0
+    - BIG_OAK_TREE_3::1.0
+    - BIG_OAK_TREE_4::1.0
+  Swamp:
+    weight: 1.0
+    trees: [
+      ]
+  Azalea:
+    weight: 1.0
+    trees: [
+      ]
+  Redwood:
+    weight: 1.0
+    trees:
+    - PINE_TREE_1::1.0
+    - PINE_TREE_2::1.0
+    - PINE_TREE_3::1.0
+    - PINE_TREE_4::1.0
+    - PINE_TREE_5::1.0
+    - PINE_TREE_6::1.0
+    - PINE_TREE_7::1.0
+    - PINE_TREE_8::1.0
+    - PINE_TREE_9::1.0
+    - PINE_TREE_10::1.0
+    - PINE_TREE_11::1.0
+    - PINE_TREE_12::1.0
+  ChorusPlant:
+    weight: 1.0
+    trees: [
+      ]
+  BrownMushroom:
+    weight: 1.0
+    trees: [
+      ]
+  Acacia:
+    weight: 1.0
+    trees:
+    - ACACIA_TREE_1::1.0
+    - ACACIA_TREE_2::1.0
+    - ACACIA_TREE_3::1.0
+    - ACACIA_TREE_4::1.0
+  Jungle:
+    weight: 1.0
+    trees:
+    - JUNGLE_TREE_2::1.0
+    - JUNGLE_TREE_3::1.0
+    - JUNGLE_TREE_5::1.0
+    - JUNGLE_TREE_6::1.0
+  Tree:
+    weight: 1.0
+    trees:
+    - OAK_TREE_1::1.0
+    - OAK_TREE_2::1.0
+    - OAK_TREE_3::1.0
+    - OAK_TREE_4::1.0
+    - OAK_TREE_5::1.0
+  CocoaTree:
+    weight: 1.0
+    trees: [
+      ]
+  CrimsonFungus:
+    weight: 1.0
+    trees: [
+      ]
+  JungleBush:
+    weight: 1.0
+    trees: [
+      ]
+  TallRedwood:
+    weight: 1.0
+    trees: [
+      ]
+  RedMushroom:
+    weight: 1.0
+    trees: [
+      ]
+options:
+  replace-only-air: true
+  enabled: true

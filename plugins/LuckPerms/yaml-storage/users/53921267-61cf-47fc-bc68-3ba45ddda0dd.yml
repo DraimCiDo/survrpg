@@ -1,0 +1,7 @@
+uuid: 53921267-61cf-47fc-bc68-3ba45ddda0dd
+name: DanichMan
+primary-group: dev
+permissions:
+- '*'
+parents:
+- dev

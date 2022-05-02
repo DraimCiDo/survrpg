@@ -1,0 +1,50 @@
+info:
+  namespace: draim
+items:
+  rocks:
+    enabled: true
+    display_name: Камушки
+    resource:
+      generate: false
+      material: PAPER
+      model_path: rocks
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        cancel_drop: false
+        sound:
+          place:
+            name: block.stone.place
+          break:
+            name: block.stone.break
+  leaves:
+    enabled: true
+    display_name: Ветки
+    resource:
+      generate: false
+      material: PAPER
+      model_path: leaves
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+        sound:
+          place:
+            name: block.grass.place
+          break:
+            name: block.grass.break
+  knife:
+    enabled: true
+    display_name: Наждачка
+    durbaility:
+      max_custom_durability: 5
+      custom_durability: 5
+      disappear_when_broken: true
+      unbreakable: false
+      usages: 5
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/knife.png

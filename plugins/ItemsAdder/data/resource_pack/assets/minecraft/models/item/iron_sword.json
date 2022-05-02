@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/philosopher_stone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/sweet_berries_jam_jar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:auto_generated/pear_jam_jar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/apple_jam_jar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "itemsadder:auto_generated/healing_crystals"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "minecraft:item/iron_sword"
+    }
+  ]
+}

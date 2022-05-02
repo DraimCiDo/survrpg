@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/ruby_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/spinel_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:auto_generated/turquoise_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/aqua_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "itemsadder:auto_generated/amethyst_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "itemsadder:auto_generated/bronze_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "minecraft:item/diamond_hoe"
+    }
+  ]
+}

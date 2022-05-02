@@ -1,0 +1,119 @@
+info:
+  namespace: worlddeco
+surface_decorators:
+  small_rocks_shore:
+    block: small_rocks
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - STONE
+    - COBBLESTONE
+    - MOSSY_COBBLESTONE
+    biomes:
+    - STONE_SHORE
+    worlds:
+      - world
+    chance: 70
+    max_height: 255 
+    min_height: 0
+    amount: 3
+  small_rocks:
+    block: small_rocks
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - STONE
+    - COBBLESTONE
+    - MOSSY_COBBLESTONE
+    biomes:
+    - PLAINS
+    - SUNFLOWER_PLAINS
+    - RIVER
+    - MOUNTAINS
+    - MOUNTAIN_EDGE
+    - BIRCH_FOREST
+    - BIRCH_FOREST_HILLS
+    - TALL_BIRCH_FOREST
+    - TALL_BIRCH_HILLS
+    - TAIGA
+    - TAIGA_HILLS
+    - TAIGA_MOUNTAINS
+    - GIANT_SPRUCE_TAIGA
+    - GIANT_SPRUCE_TAIGA_HILLS
+    - GIANT_TREE_TAIGA
+    - GIANT_TREE_TAIGA_HILLS
+    - JUNGLE
+    - JUNGLE_EDGE
+    - JUNGLE_HILLS
+    - BAMBOO_JUNGLE
+    - BAMBOO_JUNGLE_HILLS
+    - MODIFIED_JUNGLE
+    - MODIFIED_JUNGLE_EDGE
+    - FOREST
+    - FLOWER_FOREST
+    - DARK_FOREST
+    - DARK_FOREST_HILLS
+    worlds:
+      - world
+    chance: 30
+    max_height: 255 
+    min_height: 0
+    amount: 1
+  mossy_small_rocks_shore:
+    block: mossy_small_rocks
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - STONE
+    - COBBLESTONE
+    - MOSSY_COBBLESTONE
+    biomes:
+    - STONE_SHORE
+    worlds:
+      - world
+    chance: 70
+    max_height: 255 
+    min_height: 0
+    amount: 3
+  mossy_small_rocks:
+    block: mossy_small_rocks
+    bottom_blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - STONE
+    - COBBLESTONE
+    - MOSSY_COBBLESTONE
+    biomes:
+    - PLAINS
+    - SUNFLOWER_PLAINS
+    - RIVER
+    - MOUNTAINS
+    - MOUNTAIN_EDGE
+    - BIRCH_FOREST
+    - BIRCH_FOREST_HILLS
+    - TALL_BIRCH_FOREST
+    - TALL_BIRCH_HILLS
+    - TAIGA
+    - TAIGA_HILLS
+    - TAIGA_MOUNTAINS
+    - GIANT_SPRUCE_TAIGA
+    - GIANT_SPRUCE_TAIGA_HILLS
+    - GIANT_TREE_TAIGA
+    - GIANT_TREE_TAIGA_HILLS
+    - JUNGLE
+    - JUNGLE_EDGE
+    - JUNGLE_HILLS
+    - BAMBOO_JUNGLE
+    - BAMBOO_JUNGLE_HILLS
+    - MODIFIED_JUNGLE
+    - MODIFIED_JUNGLE_EDGE
+    - FOREST
+    - FLOWER_FOREST
+    - DARK_FOREST
+    - DARK_FOREST_HILLS
+    worlds:
+      - world
+    chance: 30
+    max_height: 255 
+    min_height: 0
+    amount: 1

@@ -1,0 +1,77 @@
+core:
+  command-aliases: excellentshop,exshop
+  lang: ru
+  prefix: ':server:'
+data:
+  auto-save: 15
+  storage:
+    type: sqlite
+    username: none
+    password: none
+    host: none
+    database: none
+  purge:
+    enabled: false
+    days: 60
+  instant-save: false
+General:
+  Buy_With_Full_Inventory: false
+GUI:
+  Click_Actions:
+    BUY_SELECTION: LEFT
+    SELL_SELECTION: RIGHT
+    SELL_ALL: SWAP_OFFHAND
+    BUY_SINGLE: SHIFT_LEFT
+    SELL_SINGLE: SHIFT_RIGHT
+Sounds:
+  Purchase:
+    Success: ENTITY_EXPERIENCE_ORB_PICKUP
+    Failure: BLOCK_ANVIL_PLACE
+  Cart:
+    Item_Add: ENTITY_ITEM_PICKUP
+Currency:
+  Default:
+    exp:
+      Enabled: true
+      Name: Exp
+      Format: '%price% %currency_name%'
+    vault:
+      Enabled: true
+      Name: ':emerald:'
+      Format: '%currency_name%%price%'
+    gamepoints:
+      Enabled: false
+      Format: '%price% %currency_name%'
+      Name: Gamepoints
+    playerpoints:
+      Enabled: false
+      Format: '%price% %currency_name%'
+      Name: Playerpoints
+  Custom_Item:
+    emeralds:
+      Enabled: true
+      Name: Эмиральд(ы)
+      Format: '%price% %currency_name%'
+      Item:
+        Material: EMERALD
+    custom-gold:
+      Enabled: false
+      Name: Gold
+      Format: '%price% %currency_name%'
+      Item:
+        Material: GOLD_INGOT
+        Name: '&e&lGOLD INGOT'
+        Enchants:
+          fortune: 5
+        Item_Flags:
+        - HIDE_ENCHANTS
+Modules:
+  virtual_shop:
+    Enabled: false
+    Name: Virtual Shop
+  chest_shop:
+    Enabled: false
+    Name: Chest Shop
+  auction:
+    Enabled: true
+    Name: Аукцион

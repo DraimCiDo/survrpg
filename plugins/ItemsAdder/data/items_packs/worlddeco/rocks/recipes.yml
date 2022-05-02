@@ -1,0 +1,26 @@
+info:
+  namespace: worlddeco
+recipes:
+  crafting_table:
+    small_rocks_cobblestone:
+      enabled: true
+      pattern:
+        - SSS
+        - SSS
+        - SSS
+      ingredients:
+        S: small_rocks
+      result:
+        item: COBBLESTONE
+        amount: 4
+    mossy_small_rocks_cobblestone:
+      enabled: true
+      pattern:
+        - SSS
+        - SSS
+        - SSS
+      ingredients:
+        S: mossy_small_rocks
+      result:
+        item: MOSSY_COBBLESTONE
+        amount: 4

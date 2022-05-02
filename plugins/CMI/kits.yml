@@ -1,0 +1,2013 @@
+# Player should have appropriate permission node to use particular kit: cmi.kit.[kitName]
+# cmi.kit.newbie will allow to use newbie kit
+# Possible custom variables: {USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}
+# Edit kits ingame with /cmi kiteditor to avoid formating issues
+
+
+platinum:
+  CommandName: platinum
+  Enabled: false
+  Delay: 1209600
+  Items:
+    '1':
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненный
+          метеоритный осколок"}],"text":""}'
+        custom-model-data: 29
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQyS9KzEtPjU8uqiwuScyJL85ILEphYAAAEqezAEUAAAA=
+    '2':
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Песчаный
+          метеоритный осколок"}],"text":""}'
+        custom-model-data: 24
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQqUzNyckvj08uqiwuScyJL85ILEphYAAAjYRv70UAAAA=
+    '3':
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Токсичный
+          метеоритный осколок"}],"text":""}'
+        custom-model-data: 28
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQTi9KTc2LTy6qLC5JzIkvzkgsSmFgAABUdG7WRAAAAA==
+    '4':
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Багряный
+          метеоритный осколок"}],"text":""}'
+        custom-model-data: 27
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQLEpNiU8uqiwuScyJL85ILEphYAAAifDxpUIAAAA=
+    '5':
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Пурпурный
+          метеоритный осколок"}],"text":""}'
+        custom-model-data: 26
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQKSgtKshJjU8uqiwuScyJL85ILEphYAAAVsu+KUUAAAA=
+    '6':
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Аквамариновый
+          метеоритный осколок"}],"text":""}'
+        custom-model-data: 25
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYODMS8xNLS5ITE5FFWfKTGEQSsopTY1PLqosLknMiS/OSCxKYWAAACseK69DAAAA
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновый
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"10
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2200 / 2200"}],"text":""}'
+        custom-model-data: 1
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 9.0
+            name: itemsadder
+            slot: HAND
+            uuid: f425eecb-6255-411b-b960-7a73b1051a2b
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOCYwcHAmZeYm1pckJiciqyHg4EpM4WBryAnsSQzrzQ3vrg8vyiFmUEQqyFsDPxpidmpSKIO8/cwQAAAEUuSj40AAAA=
+    '29':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновая
+          кирка"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2200 / 2200"}],"text":""}'
+        custom-model-data: 2
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOCYwcHAmZeYm1pckJiciqyHg4EpM4VBoCAnsSQzrzQ3viAzOTuxIpWZQRCrMWwM/GmJ2alIog7z9zBAAAC0QTl/jwAAAA==
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновый
+          топор"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"12
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2200 / 2200"}],"text":""}'
+        custom-model-data: 2
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 11.0
+            name: itemsadder
+            slot: HAND
+            uuid: b32995a2-e3ac-457f-8f3e-cd96f332d0b6
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOCYwcHAmZeYm1pckJiciqyHg4EpM4WBpyAnsSQzrzQ3PrEilZlBEKsRbAz8aYnZqUiiDvP3MEAAAC27QlGLAAAA
+    '31':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновая
+          мотыга"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2200 / 2200"}],"text":""}'
+        custom-model-data: 2
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOCYwcHAmZeYm1pckJiciqyHg4EpM4WBpyAnsSQzrzQ3PiM/lZlBEKsRbAz8aYnZqUiiDvP3MEAAAJ5RD6aLAAAA
+    '32':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновая
+          лопата"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2200 / 2200"}],"text":""}'
+        custom-model-data: 2
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOCYwcHAmZeYm1pckJiciqyHg4EpM4WBvyAnsSQzrzQ3vjgjvyw1h5lBEKspbAz8aYnZqUiiDvP3MEAAADuCfouOAAAA
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновый
+          шлем"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          450 / 450"}],"text":""}'
+        custom-model-data: 10
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: HEAD
+            uuid: a3a3bf56-eb53-4dd9-81f9-3b4ae66200be
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: HEAD
+            uuid: cc9158fb-dd09-44e9-a776-de5a8ee9f812
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MMQqDQBBG4T8KogsSLLyPvYdYRmdChjgq7i7ELmfzZGJnkde/zwEOTqNYIGbZcrRGXz+mEBfznDYadNK4A4+jRDWTSVhplPtTIlNGvU4UdU7m30Jc4Pmij9yErv/hKkfzVwdOEZ02S4wAAAA=
+        color:
+          ==: Color
+          RED: 179
+          BLUE: 219
+          GREEN: 210
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновый
+          нагрудник"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          650 / 650"}],"text":""}'
+        custom-model-data: 10
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 9.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 2f5bc758-cc73-4064-b0c2-fe4ef3e2a612
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: CHEST
+            uuid: deb14d59-65e9-49e3-b74b-8d335e6e30f4
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MQQqDMBBG4R+FErOodOF9PIT7MCZTOuiomAnYK/TUBVcufPv3ecDDi7FmSon3Gp3SEWLJtmpIZadRZrEvUP0cmoWU80aRr49DJQnPbSaTpWiIH872QPumiS9EP+CsxuuWB/482k19jQAAAA==
+        color:
+          ==: Color
+          RED: 179
+          BLUE: 219
+          GREEN: 210
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновые
+          поножи"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          600 / 600"}],"text":""}'
+        custom-model-data: 10
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 7.0
+            name: itemsadder
+            slot: LEGS
+            uuid: b13a7440-bff9-4505-910e-c7a09f1b8114
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 30dc321a-a77c-47ae-89c8-c02fa3a2f9ec
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYGCK4GDgzEvMTS0uSExORdbDwcCUmcLAW5CTWJKZV5obn5OaXszGwJ+WmJ2KZIJD0AEGEGBmEMRqOgMDALvJdRmMAAAA
+        color:
+          ==: Color
+          RED: 179
+          BLUE: 219
+          GREEN: 210
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Платиновые
+          ботинки"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          500 / 500"}],"text":""}'
+        custom-model-data: 10
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: FEET
+            uuid: 698a30fe-5ba0-41ee-9232-715596ed095d
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: FEET
+            uuid: c38d3d72-f73a-4bb7-bdf6-6d81374956f8
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MQQqDMBBG4b8GimZh6cL7eARvEEYzwlDHiJmA3tsDlO5c9O3f5wEPL8aaKUbeHTqlI0wlW9IQy06jLGIn8LhqNCsp540mvj81Kolot4VM1qJhTMnyE6+ZPnwj+qHHL4f3Xx74AsH/aTqNAAAA
+        color:
+          ==: Color
+          RED: 179
+          BLUE: 219
+          GREEN: 210
+delta:
+  CommandName: delta
+  DisplayName: '&r'
+  Weight: 1
+  DropOnGround: false
+  ShowDespiteWeight: true
+  Delay: 1209600
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Пурпурный
+        компонент"}],"text":""}'
+      custom-model-data: 32
+      internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYGDKTGHgLigtKshJjU/Ozy3gYODMS8xNLS5ITE5FVsnAAADIEa+ePAAAAA==
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BARRIER
+  Slot: 2
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древний
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"12
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 11.0
+            name: itemsadder
+            slot: HAND
+            uuid: 1df8fbbe-7eee-4fa0-b36e-d057e495c438
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOBM4GDgzEvMTS0uSExORdbDwcCUmcLAm5iXnJmaVxJfXJ5flMLMIIjVDDYG/rTE7FQkUYf5OxggAAAuWfm1jAAAAA==
+    '29':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древняя
+          кирка"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAAAG2MsQmAMBQFHwoS04iF+7hJ/CZf+GhiMBF0GtdwPAsbC688uNOAhpbMPpFzvJXoPB3G7imv3rh9o1EWySdQDwp1IM8pkuVvo1CIQ0PBCodsotiZDi7R/l4qNBPN/LH9dePlAcPX0wSOAAAA
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древний
+          топор"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"14
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 13.0
+            name: itemsadder
+            slot: HAND
+            uuid: 68fe484a-abbb-46e2-b7c4-2a21a33374df
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAG2MQQ5AMBQFX0iEWoiF+7hJfe2X/NASraRO4xqOZ2FjYZaTzChAQUlkF8ha3nN0jpI2R4ir0/bYaZRF4glUQ4nKk+OwkeFvUyITi5q8EfZRU+Ic7e+hQDPRzB/bXzdeHtbId7yKAAAA
+    '31':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древняя
+          мотыга"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAAAG2MQQ5AMBQFX0iEWoiF+7hJfe0XP7REK+E0ruF4FjYWZjnJjAIUlER2gazlLUXj6NBmD3Fx2u4b9TJLPIGiy1F4chxWMvxtciRiUZI3wj7qceEU9e8hQzXQxB/bXjdeHmUiOkuKAAAA
+    '32':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древняя
+          лопата"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOBM4GDgzEvMTS0uSExORdbDwcCUmcLAl5iXnJmaVxJfnJFflprDzCCI1RA2Bv60xOxUJFGH+TsYIAAA+XWqGo0AAAA=
+    '33':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 16
+    '34':
+      v: 2586
+      type: BREAD
+      amount: 64
+    '35':
+      v: 2586
+      type: OAK_LOG
+      amount: 64
+    '36':
+      v: 2586
+      type: EMERALD
+      amount: 64
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Пурпурный
+          шлем"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          500 / 500"}],"text":""}'
+        custom-model-data: 12
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: HEAD
+            uuid: edcfd99f-1ce0-432b-ae16-4104da942305
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: HEAD
+            uuid: efdb66b8-8044-4e3f-b2cb-7f3476a72a37
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYGD8wsHAmZeYm1pckJiciqyHg4EpM4WBu6C0qCAnNT4jNTGFjYE/LTE7FUm/g3cDAwgwMwhiNZuBAQBwb2kSigAAAA==
+        color:
+          ==: Color
+          RED: 156
+          BLUE: 230
+          GREEN: 0
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Пурпурный
+          нагрудник"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          700 / 700"}],"text":""}'
+        custom-model-data: 11
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 11.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 358cb03e-dde6-4c96-bf6f-3771f7558daa
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 9fedfbdd-76bc-4e22-bb09-37159c43e87c
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MOwqAMBBF0YeCxCCIhftxEfZhTEYMGg35gO7NxQlWFt7+HglISJvYRTKGQ4ne0al0julwyuRAk91suoDiFqh3chw9af4+AoU1aHwOfmOlF46pQjvTyh9gGPFWovvFgQci5KdMiwAAAA==
+        color:
+          ==: Color
+          RED: 156
+          BLUE: 230
+          GREEN: 0
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Пурпурные
+          поножи"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          650 / 650"}],"text":""}'
+        custom-model-data: 11
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 9.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 3ba4d9c8-509d-44b6-bb19-85ede6f898c7
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 2c890b6a-086a-4cfc-b366-afb5e657a725
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MSw5AMBRG4T8kQg3EwH6swQaaSy9ptDR9JGzBqixNzAyc+XcEICB0ZBtIKfY5OkuHnFKIu5UqeRq10fEEsqtEtZHl4GjirymRaYXaJe8MS8NLKNDMtPLH98ONtxzt7xt4AJYcexeKAAAA
+        color:
+          ==: Color
+          RED: 156
+          BLUE: 230
+          GREEN: 0
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Пурпурные
+          ботинки"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          500 / 500"}],"text":""}'
+        custom-model-data: 11
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: FEET
+            uuid: 11733838-892f-4fd1-8d84-ddda615a2fe5
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: FEET
+            uuid: 5573b5b7-9d1b-4f49-91f0-f38970f62755
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MywmAMBBF0acB0SCIC/uxBDsIoxkhaEzIB7RvCxB3Lrz7eyQgIU1iG0lrDgKDpVMtOSZnlc6BZrObdAHFXaM5yHL0tPD3qVEajdbn4HdWs3MpVuhW2vgDjNOIN4H+Fwce9WvbJ4sAAAA=
+        color:
+          ==: Color
+          RED: 156
+          BLUE: 230
+          GREEN: 0
+gamma:
+  CommandName: gamma
+  DisplayName: '&r'
+  Weight: 2
+  DropOnGround: false
+  Delay: 1209600
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Аквамариновый
+        компонент"}],"text":""}'
+      custom-model-data: 31
+      internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYGDKTGHgTMopTY1Pzs8t4GDgzEvMTS0uSExORVbHwAAA3dsTMDoAAAA=
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BARRIER
+  Slot: 3
+  Items:
+    '1':
+      v: 2586
+      type: EMERALD
+      amount: 64
+    '2':
+      v: 2586
+      type: EMERALD
+      amount: 64
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древний
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"12
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 11.0
+            name: itemsadder
+            slot: HAND
+            uuid: 1df8fbbe-7eee-4fa0-b36e-d057e495c438
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOBM4GDgzEvMTS0uSExORdbDwcCUmcLAm5iXnJmaVxJfXJ5flMLMIIjVDDYG/rTE7FQkUYf5OxggAAAuWfm1jAAAAA==
+    '29':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древняя
+          кирка"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAAAG2MsQmAMBQFHwoS04iF+7hJ/CZf+GhiMBF0GtdwPAsbC688uNOAhpbMPpFzvJXoPB3G7imv3rh9o1EWySdQDwp1IM8pkuVvo1CIQ0PBCodsotiZDi7R/l4qNBPN/LH9dePlAcPX0wSOAAAA
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древний
+          топор"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"14
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 13.0
+            name: itemsadder
+            slot: HAND
+            uuid: 68fe484a-abbb-46e2-b7c4-2a21a33374df
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAG2MQQ5AMBQFX0iEWoiF+7hJfe2X/NASraRO4xqOZ2FjYZaTzChAQUlkF8ha3nN0jpI2R4ir0/bYaZRF4glUQ4nKk+OwkeFvUyITi5q8EfZRU+Ic7e+hQDPRzB/bXzdeHtbId7yKAAAA
+    '31':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древняя
+          мотыга"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAAAG2MQQ5AMBQFX0iEWoiF+7hJfe0XP7REK+E0ruF4FjYWZjnJjAIUlER2gazlLUXj6NBmD3Fx2u4b9TJLPIGiy1F4chxWMvxtciRiUZI3wj7qceEU9e8hQzXQxB/bXjdeHmUiOkuKAAAA
+    '32':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Древняя
+          лопата"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2400 / 2400"}],"text":""}'
+        custom-model-data: 4
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYOBM4GDgzEvMTS0uSExORdbDwcCUmcLAl5iXnJmaVxJfnJFflprDzCCI1RA2Bv60xOxUJFGH+TsYIAAA+XWqGo0AAAA=
+    '33':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 32
+    '34':
+      v: 2586
+      type: BREAD
+      amount: 64
+    '35':
+      v: 2586
+      type: OAK_LOG
+      amount: 64
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Аквамариновый
+          шлем"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          550 / 550"}],"text":""}'
+        custom-model-data: 13
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 8.0
+            name: itemsadder
+            slot: HEAD
+            uuid: 2795d94f-4c11-46b2-924c-787b80f9c1b6
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: HEAD
+            uuid: c7978e89-a846-4877-805e-9cec4230a783
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MQQ5AMBBG4T8kot2IhSs4h71DNMOMaLSItgk7Rxc7C2//PQ1oaBvFB2KWI0fj6TRjCnHzhtNBg3U2XkDWllAreQk7jfI1JTLLUINLYmYhLlBNtMhHd/2Ntxz17xl4AGRlSZiIAAAA
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 230
+          GREEN: 216
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Аквамариновый
+          нагрудник"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          750 / 750"}],"text":""}'
+        custom-model-data: 12
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 13.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 60c8f0ce-16ad-4e8f-8e46-2889ec60f632
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 71a5a739-c81e-4dd6-85be-8cbe1b161e8d
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MOwqAMBBF0YcB0WnEwv24CPswJiMGjUo+oJt2DYKVhbc/lwACuSQ+srUSFDrPpzY5pt1rmwOPbnXpAoq7Qr2xl3iwka+pUDgLGtcs2swSU4lm4kU+vB/wptD+roEHeIOUzokAAAA=
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 230
+          GREEN: 216
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Аквамариновые
+          поножи"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          700 / 700"}],"text":""}'
+        custom-model-data: 12
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 11.0
+            name: itemsadder
+            slot: LEGS
+            uuid: d4fce6ca-cf4d-4f03-b375-5fc00f521177
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: LEGS
+            uuid: ffd79fbf-d22f-4857-95b6-ec3997a407c0
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MQQqAIBRF0UdCpJNo0H5aQxuQn/5C0opUqL01aGnRrEF3fq4CFJRLHCJZy7tAG+jQJse0Bm3zToPzLp1AcVWQCwWOGxn+mgqFs5CDz6w9T7FEPdLMH931N94Emt8z8ADSj7R3iAAAAA==
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 230
+          GREEN: 216
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Аквамариновые
+          ботинки"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          550 / 550"}],"text":""}'
+        custom-model-data: 12
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 8.0
+            name: itemsadder
+            slot: FEET
+            uuid: 3c7b4d44-e3df-4ffd-8c9d-0e3cd4207105
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: FEET
+            uuid: ef98c771-91b2-45b0-881e-65143243e4c5
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MSwqAIBRG4Z+CMCfRoC20jpbQDuSqN5AywwfU7qOZg878OxKQkC6zT2QtxxaTp1uZknLwypZI2h0uP0AzC/QneU4XGa6NQOMspD4KKx1CTh2GjXau+LIu+Gox/q6BF6TVbq+JAAAA
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 230
+          GREEN: 216
+beta:
+  CommandName: beta
+  DisplayName: '&r'
+  Weight: 3
+  DropOnGround: false
+  Delay: 1209600
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Токсичный
+        компонент"}],"text":""}'
+      custom-model-data: 34
+      internal: H4sIAAAAAAAAAE3KQQ4AEAwEwI0T/aQ0uhGHIuX/cTXnEUAg49KPmjEy0jBID3LWtnxnlKnOs7Xxj8ADQ7bsDTsAAAA=
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BARRIER
+  Slot: 4
+  Items:
+    '1':
+      v: 2586
+      type: EMERALD
+      amount: 64
+    '2':
+      v: 2586
+      type: EMERALD
+      amount: 64
+    '3':
+      v: 2586
+      type: EMERALD
+      amount: 64
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовый
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"14
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 13.0
+            name: itemsadder
+            slot: HAND
+            uuid: 26d5be36-54a2-4fed-b23f-2979fda80410
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBdlJqTmRxfXJ5flMLMIIjVBDYG/rTE7FQkUYf5exggAAC1Sbd9igAAAA==
+    '29':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовая
+          кирка"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBblJqTmRxfkJmcnViRyswgiNUMNgb+tMTsVCRRh/l7GCAAAGeC+46MAAAA
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовый
+          топор"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"16
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 15.0
+            name: itemsadder
+            slot: HAND
+            uuid: 87025289-ff2f-4dd1-836a-5cc9e8bfce3c
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBZlJqTmRyfWJHKzCCIVT8bA39aYnYqkqjD/D0MEAAAsY/PNogAAAA=
+    '31':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовая
+          мотыга"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBZlJqTmRyfkZ/KzCCIVT8bA39aYnYqkqjD/D0MEAAAAmWCwYgAAAA=
+    '32':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовая
+          лопата"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBTlJqTmRxfnJFflprDzCCI1Qg2Bv60xOxUJFGH+XsYIAAAHLuMc4sAAAA=
+    '33':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 64
+    '34':
+      v: 2586
+      type: BREAD
+      amount: 64
+    '35':
+      v: 2586
+      type: OAK_LOG
+      amount: 64
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Токсичный
+          шлем"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          600 / 600"}],"text":""}'
+        custom-model-data: 17
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: itemsadder
+            slot: HEAD
+            uuid: fb996ffd-8885-41b0-a775-ad8816f5a62d
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: HEAD
+            uuid: 75550315-335a-43a0-8edc-ec0cbbf6d337
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MsQ5AMBRG4T+VSHURg/exewFbc7kXDUXaSnh7icng7N8xgIFxSXwkZgkZak+XHc6Ydm/5DNS71aUbUJ1GsZGXeNAgX6OhHMNMQWSzsxDnKEda5MObFm8Zqt818ABQ1zqBiQAAAA==
+        color:
+          ==: Color
+          RED: 46
+          BLUE: 0
+          GREEN: 230
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Токсичный
+          нагрудник"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          800 / 800"}],"text":""}'
+        custom-model-data: 16
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 15.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 412cc76e-3932-4e0d-89c7-934024cf8270
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 6d5d25fa-bc0f-4b7e-9238-1555f1520c7f
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MvQ5AMBSG4S+aCDWIwe5SXIS9OdqDhiL9Sbh7icng3Z9XAhLSRnaBjGEv0Dq6lE4hHk6Z5Gm0m403ILoC5U6Ow0mav6ZAZg2q2TPvSi8cYo56opU/vh/wJtD8voEHy3IUdYoAAAA=
+        color:
+          ==: Color
+          RED: 46
+          BLUE: 0
+          GREEN: 230
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Токсичные
+          поножи"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          750 / 750"}],"text":""}'
+        custom-model-data: 16
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 12.0
+            name: itemsadder
+            slot: LEGS
+            uuid: e6470ebb-f678-4203-855c-97b8925f4b59
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 644a2cc3-0188-4ce3-b7d6-a09a16beddd6
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MQQqAIBRF0UdBmJNo0H5aQxuQn/5E0go1qN21otYQzRp05+dKQEK6zCGRMRxLdIEOpfeU16DMHml03uUTKG6BeqHAaSPNXyNQOANpI/OiPNtUoZlo5g/vhwtvJdrfNfAAI3TQjokAAAA=
+        color:
+          ==: Color
+          RED: 46
+          BLUE: 0
+          GREEN: 230
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Токсичные
+          ботинки"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          550 / 550"}],"text":""}'
+        custom-model-data: 16
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: itemsadder
+            slot: FEET
+            uuid: 5badedfd-4dc6-4b78-b168-dbfef89d1b52
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 4.0
+            name: itemsadder
+            slot: FEET
+            uuid: f4ad4103-929a-4028-815c-6a107459e043
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MSw5AMBRG4T+aCDUQA1uwDkuwg+ZqL2moSh8JuxczA2f+HQlISJvYRTKGg0Dv6FI6x+SdMjnQbHebbqAYKtQHOY4naf6aCoU1aNbAfKjZ+xRLtAtt/PHjNOJNoPt9Aw87BZlWigAAAA==
+        color:
+          ==: Color
+          RED: 46
+          BLUE: 0
+          GREEN: 230
+alpha:
+  CommandName: alpha
+  DisplayName: '&r'
+  Weight: 4
+  DropOnGround: false
+  Delay: 1209600
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Песчаный
+        компонент"}],"text":""}'
+      custom-model-data: 30
+      internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS3iYGDKTGHgrkzNyckvj0/Ozy3gYODMS8xNLS5ITE5FVsnAAACrVodcPAAAAA==
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BARRIER
+  Slot: 5
+  Items:
+    '1':
+      v: 2586
+      type: EMERALD_BLOCK
+      amount: 32
+    '2':
+      v: 2586
+      type: REDSTONE_BLOCK
+      amount: 32
+    '3':
+      v: 2586
+      type: DIAMOND_BLOCK
+      amount: 16
+    '4':
+      v: 2586
+      type: IRON_BLOCK
+      amount: 16
+    '5':
+      v: 2586
+      type: GOLD_BLOCK
+      amount: 16
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовый
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"14
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 13.0
+            name: itemsadder
+            slot: HAND
+            uuid: 26d5be36-54a2-4fed-b23f-2979fda80410
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBdlJqTmRxfXJ5flMLMIIjVBDYG/rTE7FQkUYf5exggAAC1Sbd9igAAAA==
+    '29':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовая
+          кирка"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBblJqTmRxfkJmcnViRyswgiNUMNgb+tMTsVCRRh/l7GCAAAGeC+46MAAAA
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовый
+          топор"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"16
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 15.0
+            name: itemsadder
+            slot: HAND
+            uuid: 87025289-ff2f-4dd1-836a-5cc9e8bfce3c
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBZlJqTmRyfWJHKzCCIVT8bA39aYnYqkqjD/D0MEAAAsY/PNogAAAA=
+    '31':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовая
+          мотыга"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBZlJqTmRyfkZ/KzCCIVT8bA39aYnYqkqjD/D0MEAAAAmWCwYgAAAA=
+    '32':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовая
+          лопата"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          2600 / 2600"}],"text":""}'
+        custom-model-data: 3
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBTlJqTmRxfnJFflprDzCCI1Qg2Bv60xOxUJFGH+XsYIAAAHLuMc4sAAAA=
+    '33':
+      v: 2586
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 8
+    '34':
+      v: 2586
+      type: BREAD
+      amount: 64
+    '35':
+      v: 2586
+      type: OAK_LOG
+      amount: 64
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Песчаный
+          шлем"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          650 / 650"}],"text":""}'
+        custom-model-data: 16
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 12.0
+            name: itemsadder
+            slot: HEAD
+            uuid: dfab8259-3c64-4ab0-954c-aeab8e1af3d5
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: HEAD
+            uuid: e4249575-039e-42d2-8d8c-6877b15ec5f0
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MsQ5AMBRG4T8kQg1i8D52D9Fc7hWNFtEKNrOnFpvB2b+jAAVlgjhPzLLGqBwdutt8mJ3mbaXWWBNOILpTZBM58Qt18jUpIsPIT7F23vUgxAmKnkb5+Lq58Baj/H0DD5ZiSLKKAAAA
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 207
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Песчаный
+          нагрудник"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          850 / 850"}],"text":""}'
+        custom-model-data: 15
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 17.0
+            name: itemsadder
+            slot: CHEST
+            uuid: a638f08e-1ad4-4a7d-b8cc-6dc3dcc8b1bb
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 12860acd-ec4f-4f13-a212-d56788aff22d
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3M0QpAMBiG4S8rsZQcuB/XIOfrt/2ybMi2cPfKkQPv+ftIQELayD6QMXwItJ4upVOIm1cmHTRaZ+MNiL5AuZLnsJPm71MgswbVzc5tp9Izh5ijnmjhD9ANeBNofnHgAYwdtpeLAAAA
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 207
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Песчаные
+          поножи"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          800 / 800"}],"text":""}'
+        custom-model-data: 15
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 14.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 06686ed1-a7c2-42ed-9170-8c40728b0dc2
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 76641ee4-8102-42ce-9efc-384af5a6c2af
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MQQ5AMBRF0RdNhBqIgbmlWIMNNJ9+0mgRbYPdWZqYGbjzcyUgIU1g50lr3gVqR6caog+rUzru1BtrwgWIJkO+kGO/0cBfkyExGsXF1q6Hsjz5FOVIM3982914E6h+38ADXXVopooAAAA=
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 207
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Песчаные
+          ботинки"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          600 / 600"}],"text":""}'
+        custom-model-data: 15
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 12.0
+            name: itemsadder
+            slot: FEET
+            uuid: f4822b3f-49f4-4a63-bcf6-c31fdee9ed56
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: FEET
+            uuid: def45698-f264-483a-8339-9d275cfd3855
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MsQqAIBRG4Z+CMAmioffpERrb5KY3kDQjlerto62hs59PAhLSJvaRjOGjRO/pUjrHFLwy+aDZOptuoJgE6o08x500fx+Bwho0NzsXTjWHkGKFdqGVP8AwDngr0f3iwAPy1FKyiwAAAA==
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 207
+omega:
+  CommandName: omega
+  DisplayName: '&r'
+  Weight: 5
+  DropOnGround: false
+  Delay: 1209600
+  Icon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненный
+        компонент"}],"text":""}'
+      custom-model-data: 35
+      internal: H4sIAAAAAAAAAE3KQQ4AEAwEwI0T9UhpdCMORfD/uJrzCCCQfulHzbgjQjfkuXU0ljp9RaShzrO08p/AA8WQtLo8AAAA
+  IconOff:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: BARRIER
+  Slot: 6
+  Items:
+    '1':
+      v: 2586
+      type: EMERALD_BLOCK
+      amount: 64
+    '2':
+      v: 2586
+      type: REDSTONE_BLOCK
+      amount: 64
+    '3':
+      v: 2586
+      type: DIAMOND_BLOCK
+      amount: 32
+    '4':
+      v: 2586
+      type: IRON_BLOCK
+      amount: 32
+    '5':
+      v: 2586
+      type: GOLD_BLOCK
+      amount: 32
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Багряный
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"16
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          3000 / 3000"}],"text":""}'
+        custom-model-data: 2
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 15.0
+            name: itemsadder
+            slot: HAND
+            uuid: 491187ab-672a-40eb-9218-61fcdf3de144
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYODewcHAmZeYm1pckJiciqyHg4EpM4WBsyg1Jb64PL8ohZlBEKt+Ngb+tMTsVCRRh/l7GCAAADu5STKIAAAA
+    '29':
+      v: 2586
+      type: NETHERITE_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Багряная
+          кирка"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          3000 / 3000"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYODewcHAmZeYm1pckJiciqyHg4EpM4WBuyg1Jb4gMzk7sSKVmUEQqwlsDPxpidmpSKIO8/cwQAAAtdUHaooAAAA=
+    '30':
+      v: 2586
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Багряный
+          топор"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"18
+          Урон"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          3000 / 3000"}],"text":""}'
+        custom-model-data: 1
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 17.0
+            name: itemsadder
+            slot: HAND
+            uuid: f4775649-5e3e-49db-98c6-21445666461e
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYODewcHAmZeYm1pckJiciqyHg4EpM4WBvSg1JT6xIpWZQRCrbjYG/rTE7FQkUYf5exggAAB4DM+ShgAAAA==
+    '31':
+      v: 2586
+      type: NETHERITE_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Багряная
+          мотыга"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          3000 / 3000"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYODewcHAmZeYm1pckJiciqyHg4EpM4WBvSg1JT4jP5WZQRCrbjYG/rTE7FQkUYf5exggAADL5oJlhgAAAA==
+    '32':
+      v: 2586
+      type: NETHERITE_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Багряная
+          лопата"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          3000 / 3000"}],"text":""}'
+        custom-model-data: 1
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKlkYODewcHAmZeYm1pckJiciqyHg4EpM4WBqyg1Jb44I78sNYeZQRCrAWwM/GmJ2alIog7z9zBAAAB9zyGkiQAAAA==
+    '33':
+      v: 2586
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 16
+    '34':
+      v: 2586
+      type: BREAD
+      amount: 64
+    '35':
+      v: 2586
+      type: OAK_LOG
+      amount: 64
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненный
+          шлем"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          700 / 700"}],"text":""}'
+        custom-model-data: 15
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 14.0
+            name: itemsadder
+            slot: HEAD
+            uuid: 80b25cbd-b632-4604-b7b2-a85cc283409c
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: HEAD
+            uuid: 49236101-96de-4aa6-b8be-1b489b34747d
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MMQ5AQBBG4T8kwipE4T56h9gMM9iwyO5K6BzM4USn8PrvKUBBmSDWE7O4GJWlQ3e7D6vVvDtqzWzCCUR3imwhK36jTr4mRWQY+epoGUSPQpyg6GmSj6+bC28xyt838AB9bKvSigAAAA==
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненный
+          нагрудник"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          900 / 900"}],"text":""}'
+        custom-model-data: 14
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 19.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 494f7ee5-fe69-4389-8b48-f4f429c26342
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: CHEST
+            uuid: 77e7963b-71c7-450e-a279-46580c46e935
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MzQpAQBSG4S9TYlKycD8uwn46Zg4mBs1PsXfhysrCu38fCUhIG9kFMoa9QOvoVDqFuDtlkqfBrjZegLgLlBs5Dgdp/j4FMmtQ7Z62iZWeOcQc9UgLf4Cux5tA84sDDyVolzeLAAAA
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненные
+          поножи"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          850 / 850"}],"text":""}'
+        custom-model-data: 14
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 16.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 218e1182-43b3-4c52-a979-b4f239895431
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: LEGS
+            uuid: f2d319af-2da4-4078-95d3-324c6f4a088c
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MSw5AMBRG4T+aSNVADOzHGmygufSShiJ9JOzO0sSsA2f+HQUoKBvZBTKGvUDn6NJTCvFw2iRPo91svAExSFQ7OQ4nTZwbicIa1IenfWG98RJKNDOtnPl+ePAl0P6+gRfNRFcHigAAAA==
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненные
+          ботинки"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Прочность:
+          650 / 650"}],"text":""}'
+        custom-model-data: 14
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 14.0
+            name: itemsadder
+            slot: FEET
+            uuid: 6b9df207-8d23-4aec-a4bd-a4da35cf076b
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: FEET
+            uuid: 3d2aaadb-9bb2-4beb-b368-207086aadadb
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MywmAMBBF0UcEiUEQF/ZjCXYQRjNK0BjJB7QFqxZ3Lrz7exSgoGxiF8kYDgU6R6eeckzeaZMDjXaz6QLELVHt5DgeNPH3kRDWoPaB9oX16H2KJZqZVv4A/dDjrUD7iwMPDTKC34sAAAA=
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+start:
+  CommandName: start
+  DisplayName: Start
+  Delay: 7200
+  Items:
+    '28':
+      v: 2586
+      type: STONE_SWORD
+    '29':
+      v: 2586
+      type: STONE_PICKAXE
+    '30':
+      v: 2586
+      type: STONE_AXE
+    '31':
+      v: 2586
+      type: STONE_SHOVEL
+    '32':
+      v: 2586
+      type: BREAD
+      amount: 8
+    '33':
+      v: 2586
+      type: OAK_LOG
+      amount: 16
+    '34':
+      v: 2586
+      type: COBBLESTONE
+      amount: 64
+    '35':
+      v: 2586
+      type: IRON_ORE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"При
+          установке приватит квадрат размером "},{"italic":false,"color":"gray","text":"16x16"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Чтобы
+          добавить друга надо находится в регионе и написать "},{"italic":false,"color":"aqua","text":"/ps
+          add "},{"italic":false,"color":"green","text":"ник"}],"text":""}'
+        PublicBukkitValues:
+          protectionstones:ispsblock: 1b
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+    OffHand:
+      v: 2586
+      type: SHIELD
+boss:
+  CommandName: boss
+  Enabled: false
+  Delay: 10
+  Items:
+    '28':
+      v: 2586
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Реликтовый
+          меч"}],"text":""}'
+        lore:
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Когда
+          в ведущей руке:"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"4
+          Скорость атаки"}],"text":""}'
+        - '{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"14
+          Урон"}],"text":""}'
+        custom-model-data: 3
+        enchants:
+          DAMAGE_ALL: 4
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 13.0
+            name: itemsadder
+            slot: HAND
+            uuid: d34347c9-cd48-4f42-9656-127d089d9614
+            operation: 0
+        ItemFlags:
+        - HIDE_ATTRIBUTES
+        internal: H4sIAAAAAAAAAONiYOBi4MosSc0tTkxJSS1iZhDNTayITy4tLsnPjU8pLUpMyszJLKkEKtPgYODMS8xNLS5ITE5F1sPBwJSZwsBdlJqTmRxfXJ5flMLMIIjVBDYG/rTE7FQkUYf5exggAAC1Sbd9igAAAA==
+    '29':
+      v: 2586
+      type: ENCHANTED_GOLDEN_APPLE
+      amount: 4
+    '30':
+      v: 2586
+      type: GOLDEN_APPLE
+      amount: 32
+    '31':
+      v: 2586
+      type: BREAD
+      amount: 64
+    '32':
+      v: 2586
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        enchants:
+          DURABILITY: 3
+        blockMaterial: SHIELD
+    '33':
+      v: 2586
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        enchants:
+          DURABILITY: 3
+        blockMaterial: SHIELD
+    Helmet:
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненный
+          шлем"}],"text":""}'
+        custom-model-data: 15
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 14.0
+            name: itemsadder
+            slot: HEAD
+            uuid: b66c97fe-9c55-4257-b705-5a0952c2e234
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: HEAD
+            uuid: d9566e65-3930-4f3e-95cf-a6361d2e4b00
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MMQ5AQBBG4T8kwipE4T56h9gMM9iwyO5K6BzM4USn8PrvKUBBmSDWE7O4GJWlQ3e7D6vVvDtqzWzCCUR3imwhK36jTr4mRWQY+epoGUSPQpyg6GmSj6+bC28xyt838AB9bKvSigAAAA==
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    Chest:
+      v: 2586
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненный
+          нагрудник"}],"text":""}'
+        custom-model-data: 14
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 19.0
+            name: itemsadder
+            slot: CHEST
+            uuid: bf67802b-1ee8-4f46-ab22-03a2d58868d4
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: CHEST
+            uuid: be14b442-770e-45f3-8388-45b7c62fd0b7
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MzQpAQBSG4S9TYlKycD8uwn46Zg4mBs1PsXfhysrCu38fCUhIG9kFMoa9QOvoVDqFuDtlkqfBrjZegLgLlBs5Dgdp/j4FMmtQ7Z62iZWeOcQc9UgLf4Cux5tA84sDDyVolzeLAAAA
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    Legs:
+      v: 2586
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненные
+          поножи"}],"text":""}'
+        custom-model-data: 14
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 16.0
+            name: itemsadder
+            slot: LEGS
+            uuid: a6e2946a-9a01-41f8-9135-bf64309febd1
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: LEGS
+            uuid: 0b66c21d-43d5-4198-acd3-4852e625858c
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MSw5AMBRG4T+aSNVADOzHGmygufSShiJ9JOzO0sSsA2f+HQUoKBvZBTKGvUDn6NJTCvFw2iRPo91svAExSFQ7OQ4nTZwbicIa1IenfWG98RJKNDOtnPl+ePAl0P6+gRfNRFcHigAAAA==
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    Boots:
+      v: 2586
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Огненные
+          ботинки"}],"text":""}'
+        custom-model-data: 14
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 3
+        attribute-modifiers:
+          GENERIC_ARMOR:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 14.0
+            name: itemsadder
+            slot: FEET
+            uuid: 173893b9-e3d4-4d0d-b8ee-2f145652a0ac
+            operation: 0
+          GENERIC_ARMOR_TOUGHNESS:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: itemsadder
+            slot: FEET
+            uuid: 7ec54b75-c9c9-42ca-aada-1df073a93727
+            operation: 0
+        ItemFlags:
+        - HIDE_DYE
+        internal: H4sIAAAAAAAAAG3MywmAMBBF0UcEiUEQF/ZjCXYQRjNK0BjJB7QFqxZ3Lrz7exSgoGxiF8kYDgU6R6eeckzeaZMDjXaz6QLELVHt5DgeNPH3kRDWoPaB9oX16H2KJZqZVv4A/dDjrUD7iwMPDTKC34sAAAA=
+        color:
+          ==: Color
+          RED: 230
+          BLUE: 0
+          GREEN: 83
+    OffHand:
+      v: 2586
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        enchants:
+          DURABILITY: 3
+        blockMaterial: SHIELD

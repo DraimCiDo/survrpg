@@ -1,0 +1,6 @@
+uuid: d8f61a18-923e-31e4-b632-a3d2d15b745d
+name: nagibator1
+primary-group: default
+parents:
+- default
+- resourcepack

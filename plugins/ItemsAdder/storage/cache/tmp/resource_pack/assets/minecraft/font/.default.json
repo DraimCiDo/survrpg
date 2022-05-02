@@ -1,0 +1,5881 @@
+{"providers":[{"file":"font/base/black.png","chars":["\uF822"],"height":1,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF823"],"height":2,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF824"],"height":3,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF825"],"height":4,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF826"],"height":5,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF827"],"height":6,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF828"],"height":7,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF829"],"height":15,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82A"],"height":31,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82B"],"height":63,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82C"],"height":127,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82D"],"height":256,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82E"],"height":512,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82F"],"height":1024,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF82F"],"height":1023,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF801"],"height":-3,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF802"],"height":-4,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF803"],"height":-5,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF804"],"height":-6,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF805"],"height":-7,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF806"],"height":-8,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF807"],"height":-9,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF808"],"height":-10,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF809"],"height":-18,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80A"],"height":-34,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80B"],"height":-66,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80C"],"height":-130,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80D"],"height":-259,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80E"],"height":-515,"ascent":-5000,"type":"bitmap"},{"file":"font/base/black.png","chars":["\uF80F"],"height":-1027,"ascent":-5000,"type":"bitmap"},{"type":"bitmap","file":"littleroom_npcpack3:speech1.png","height":180,"ascent":118,"chars":["💨"]},{"type":"bitmap","file":"littleroom_npcpack3:jesterhead.png","height":48,"ascent":24,"chars":["☎"]},{"type":"bitmap","file":"littleroom_npcpack3:bardhead.png","height":48,"ascent":24,"chars":["⛫"]},{"type":"bitmap","file":"littleroom_npcpack3:fishermanhead.png","height":48,"ascent":24,"chars":["☙"]},{"type":"bitmap","file":"littleroom_npcpack3:queenhead.png","height":48,"ascent":24,"chars":["☥"]},{"type":"bitmap","file":"littleroom_npcpack3:lumberjackhead.png","height":48,"ascent":24,"chars":["⚗"]},{"type":"bitmap","file":"littleroom_npcpack2:kinghead.png","height":48,"ascent":24,"chars":["☕"]},{"type":"bitmap","file":"littleroom_npcpack2:adventurerhead.png","height":48,"ascent":24,"chars":["🃏"]},{"type":"bitmap","file":"littleroom_npcpack2:tavernhead.png","height":48,"ascent":24,"chars":["🅰"]},{"type":"bitmap","file":"littleroom_npcpack2:piratehead.png","height":48,"ascent":24,"chars":["🅱"]},{"type":"bitmap","file":"littleroom_npcpack2:minerhead.png","height":48,"ascent":24,"chars":["🅾"]},{"type":"bitmap","file":"littleroom_npc:speech1.png","height":180,"ascent":118,"chars":["🅿"]},{"type":"bitmap","file":"littleroom_npc:blacksmithhead.png","height":48,"ascent":24,"chars":["⏳"]},{"type":"bitmap","file":"littleroom_npc:farmerhead.png","height":48,"ascent":24,"chars":["⏩"]},{"type":"bitmap","file":"littleroom_npc:archerhead.png","height":48,"ascent":24,"chars":["⏪"]},{"type":"bitmap","file":"littleroom_npc:butcherhead.png","height":48,"ascent":24,"chars":["⏫"]},{"type":"bitmap","file":"littleroom_npc:wizardhead.png","height":48,"ascent":24,"chars":["⏏"]},{"type":"bitmap","file":"littleroom_npc:guardhead.png","height":48,"ascent":24,"chars":["⏬"]},{"type":"bitmap","file":"littleroom_npc:speech1.png","height":180,"ascent":118,"chars":["⏰"]},{"file":"betterhud:images/emerald.png","chars":[""],"height":16,"ascent":-8,"type":"bitmap"},{"file":"betterhud:chars/comma.png","chars":[""],"height":8,"ascent":-12,"type":"bitmap"},{"file":"betterhud:chars/dot.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/minus.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/low_line.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/exclamation_mark.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/question_mark.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/slash.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/back_slash.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/left_parenthesis.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/right_parenthesis.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/left_square_bracket.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/right_square_bracket.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/at.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/hashtag.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/colon.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/semicolon.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/plus.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/percent.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/equal.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/less_than.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/greater_than.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/asterisk.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/0.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/1.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/2.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/3.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/4.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/5.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/6.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/7.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/8.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:integers/9.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/a.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/a-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/b.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/b-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/c.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/c-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/d.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/d-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/e.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/e-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/f.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/f-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/g.png","chars":[""],"height":8,"ascent":-12,"type":"bitmap"},{"file":"betterhud:chars/g-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/h.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/h-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/i.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/i-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/j.png","chars":[""],"height":8,"ascent":-12,"type":"bitmap"},{"file":"betterhud:chars/j-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/k.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/k-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/l.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/l-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/m.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/m-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/n.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/n-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/o.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/o-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/p.png","chars":[""],"height":8,"ascent":-12,"type":"bitmap"},{"file":"betterhud:chars/p-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/q.png","chars":[""],"height":8,"ascent":-12,"type":"bitmap"},{"file":"betterhud:chars/q-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/r.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/r-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/s.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/s-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/t.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/t-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/u.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/u-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/v.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/v-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/w.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/w-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/x.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/x-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/y.png","chars":[""],"height":8,"ascent":-12,"type":"bitmap"},{"file":"betterhud:chars/y-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/z.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"betterhud:chars/z-big.png","chars":[""],"height":8,"ascent":-11,"type":"bitmap"},{"file":"draim:font/rank/admin.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/mod.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/helper.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/player.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/builder.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/youtube.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/patreon.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/patreon2.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/java.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/skript.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/developer.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/dev.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/vip.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/vipplus.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/omega.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/alpha.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/beta.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/gamma.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/delta.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:font/rank/loot.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:images/emerald.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/emerald.png","chars":[""],"height":12,"ascent":10,"type":"bitmap"},{"file":"draim:images/error_green.png","chars":[""],"height":8,"ascent":8,"type":"bitmap"},{"file":"draim:images/earth.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:images/icon_confirm.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:images/icon_cancel.png","chars":[""],"height":9,"ascent":8,"type":"bitmap"},{"file":"draim:images/error_red.png","chars":[""],"height":8,"ascent":8,"type":"bitmap"},{"file":"draim:images/ruby.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/platinum.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/red_crystal.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/orange_crystal.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/yellow_crystal.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/green_crystal.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/blue_crystal.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/purple_crystal.png","chars":[""],"height":16,"ascent":10,"type":"bitmap"},{"file":"draim:images/pog.png","chars":[""],"height":9,"ascent":9,"type":"bitmap"},{"file":"draim:images/kekw.png","chars":[""],"height":9,"ascent":9,"type":"bitmap"},{"file":"draim:images/kekwhyper.png","chars":[""],"height":9,"ascent":9,"type":"bitmap"},{"file":"draim:images/wut.png","chars":[""],"height":9,"ascent":9,"type":"bitmap"},{"file":"draim:images/error_yellow.png","chars":[""],"height":8,"ascent":8,"type":"bitmap"},{"file":"draim:images/error_discord.png","chars":[""],"height":8,"ascent":8,"type":"bitmap"},{"file":"draim:images/speech.png","chars":[""],"height":10,"ascent":8,"type":"bitmap"},{"file":"draim:images/mail_icon.png","chars":[""],"height":10,"ascent":8,"type":"bitmap"},{"file":"mcguis:font/gui/crafting.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"},{"file":"mcguis:font/gui/cooking.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"},{"file":"mcguis:font/gui/blank_menu.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"},{"file":"mcguis:font/gui/anvil_repair.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"},{"file":"draim:font/gui/welcome_menu.png","chars":[""],"height":87,"ascent":47,"type":"bitmap"},{"file":"draim:font/gui/welcome_accepted.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"},{"file":"draim:font/gui/auc_main.png","chars":[""],"height":256,"ascent":19,"type":"bitmap"},{"file":"draim:font/gui/menu.png","chars":[""],"height":87,"ascent":47,"type":"bitmap"},{"file":"draim:font/gui/stone.png","chars":[""],"height":102,"ascent":19,"type":"bitmap"},{"file":"draim:font/gui/donate.png","chars":[""],"height":87,"ascent":47,"type":"bitmap"},{"file":"draim:font/gui/blank_vanilla_menu.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"},{"file":"draim:font/gui/blank_bank.png","chars":[""],"height":170,"ascent":47,"type":"bitmap"}]}
+    ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/o-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/p.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -12,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/p-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/q.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -12,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/q-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/r.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/r-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/s.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/s-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/t.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/t-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/u.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/u-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/v.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/v-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/w.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/w-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/x.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/x-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/y.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -12,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/y-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/z.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "betterhud:chars/z-big.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": -11,
+      "type": "bitmap"
+    },
+    {
+      "file": "hmccosmetics:icons/cosmetics_gui.png",
+      "chars": [
+        ""
+      ],
+      "height": 256,
+      "ascent": 14,
+      "type": "bitmap"
+    },
+    {
+      "file": "hmccosmetics:icons/dye_menu.png",
+      "chars": [
+        ""
+      ],
+      "height": 256,
+      "ascent": 14,
+      "type": "bitmap"
+    },
+    {
+      "file": "hmccosmetics:icons/colorful.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "hmccosmetics:icons/title.png",
+      "chars": [
+        ""
+      ],
+      "height": 256,
+      "ascent": 128,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/admin.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/mod.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/helper.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/player.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/builder.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/youtube.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/patreon.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/patreon2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/java.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/skript.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/developer.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/dev.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/vip.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/vipplus.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/omega.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/alpha.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/beta.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/gamma.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/delta.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/rank/loot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/emerald.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/emerald.png",
+      "chars": [
+        ""
+      ],
+      "height": 12,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/error_green.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/earth.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/icon_confirm.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/icon_cancel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/error_red.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/ruby.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/platinum.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/red_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/orange_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/yellow_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/green_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/blue_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/purple_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 16,
+      "ascent": 10,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/pog.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/kekw.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/kekwhyper.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/wut.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 9,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/error_yellow.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/error_discord.png",
+      "chars": [
+        ""
+      ],
+      "height": 8,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/speech.png",
+      "chars": [
+        ""
+      ],
+      "height": 10,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:images/mail_icon.png",
+      "chars": [
+        ""
+      ],
+      "height": 10,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/welcome_menu.png",
+      "chars": [
+        ""
+      ],
+      "height": 87,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/welcome_accepted.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/auc_main.png",
+      "chars": [
+        ""
+      ],
+      "height": 256,
+      "ascent": 19,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/menu.png",
+      "chars": [
+        ""
+      ],
+      "height": 87,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/stone.png",
+      "chars": [
+        ""
+      ],
+      "height": 102,
+      "ascent": 19,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/donate.png",
+      "chars": [
+        ""
+      ],
+      "height": 87,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/blank_vanilla_menu.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "draim:font/gui/blank_bank.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "mcguis:font/gui/crafting.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "mcguis:font/gui/cooking.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "mcguis:font/gui/blank_menu.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    },
+    {
+      "file": "mcguis:font/gui/anvil_repair.png",
+      "chars": [
+        ""
+      ],
+      "height": 170,
+      "ascent": 47,
+      "type": "bitmap"
+    }
+  ]
+}
+ 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/creeper_banner_pattern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/crossbow_arrow.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/crossbow_firework.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/crossbow_pulling_0.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/crossbow_pulling_1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/crossbow_pulling_2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/crossbow_standby.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/cyan_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/dark_oak_boat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/dark_oak_door.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/dark_oak_sign.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_axe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_boots.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_chestplate.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_helmet.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_hoe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_horse_armor.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_leggings.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_pickaxe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_shovel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/diamond_sword.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/dragon_breath.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/dried_kelp.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/egg.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/elytra.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/emerald.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/enchanted_book.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/ender_eye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/ender_pearl.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/end_crystal.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/experience_bottle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/feather.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/fermented_spider_eye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/filled_map.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/filled_map_markings.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/firework_rocket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/firework_star.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/firework_star_overlay.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/fire_charge.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/fishing_rod.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/fishing_rod_cast.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/flint.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/flint_and_steel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/flower_banner_pattern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/flower_pot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/furnace_minecart.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/ghast_tear.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/glass_bottle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/glistering_melon_slice.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/globe_banner_pattern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/glowstone_dust.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_apple.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_axe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_boots.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_carrot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_chestplate.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_helmet.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_hoe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_horse_armor.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_leggings.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_pickaxe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_shovel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/golden_sword.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/gold_ingot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/gold_nugget.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/gray_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/green_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/gunpowder.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/heart_of_the_sea.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/hopper.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/hopper_minecart.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/ink_sac.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_axe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_boots.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_chestplate.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_door.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_helmet.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_hoe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_horse_armor.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_ingot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_leggings.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_nugget.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_pickaxe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_shovel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/iron_sword.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/item_frame.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/jungle_boat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/jungle_door.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/jungle_sign.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/kelp.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/knowledge_book.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/lantern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/lapis_lazuli.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/lava_bucket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/lead.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/leather.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/leather_horse_armor.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/light_blue_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/light_gray_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/lime_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/lingering_potion.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/magenta_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/magma_cream.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/map.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/melon_seeds.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/melon_slice.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/milk_bucket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/minecart.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/mojang_banner_pattern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/mushroom_stew.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_11.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_13.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_blocks.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_cat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_chirp.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_far.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_mall.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_mellohi.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_stal.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_strad.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_wait.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/music_disc_ward.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/mutton.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/name_tag.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/nautilus_shell.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/nether_brick.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/nether_star.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/nether_wart.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/oak_boat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/oak_door.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/oak_sign.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/orange_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/painting.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/paper.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/phantom_membrane.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/pink_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/poisonous_potato.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/popped_chorus_fruit.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/porkchop.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/potato.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/potion.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/potion_overlay.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/prismarine_crystals.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/prismarine_shard.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/pufferfish.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/pufferfish_bucket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/pumpkin_pie.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/pumpkin_seeds.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/purple_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/quartz.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/rabbit.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/rabbit_foot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/rabbit_hide.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/rabbit_stew.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/redstone.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/red_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/repeater.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/rotten_flesh.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "mcemojis:mc_ruby.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/saddle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/salmon.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/salmon_bucket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/scute.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/seagrass.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/sea_pickle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/shears.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/shulker_shell.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/skull_banner_pattern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/slime_ball.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/snowball.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spawn_egg.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spawn_egg_overlay.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spectral_arrow.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spider_eye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/splash_potion.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spruce_boat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spruce_door.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/spruce_sign.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/stick.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/stone_axe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/stone_hoe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/stone_pickaxe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/stone_shovel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/stone_sword.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/string.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/structure_void.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/sugar.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/sugar_cane.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/suspicious_stew.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/sweet_berries.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/tipped_arrow_base.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/tipped_arrow_head.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/tnt_minecart.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/totem_of_undying.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/trident.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/tropical_fish.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/tropical_fish_bucket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/turtle_egg.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/turtle_helmet.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/water_bucket.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wheat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wheat_seeds.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/white_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wooden_axe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wooden_hoe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wooden_pickaxe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wooden_shovel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/wooden_sword.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/writable_book.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/written_book.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "minecraft:item/yellow_dye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "magiccraft:font/hud/mana_bar/0.png",
+      "chars": [
+        ""
+      ],
+      "height": 50,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "magiccraft:font/hud/mana_bar/1.png",
+      "chars": [
+        ""
+      ],
+      "height": 50,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "magiccraft:font/hud/mana_bar/2.png",
+      "chars": [
+        ""
+      ],
+      "height": 50,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "magiccraft:font/hud/mana_bar/3.png",
+      "chars": [
+        ""
+      ],
+      "height": 50,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "magiccraft:font/hud/mana_bar/4.png",
+      "chars": [
+        ""
+      ],
+      "height": 50,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "magiccraft:font/hud/mana_bar/5.png",
+      "chars": [
+        ""
+      ],
+      "height": 50,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/0.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/7.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/8.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/9.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/alarmclock.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/alien.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/angry.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/angry1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/angry2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/angry3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/anxious.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/aquarius.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/aries.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/asterisk.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/atm.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/avocado.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/bacon.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/baguette.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/bandage.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/bat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/biceps.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/biohazard.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/blocked.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/blood.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/blush.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/bye.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/callme.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cancel.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cancer.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/capricorn.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/carrot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/chair.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/chick.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/chick1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/chick2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/clap.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/coffin.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cold.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/confirm.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/confused.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/confused1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/couple.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cowboy.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/crab.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/croissant.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/crossedfingers.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cry.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cry1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/crycat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/cucumber.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/dead.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/dead1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/dollar.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/doubleexclamation.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/down.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/drops.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/drumstick.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/duck.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/eagle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/eggplant.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/eject.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/evil.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/explodehead.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/eyes.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/facemask.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fastdown.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fastforward.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fastreverse.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fastup.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fbowing.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fear.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fear1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fear3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/featcat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/ffacepalm.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fidk.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/finger.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fire.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fish.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/flamingo.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fmage.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fno.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/fok.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/frown.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/frown2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/frown3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/frown4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/frown5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/frown6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/gemini.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/giraffe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/halo.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hamburger.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/handshake.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hashtag.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/heart6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hehe.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hourglass.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hourglass1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/hug.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/ice.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/ill.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/inlove.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/inlove1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/inlovecat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/jackolantern.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/kebab.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/kiss.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/kiss1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/kiss2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/kiss3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/lasttrack.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/laugh.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/laugh2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/laugh3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/laugh4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/laughcat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/left.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/leftcurve.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/leo.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/lion.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/lock.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/luck.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/lying.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/m.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mad.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mbowing.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/medal.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mfacepalm.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/midk.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mmage.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mmh.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mno.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/mok.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/money.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moneyface.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/monkey1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/monkey2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/monkey3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/monocle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moon.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moon1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moon2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moon3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moon4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/moon5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/nausea.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/nerd.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/neutral.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/nexttrack.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/no1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/noexpression.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/nomouth.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/ok.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/ok1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/owl.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pan.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/party.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/party1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pause.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/peace.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/peach.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pencil.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/person.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pick.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pig.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pisces.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/pizza.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/play.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/playpause.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/please.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/poo.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/potato.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/puke.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/punch.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/question.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/radioactive.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/raisedfist.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/raisedhand.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/record.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/redcircle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/reverse.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/riceball.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rightarrow.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rightcurve.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/robot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rock.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rolling.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rooster.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sad.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sagittarius.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/salad.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/salt.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/scorpio.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/scorpion.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/shark.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/shh.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/shrimp.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sleeping.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sleepy.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/small.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smilecat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sneeze.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/soccerball.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sparkles.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/squid.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/star.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/starcrescent.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/stareyes.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/stop.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/stopsign.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sun.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sunglasses.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/surprised.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sushi.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sweat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/taurus.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/tongue.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/tree.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/trex.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/turkey.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/twofingers.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/unamused.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/unicorn.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/unlock.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/up.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/upsidedown.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/virgo.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/voltage.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/warning.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/wc.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/what.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/wink.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/woozy.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/write.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/xd.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/yawn.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/yinyang.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/yum.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/zebra.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/zip.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "example:font/tags/cutie.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "realcraft:font/hud/thirst_bar/positive.png",
+      "chars": [
+        ""
+      ],
+      "height": 11,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "realcraft:font/hud/thirst_bar/negative.png",
+      "chars": [
+        ""
+      ],
+      "height": 11,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "realcraft:font/hud/thirst_bar/half.png",
+      "chars": [
+        ""
+      ],
+      "height": 11,
+      "ascent": -15,
+      "type": "bitmap"
+    }
+  ]
+}
+
+ype": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/raisedhand.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/record.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/redcircle.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/reverse.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/riceball.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rightarrow.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rightcurve.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/robot.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rock.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rolling.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/rooster.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sad.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sagittarius.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/salad.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/salt.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/scorpio.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/scorpion.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/shark.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/shh.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/shrimp.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sleeping.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sleepy.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/small.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smile6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/smilecat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sneeze.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/soccerball.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sparkles.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/squid.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/star.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/starcrescent.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/stareyes.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/stop.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/stopsign.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sun.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sunglasses.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/surprised.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sushi.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/sweat.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/taurus.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think1.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think2.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think3.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think4.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think5.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/think6.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/tongue.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/tree.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/trex.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/turkey.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/twofingers.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/unamused.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/unicorn.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/unlock.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/up.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/upsidedown.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/virgo.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/voltage.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/warning.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/wc.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/what.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/wink.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/woozy.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/write.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/xd.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/yawn.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/yinyang.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/yum.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/zebra.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "twitteremojis:font/emoji/zip.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "example:font/tags/cutie.png",
+      "chars": [
+        ""
+      ],
+      "height": 9,
+      "ascent": 8,
+      "type": "bitmap"
+    },
+    {
+      "file": "realcraft:font/hud/thirst_bar/positive.png",
+      "chars": [
+        ""
+      ],
+      "height": 11,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "realcraft:font/hud/thirst_bar/negative.png",
+      "chars": [
+        ""
+      ],
+      "height": 11,
+      "ascent": -15,
+      "type": "bitmap"
+    },
+    {
+      "file": "realcraft:font/hud/thirst_bar/half.png",
+      "chars": [
+        ""
+      ],
+      "height": 11,
+      "ascent": -15,
+      "type": "bitmap"
+    }
+  ]
+}
+]
+}

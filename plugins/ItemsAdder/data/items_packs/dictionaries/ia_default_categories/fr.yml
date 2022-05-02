@@ -1,0 +1,44 @@
+info:
+  namespace: itemsadder_stuff
+  dictionary-lang: "fr"
+dictionary:
+  display-category-all: Tout
+  display-category-armors: Armures
+  display-category-swords: Épées
+  display-category-pickaxes: Pioches
+  display-category-axes: Haches
+  display-category-hoes: Houes
+  display-category-shovels: Pelles
+  display-category-fishing_rods: Cannes à pêche
+  display-category-shears: Cisailles
+  display-category-weapons: Armes
+  display-category-shields: Boucliers
+  display-category-bows: Arcs
+  display-category-eatables: Nourriture
+  display-category-drinks: Boissons
+  display-category-vegetables: Légumes & fruits
+  display-category-seeds: Graines
+  display-category-fishes: Poissons
+  display-category-potions: Potions
+  display-category-furnitures: Décors
+  display-category-paintings: Peintures
+  display-category-chairs: Chaises
+  display-category-hats: Chapeaux
+  display-category-wearables: Cosmétiques
+  display-category-machines: Machines
+  display-category-blocks: Blocs
+  display-category-ores: Minerais
+  display-category-minerals: Minéraux
+  display-category-instruments: Instruments
+  display-category-various: Objets & ingrédients
+  display-category-alchemy: Alchimie
+  display-category-musicdiscs: Disques de musique
+  display-category-throwables: Objets jetables
+  display-category-books: Livres
+  display-category-vehicles: Véhicules
+  display-category-icons: Icônes
+  display-category-generic_items: Objets génériques
+  display-category-halloween: Objets Halloween
+  display-category-christmas: Objets Noël
+  display-category-special: Spécial
+  display-category-realcraft: RealCraft

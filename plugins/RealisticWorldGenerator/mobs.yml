@@ -1,0 +1,10 @@
+default:
+  amount:
+    min: 2
+    max: 4
+presets:
+  example-mob:
+    amount:
+      min: 2
+      max: 9
+    type: CHICKEN

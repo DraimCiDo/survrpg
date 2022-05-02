@@ -1,0 +1,16 @@
+info:
+  namespace: worlddeco
+surface_decorators:
+  plastic_waste:
+    block: plastic_waste
+    bottom_blocks:
+    - WATER
+    biomes:
+    - OCEAN
+    - DEEP_OCEAN
+    worlds:
+    - world
+    chance: 1
+    max_height: 100
+    min_height: 50
+    amount: 6

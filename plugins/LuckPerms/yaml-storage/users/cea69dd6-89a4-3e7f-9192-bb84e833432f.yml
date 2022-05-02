@@ -1,0 +1,6 @@
+uuid: cea69dd6-89a4-3e7f-9192-bb84e833432f
+name: seeu
+primary-group: default
+parents:
+- default
+- resourcepack

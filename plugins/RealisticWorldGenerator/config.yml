@@ -1,0 +1,32 @@
+license: fdeacfb2fbb61717df70de914c8ff38d
+customize:
+  random:
+    global: 5333036308596687952
+    manual: 2885401160677200192
+    grow: 83328692321823249
+    api: 99116773122648064
+  command:
+    force_sync: false
+  regeneration:
+    layers: 1
+asset:
+  lazy:
+    asset:
+      schematic: false
+    time: 300
+  blockdata:
+    preserve_invalid: true
+downloads:
+  skip: false
+  mute: false
+schematics:
+  load:
+    mute: true
+log:
+  extended-info: false
+  log-to-console: true
+  log-to-file: true
+security_mode:
+  evil: false
+messages:
+  join: true

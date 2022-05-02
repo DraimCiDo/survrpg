@@ -1,0 +1,50 @@
+# Command section can utilize same custom variables as scheduler. Check schedules.yml file for all possible variables.
+
+spawn:
+  boss:
+    Loc: -112.0:164.0:-91.0:-102.0:164.0:-80.0
+    enabled: true
+    effect: WitchMagic
+    showParticles: true
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 100
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: false
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+    - mvtp [playerName] boss
+  pvp:
+    Loc: -35.0:46.0:-530.0:-25.0:46.0:-520.0
+    enabled: true
+    effect: Heart
+    showParticles: true
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 4
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: false
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+  rtp:
+    Loc: -93.0:173.0:-134.0:-91.0:176.0:-134.0
+    enabled: true
+    effect: EnchantmentTable
+    showParticles: true
+    kickBack: true
+    particlesByPermission: false
+    requiresPerm: false
+    informOnMissingPerm: false
+    particleAmount: 20
+    particleHide: 0
+    activationRange: 16
+    commandsWithoutTp: false
+    commands:
+    - cmi effect [playerName] blindness 2 1 -s
+    - betterrtp player [playerName] world

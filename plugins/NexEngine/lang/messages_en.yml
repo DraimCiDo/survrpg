@@ -1,0 +1,87 @@
+custom-placeholders:
+  my-color: '#ff0000'
+  my-text: Sample Text
+Prefix: '&7(&6%plugin%&7) &7'
+Core:
+  Command:
+    Usage: '&cUsage: &e/%command_label% &6%command_usage%'
+    Help:
+      List:
+      - '&6&m              &6&l[ &e&l%plugin% &7- &e&lCommands &6&l]&6&m              &7'
+      - '&7'
+      - '&7          &4&l<> &7- Required, &2&l[] &7- Optional.'
+      - '&7'
+      - '&6▪ &e/%command_label% &6%command_usage% &7- %command_description%'
+      - '&7'
+      Desc: Show help page.
+    Editor:
+      Desc: Opens GUI Editor.
+    About:
+      Desc: Some info about the plugin.
+    Reload:
+      Desc: Reload the plugin.
+      Done: Reloaded!
+  Editor:
+    Tips:
+      Commands:
+      - '{message: ~prefix: false;}&7'
+      - '&b&lCommand Tips:'
+      - '&7'
+      - '&2• &a''[CONSOLE] <command>'' &2- Execute as Console.'
+      - '&2• (no prefix) &a''<command>'' &2- Execute as a Player.'
+      - '&2• &a%player% &2- Player name placeholder.'
+      - '&7'
+      Header:
+      - '{message: ~prefix: false;}&7'
+      - '&e&lSUGGESTED (ALLOWED) VALUES:'
+      Hint: '&b&nClick to select!'
+      Exit:
+        Name: '&b<Click this message to &dExit &bthe &dEdit Mode&b>'
+        Hint: '&7Click to exit edit mode.'
+    Display:
+      Edit:
+        Format:
+        - '{message: ~type: TITLES; ~fadeIn: 10; ~stay: -1; ~fadeOut: 10;}%title%'
+        - '&7%message%'
+        Title: '&a&lEditing...'
+      Done:
+        Title: '&a&lDone!'
+      Error:
+        Title: '&c&lError!'
+        Number:
+          Invalid: '&c&lInvalid number!'
+          MustDecimal: '&7Must be &cInteger &7or &cDecimal'
+          MustInteger: '&7Must be &cInteger'
+        Type:
+          Title: '&c&lInvalid Type!'
+          Values: '&7See allowed values in chat.'
+Time:
+  Day: '%s%d.'
+  Hour: '%s%h.'
+  Min: '%s%min.'
+  Sec: '%s%sec.'
+Other:
+  'Yes': '&aYes'
+  'No': '&cNo'
+  Any: Any
+  None: None
+  OneTimed: One-Timed
+  Unlimited: Unlimited
+  Infinity: ∞
+Error:
+  Player:
+    Invalid: '&cPlayer not found.'
+  World:
+    Invalid: '&cWorld not found.'
+  Number:
+    Invalid: '&7%num% &cis not a valid number.'
+  Permission:
+    Deny: '&cYou don''t have permissions to do that!'
+  Item:
+    Invalid: '&cYou must hold an item!'
+  Type:
+    Invalid: 'Invalid type. Available: %types%'
+  Command:
+    Self: Can not be used on yourself.
+    Sender: This command is for players only.
+  Internal: '&cInternal error!'

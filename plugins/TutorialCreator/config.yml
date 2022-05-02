@@ -1,0 +1,78 @@
+prefix: '&7[&6&lTutorial&r&7] '
+messages:
+  tutforce: You're now showing &6%name% &7the tutorial &e%tut%&7.
+  alreadytut: '&cThis player already is in a tutorial.'
+  youalreadytut: '&cYou''re already in a tutorial.'
+  permission: '&cYou don''t have the permission for this action!'
+  blockedcommand: '&cYou currently can not run any commands.'
+  blockedmsg: '&cYou currently can not send any chat messages.'
+  tutnotfound: '&cThis tutorial couldn''t be found.'
+  tutempty: '&cThis tutorial has no actions.'
+  offline: '&cThis player couldn''t be found.'
+  enter-chat-now: '&cYou have 3 seconds left to send a message.'
+  nomessage: '&cYou did not send a message.'
+  invalidnumber: '&cYou typed an invalid number. (Use /abort to cancel)'
+  invalidlocation: '&cYou typed an invalid location action. (Use /abort to cancel)'
+  invalidsound: '&cYou typed an invalid sound action. (Use /abort to cancel)'
+  invalidsoundtype: '&cThe name of the sound for the new action is invalid. (Use /abort
+    to cancel)'
+  invalidtitle: '&cYou typed an invalid title action. (Use /abort to cancel)'
+  deletedtut: You deleted the tutorial &e%tutorial%&7.
+  createdtut: You created the tutorial &e%tutorial%&7.
+  villagertypename: Type the name for the villager into the chat.
+  villagerspawned: You successfully created a new tutorial villager. Shift-rightlick
+    to open a GUI.
+  villagerspawn-failed: '&cThe tutorial villager could not be created. Check if any
+    plugin disables entity spawning.'
+  villagerremoved: You successfully removed a villager.
+  typemessage: 'Type the message for the new action into the chat. Example: &oWelcome
+    %player%!\nThis is my server.'
+  typetitle: 'Type the title for the new title action into the chat or type "-" to
+    leave it empty. Example: &oHey %player%!'
+  typesubtitle: 'Type the subtitle in the chat or "-" to leave it empty. Example:
+    &oWelcome to my server!'
+  typetimings: 'Type the the fadeIn, the duration and the fadeOut length in ticks
+    (or use "s" for seconds) into the chat.  Example: &o10 5s 20'
+  typedelay: 'Type the delay in ticks (or use "s" for seconds) for the new delay into
+    the chat. Example: &o5s'
+  typesound: 'Type the sound, volume and pitch into the chat. Example: &oENTITY_PLAYER_LEVELUP
+    10 2'
+  typelocation: Type the location you want the player to be teleported to. (&ox y
+    z [yaw pitch]&r&7)
+  typeplayercommand: 'Type the command you want to have executed by the player. Example:
+    &ogive %player% diamond_sword'
+  typeconsolecommand: 'Type the command you want to have executed by the console.
+    Example: &obroadcast %player% just finished the tutorial!'
+  typechatclear: 'Type the number of empty lines you want to be printed out. Example:
+    &o8'
+  typerelativelylocation: 'Type the relative coordinates you want the player to be
+    teleported to. Format: x y z [yaw pitch]'
+  cancelledinput: You can now use the chat normally again.
+  cantstart: '&cYou don''t have the permission to start this tutorial.'
+  createdaction: '&aYou successfully created a new %type%-action.'
+  lefttutorial: You left the tutorial.
+  exit-actionbar: '&c&lUse the command /exit to leave the tutorial'
+  reloaded-tutorials: Successfully loaded &c%count% &7tutorials.
+  reloaded-messages: Successfully reloaded the config file.
+  saved-tutorials: Successfully saved the tutorials.
+  inv-closed-because-reload: '&cYour inventory needed to be closed because of an reload.'
+  only-one-tut-editor: '&cYou can''t open a tutorial simultaneously. Currently opened
+    by: %player%'
+  changed-cancel-location: You successfully changed the cancel-location.
+  type-permission: 'Type the permission for this specific action. ("-" for no permission)
+    Example: &otesttutorial.givediamonds'
+  set-permission: You successfully set the permission for this action. (%perm%)
+  command-not-for-console: '&4This command can''t be executed from the console.'
+  only-start-following-tutorials: 'You can start the following tutorials:'
+wrong-syntax:
+- '&7[&6&lTutorial&r&7] &cWrong syntax!'
+- '&c» &7/tutorials &8| &7View all tutorials you can start'
+- '&c» &7/tutorial <tutorial> [player] &8| &7Start a tutorial for you or another player'
+- '&c» &7/tutedit <tutorial> &8| &7Create / Edit a tutorial'
+- '&c» &7/tutedit &8| &7Overview of every tutorial / Reload the plugin / Force-save
+  tutorials'
+- '&c» &7/abort &8| &7Exit the chat input'
+first-join-tutorial: none
+testserver-mode: false
+show-exit-actionbar: true
+block-other-plugin-messages: true

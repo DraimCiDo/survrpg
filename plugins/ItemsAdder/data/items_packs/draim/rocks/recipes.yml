@@ -1,0 +1,69 @@
+info:
+  namespace: draim
+recipes:
+  crafting_table:
+    wooden_pickaxe:
+      enabled: true
+      pattern:
+        - SSS
+        - XBX
+        - XBX
+      ingredients:
+        S: rocks
+        B: leaves
+      result:
+        item: wooden_pickaxe
+        amount: 1
+    wooden_axe:
+      enabled: true
+      pattern:
+        - SSX
+        - SBX
+        - XBX
+      ingredients:
+        S: rocks
+        B: leaves
+      result:
+        item: wooden_axe
+        amount: 1
+    wooden_shovel:
+      enabled: true
+      pattern:
+        - XSX
+        - XBX
+        - XBX
+      ingredients:
+        S: rocks
+        B: leaves
+      result:
+        item: wooden_shovel
+        amount: 1
+    wooden_hoe:
+      enabled: true
+      pattern:
+        - SSX
+        - XBX
+        - XBX
+      ingredients:
+        S: rocks
+        B: leaves
+      result:
+        item: wooden_hoe
+        amount: 1
+    sharp_stone:
+      enabled: true
+      pattern:
+        - XXX
+        - XKS
+        - XXX
+      ingredients:
+        S: stone
+        K: knife
+      result:
+        item: stone
+        amount: 2
+      return_items:
+        decrement_durability:
+          knife:
+            item: knife
+            amount: 1

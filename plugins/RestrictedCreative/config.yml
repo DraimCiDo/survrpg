@@ -1,0 +1,318 @@
+# Check out the default config: https://bitbucket.org/Prunt/restrictedcreative/wiki/Default%20config
+# Config explanation: https://bitbucket.org/Prunt/restrictedcreative/wiki/Home#markdown-header-config-explanation
+database:
+  type: sqlite
+  username: root
+  password: ''
+  host: localhost
+  port: 3306
+  database: rc_database
+  ssl: true
+  table:
+    blocks: rc_blocks
+    inventories: rc_invs
+commands:
+  rc:
+    description: RestrictedCreative - основная команда, используемая для перезагрузки,
+      статистики и прочего.
+    usage: '&cПравильное использование: /<command> <reload|block|i-am-sure-i-want-to-delete-all-plugin-data-from-database>'
+    aliases:
+    - restrictedcreative
+  survival:
+    description: Вход в Выживания.
+    usage: '&cПравильное использование /<command> [player]'
+    aliases:
+    - gmscsa
+  creative:
+    description: Вход в Креатив.
+    usage: '&cПравильное использование /<command> [player]'
+    aliases:
+    - gm1asd
+  adventure:
+    description: Вход в Приключения.
+    usage: '&cПравильное использование /<command> [player]'
+    aliases:
+    - gm2sad
+  spectator:
+    description: Вход в Наблюдателя.
+    usage: '&cПравильное использование /<command> [player]'
+    aliases:
+    - gm3ldlf
+general:
+  disabled-worlds:
+  - pure-survival-world
+  - pure-creative-world
+  enabled-worlds: []
+  saving:
+    interval: 6000
+    inventories:
+      enabled: true
+      purge:
+        enabled: true
+        survival: 90
+        creative: 30
+  loading:
+    delay-login: true
+    use-old-system: false
+creative:
+  armor:
+    enabled: false
+    type: leather
+    color: 16711680
+  permissions:
+    enabled: false
+    use-vault: true
+    list:
+    - prefix.creative
+  groups:
+    enabled: false
+    list:
+    - creative
+tracking:
+  blocks:
+    enabled: true
+    notify: false
+    exclude: []
+  worldedit:
+    enabled: true
+    extended: true
+  inventory:
+    enabled: true
+limit:
+  regions:
+    owner-based:
+      enabled: false
+      allow-members: false
+    whitelist:
+      enabled: false
+      list:
+      - building_competition
+  moving:
+    enabled: false
+    below-y: -1
+    above-y: -1
+  interact:
+    inventories: true
+    entities: true
+    breeding: true
+    slimefun: true
+  item:
+    drop: true
+    pickup: true
+    throw: true
+  commands:
+  - (.*)(ah|auc)(.*)
+  - (.*)(buy|sell)(.*)
+  - (.*)(chest)(.*)
+  - (.*)(gift)(.*)
+  - (.*)(bid)(.*)
+  - (.*)(invsee)(.*)
+  combat:
+    pvp: true
+    pve: true
+  creation:
+    wither: true
+    snow-golem: true
+    iron-golem: true
+  damage: false
+confiscate:
+  invalid-items: true
+  middle-click:
+    enabled: true
+    exclude:
+    - PLAYER_HEAD
+  items:
+    enabled: true
+    material:
+    - ARMOR_STAND
+    - BARRIER
+    - CHAIN_COMMAND_BLOCK
+    - COMMAND_BLOCK
+    - COMMAND_BLOCK_MINECART
+    - REPEATING_COMMAND_BLOCK
+    - SPAWNER
+    - DRAGON_EGG
+    - RED_MUSHROOM_BLOCK
+    - BROWN_MUSHROOM_BLOCK
+    - GRASS_PATH
+    - STRUCTURE_BLOCK
+    - STRUCTURE_VOID
+    - VOID_AIR
+    - END_CRYSTAL
+    - PUFFERFISH_BUCKET
+    - SALMON_BUCKET
+    - COD_BUCKET
+    - TROPICAL_FISH_BUCKET
+    - NAME_TAG
+    - EMERALD
+    name:
+    - Cash
+    lore:
+    - $
+disable:
+  placing:
+  - ARMOR_STAND
+  - ANVIL
+  - CHIPPED_ANVIL
+  - DAMAGED_ANVIL
+  - BEDROCK
+  - END_PORTAL_FRAME
+  - TNT
+  - SCAFFOLDING
+  - STRUCTURE_BLOCK
+  - STRUCTURE_VOID
+  - BEACON
+  - GRASS_PATH
+  - END_PORTAL
+  - BARRIER
+  - WITHER_SKELETON_SKULL
+  - END_CRYSTAL
+  - POLISHED_BLACKSTONE_PRESSURE_PLATE
+  - CRIMSON_BUTTON
+  - ACACIA_PRESSURE_PLATE
+  - WARPED_PRESSURE_PLATE
+  - CRIMSON_PRESSURE_PLATE
+  - DARK_OAK_PRESSURE_PLATE
+  - OAK_PRESSURE_PLATE
+  - STONE_PRESSURE_PLATE
+  - BIRCH_PRESSURE_PLATE
+  - SPRUCE_PRESSURE_PLATE
+  - LEVER
+  - STONE_BUTTON
+  - OAK_BUTTON
+  - POLISHED_BLACKSTONE_BUTTON
+  - BIRCH_BUTTON
+  - JUNGLE_BUTTON
+  - ACACIA_BUTTON
+  - DARK_OAK_BUTTON
+  - WARPED_BUTTON
+  - EMERALD_BLOCK
+  breaking:
+  - BEDROCK
+  - END_PORTAL_FRAME
+  interacting:
+    in-hand:
+    - CRIMSON_BUTTON
+    - POLISHED_BLACKSTONE_PRESSURE_PLATE
+    - SHULKER_BOX
+    - WHITE_SHULKER_BOX
+    - ORANGE_SHULKER_BOX
+    - MAGENTA_SHULKER_BOX
+    - LIGHT_BLUE_SHULKER_BOX
+    - YELLOW_SHULKER_BOX
+    - LIME_SHULKER_BOX
+    - PINK_SHULKER_BOX
+    - GRAY_SHULKER_BOX
+    - LIGHT_GRAY_SHULKER_BOX
+    - CYAN_SHULKER_BOX
+    - PURPLE_SHULKER_BOX
+    - BLUE_SHULKER_BOX
+    - BROWN_SHULKER_BOX
+    - GREEN_SHULKER_BOX
+    - RED_SHULKER_BOX
+    - BLACK_SHULKER_BOX
+    - ANVIL
+    - CHIPPED_ANVIL
+    - DAMAGED_ANVIL
+    - GRASS_PATH
+    - BEACON
+    - ARMOR_STAND
+    - HOGLIN_SPAWN_EGG
+    - PIGLIN_SPAWN_EGG
+    - ZOGLIN_SPAWN_EGG
+    - ZOMBIFIED_PIGLIN_SPAWN_EGG
+    - SPLASH_POTION
+    - LINGERING_POTION
+    - FLINT_AND_STEEL
+    - FIRE_CHARGE
+    - EXPERIENCE_BOTTLE
+    - ENDER_EYE
+    - EGG
+    - BONE_MEAL
+    - LAVA_BUCKET
+    - SHEARS
+    - STRIDER_SPAWN_EGG
+    - OCELOT_SPAWN_EGG
+    - BEE_SPAWN_EGG
+    - BAT_SPAWN_EGG
+    - BLAZE_SPAWN_EGG
+    - CAVE_SPIDER_SPAWN_EGG
+    - CHICKEN_SPAWN_EGG
+    - COD_SPAWN_EGG
+    - COW_SPAWN_EGG
+    - CREEPER_SPAWN_EGG
+    - DOLPHIN_SPAWN_EGG
+    - DONKEY_SPAWN_EGG
+    - DROWNED_SPAWN_EGG
+    - ELDER_GUARDIAN_SPAWN_EGG
+    - ENDERMAN_SPAWN_EGG
+    - ENDERMITE_SPAWN_EGG
+    - EVOKER_SPAWN_EGG
+    - GHAST_SPAWN_EGG
+    - GUARDIAN_SPAWN_EGG
+    - HORSE_SPAWN_EGG
+    - HUSK_SPAWN_EGG
+    - LLAMA_SPAWN_EGG
+    - MAGMA_CUBE_SPAWN_EGG
+    - MOOSHROOM_SPAWN_EGG
+    - MULE_SPAWN_EGG
+    - PARROT_SPAWN_EGG
+    - PHANTOM_SPAWN_EGG
+    - PIG_SPAWN_EGG
+    - POLAR_BEAR_SPAWN_EGG
+    - PUFFERFISH_SPAWN_EGG
+    - RABBIT_SPAWN_EGG
+    - SALMON_SPAWN_EGG
+    - SHEEP_SPAWN_EGG
+    - SHULKER_SPAWN_EGG
+    - SILVERFISH_SPAWN_EGG
+    - SKELETON_HORSE_SPAWN_EGG
+    - SKELETON_SPAWN_EGG
+    - SLIME_SPAWN_EGG
+    - SPIDER_SPAWN_EGG
+    - SQUID_SPAWN_EGG
+    - STRAY_SPAWN_EGG
+    - TROPICAL_FISH_SPAWN_EGG
+    - TURTLE_SPAWN_EGG
+    - VEX_SPAWN_EGG
+    - VILLAGER_SPAWN_EGG
+    - VINDICATOR_SPAWN_EGG
+    - WITCH_SPAWN_EGG
+    - WITHER_SKELETON_SPAWN_EGG
+    - WOLF_SPAWN_EGG
+    - ZOMBIE_HORSE_SPAWN_EGG
+    - ZOMBIE_SPAWN_EGG
+    - ZOMBIE_VILLAGER_SPAWN_EGG
+    - ACACIA_SAPLING
+    - BIRCH_SAPLING
+    - DARK_OAK_SAPLING
+    - JUNGLE_SAPLING
+    - OAK_SAPLING
+    - SPRUCE_SAPLING
+    - CAT_SPAWN_EGG
+    - FOX_SPAWN_EGG
+    - PANDA_SPAWN_EGG
+    - PILLAGER_SPAWN_EGG
+    - RAVAGER_SPAWN_EGG
+    - TRADER_LLAMA_SPAWN_EGG
+    - WANDERING_TRADER_SPAWN_EGG
+    on-ground:
+    - ANVIL
+    - CHIPPED_ANVIL
+    - DAMAGED_ANVIL
+    - ARMOR_STAND
+    - GRASS_PATH
+    - JUKEBOX
+    - FLOWER_POT
+    - ACACIA_SIGN
+    - BIRCH_SIGN
+    - DARK_OAK_SIGN
+    - JUNGLE_SIGN
+    - OAK_SIGN
+    - SPRUCE_SIGN
+    - ACACIA_WALL_SIGN
+    - BIRCH_WALL_SIGN
+    - DARK_OAK_WALL_SIGN
+    - JUNGLE_WALL_SIGN
+    - OAK_WALL_SIGN
+    - SPRUCE_WALL_SIGN

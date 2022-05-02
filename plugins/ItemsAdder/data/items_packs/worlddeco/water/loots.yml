@@ -1,0 +1,26 @@
+info:
+  namespace: worlddeco
+loots:
+  blocks:
+    plastic_waste:
+      enabled: true
+      type: plastic_waste
+      items:
+        planks:
+          item: OAK_PLANKS
+          min_amount: 8
+          max_amount: 32
+          chance: 80
+          ignore_fortune: true
+        stick:
+          item: STICK
+          min_amount: 4
+          max_amount: 8
+          chance: 80
+          ignore_fortune: true
+        torch:
+          item: TORCH
+          min_amount: 4
+          max_amount: 16
+          chance: 80
+          ignore_fortune: true

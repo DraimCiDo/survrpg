@@ -1,0 +1,24 @@
+name: alpha
+permissions:
+- cmi.command.back
+- cmi.command.broadcast
+- cmi.command.repair.all
+- cmi.command.sethome.alpha
+- cmi.command.titlemsg
+- cmi.command.tp
+- cmi.command.tpo
+- cmi.keepexp
+- cmi.keepinventory
+- cmi.kit.alpha
+- cmi.kit.alpha.preview
+- cmi.kit.beta:
+    value: false
+- cmi.kit.beta.preview:
+    value: false
+- protectionstones.limit.7
+- weight.5
+parents:
+- beta
+prefixes:
+- ':alpha: &7':
+    priority: 5

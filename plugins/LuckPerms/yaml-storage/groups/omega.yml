@@ -1,0 +1,24 @@
+name: omega
+permissions:
+- cmi.command.gm
+- cmi.command.gm.creative
+- cmi.command.gm.spectator
+- cmi.command.gm.survival
+- cmi.command.homes
+- cmi.command.kick
+- cmi.command.mute
+- cmi.command.sethome.omega
+- cmi.command.tphere
+- cmi.kit.alpha:
+    value: false
+- cmi.kit.alpha.preview:
+    value: false
+- cmi.kit.omega
+- cmi.kit.omega.preview
+- protectionstones.limit.8
+- weight.6
+parents:
+- alpha
+prefixes:
+- ':omega: &7':
+    priority: 6

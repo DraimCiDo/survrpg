@@ -1,0 +1,52 @@
+tutorials:
+  example:
+    allow-exit-command: true
+    back-teleport:
+      world: world
+      x: 0.0
+      y: 50.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0
+    early-exit-commands:
+    - say The player %player% left the tutorial early
+    events:
+      '0':
+        type: message
+        message: Welcome to the tutorial!
+      '1':
+        type: sound
+        sound: ENTITY_PLAYER_LEVELUP
+        volume: 10
+        pitch: 1.0
+      '2':
+        type: teleport
+        world: world
+        x: 0.5
+        y: 70.0
+        z: 0.5
+        yaw: 180.0
+        pitch: 90.0
+      '3':
+        type: delay
+        duration: 80
+      '4':
+        type: teleport
+        world: world
+        x: 0.5
+        y: 100.0
+        z: 0.5
+        yaw: 0.0
+        pitch: 0.0
+      '5':
+        type: delay
+        duration: 130
+      '6':
+        type: title
+        title: '&aHi!'
+        subtitle: '&7Have fun playing on this server!'
+        duration: 130
+        fadeIn: 10
+        fadeOut: 20
+early-exit-commands:
+- say The player %player% left the tutorial early

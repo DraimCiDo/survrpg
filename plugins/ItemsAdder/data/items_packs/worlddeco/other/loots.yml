@@ -1,0 +1,43 @@
+info:
+  namespace: worlddeco
+loots:
+  blocks:
+    coins_pot:
+      enabled: true
+      type: coins_pot
+      exp:
+        exp_prize:
+          min_amount: 10
+          max_amount: 50
+          chance: 100
+      items:
+        ENDER_EYE:
+          item: ENDER_EYE
+          min_amount: 1
+          max_amount: 4
+          chance: 15
+          ignore_fortune: true
+        DIAMOND:
+          item: DIAMOND
+          min_amount: 1
+          max_amount: 4
+          chance: 15
+          ignore_fortune: true
+        EMERALD:
+          item: EMERALD
+          min_amount: 1
+          max_amount: 4
+          chance: 30
+          ignore_fortune: true
+        GOLD_INGOT:
+          item: GOLD_INGOT
+          min_amount: 1
+          max_amount: 16
+          chance: 60
+          ignore_fortune: true
+        LAPIS_LAZULI:
+          item: LAPIS_LAZULI
+          min_amount: 1
+          max_amount: 8
+          chance: 75
+          ignore_fortune: true

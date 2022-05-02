@@ -1,0 +1,439 @@
+info:
+  namespace: draim
+items:
+# Руды
+  coal_ore:
+    display_name: Угольная руда
+    permission: coal_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/coal_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+  copper_ore:
+    display_name: Медная руда
+    permission: copper_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/copper_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+  tin_ore:
+    display_name: Оловянная руда
+    permission: tin_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/tin_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+  iron_ore:
+    display_name: Железная руда
+    permission: iron_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/iron_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+  lead_ore:
+    display_name: Свинцовая руда
+    permission: lead_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/lead_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+  gold_ore:
+    display_name: Золотая руда
+    permission: gold_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/gold_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+  platinum_ore:
+    display_name: Платиновая руда
+    permission: platinum_ore
+    resource:
+      material: STONE
+      generate: true
+      textures:
+      - world1_ores/ores/platinum_ore.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particle_material: REDSTONE_ORE
+        cancel_drop: true
+        light_level: 10
+        break_tools_blacklist:
+        - WOODEN_PICKAXE
+        break_tools_whitelist:
+        - PICKAXE
+        hardness: 3
+        blast_resistance: 1
+        no_explosion: false
+        sound:
+          break: BLOCK_STONE_BREAK
+          volume: 1
+          pitch: 0.9
+        place:
+          name: BLOCK_STONE_PLACE
+# Лут с руды
+  coal:
+    display_name: Уголь
+    permission: coal
+    resource:
+      material: COAL
+      generate: true
+      textures:
+      - world1_ores/loot/coal.png
+  copper:
+    display_name: Рудная медь
+    permission: copper
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - world1_ores/loot/copper.png
+  tin:
+    display_name: Рудное олово
+    permission: tin
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - world1_ores/loot/tin.png
+  iron:
+    display_name: Рудное железо
+    permission: iron
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - world1_ores/loot/iron.png
+  lead:
+    display_name: Рудный свинец
+    permission: lead
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - world1_ores/loot/lead.png
+  gold:
+    display_name: Рудное золото
+    permission: gold
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - world1_ores/loot/gold.png
+  platinum:
+    display_name: Рудная платина
+    permission: platinum
+    resource:
+      material: RAW_IRON
+      generate: true
+      textures:
+      - world1_ores/loot/platinum.png
+# Слитки руд
+  copper_bar:
+    display_name: Слиток меди
+    permission: copper_bar
+    resource:
+      material: COPPER_INGOT
+      generate: true
+      textures:
+      - world1_ores/ingot/copper_bar.png
+  tin_bar:
+    display_name: Слиток олова
+    permission: tin_bar
+    resource:
+      material: COPPER_INGOT
+      generate: true
+      textures:
+      - world1_ores/ingot/tin_bar.png
+  iron_bar:
+    display_name: Слиток железа
+    permission: iron_bar
+    resource:
+      material: COPPER_INGOT
+      generate: true
+      textures:
+      - world1_ores/ingot/iron_bar.png
+  lead_bar:
+    display_name: Слиток свенца
+    permission: lead_bar
+    resource:
+      material: COPPER_INGOT
+      generate: true
+      textures:
+      - world1_ores/ingot/lead_bar.png
+  gold_bar:
+    display_name: Слиток золота
+    permission: gold_bar
+    resource:
+      material: COPPER_INGOT
+      generate: true
+      textures:
+      - world1_ores/ingot/gold_bar.png
+  platinum_bar:
+    display_name: Слиток платины
+    permission: platinum_bar
+    resource:
+      material: COPPER_INGOT
+      generate: true
+      textures:
+      - world1_ores/ingot/platinum_bar.png
+# Пропись лута
+loots:
+  blocks:
+    coal_ore:
+      type: draim:coal_ore
+      items:
+        coal:
+          item: draim:coal
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_ammount: 0
+          max_ammount: 3
+          chance: 100
+    copper_ore:
+      type: draim:copper_ore
+      items:
+        coal:
+          item: draim:copper
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+    tin_ore:
+      type: draim:tin_ore
+      items:
+        coal:
+          item: draim:tin
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    iron_ore:
+      type: draim:iron_ore
+      items:
+        coal:
+          item: draim:iron
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    lead_ore:
+      type: draim:lead_ore
+      items:
+        coal:
+          item: draim:lead
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    gold_ore:
+      type: draim:gold_ore
+      items:
+        coal:
+          item: draim:gold
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+    platinum_ore:
+      type: draim:platinum_ore
+      items:
+        coal:
+          item: draim:platinum
+          min_amount: 1
+          max_amount: 1
+          chance: 100
+# Пропись крафтов
+recipes:
+  cooking:
+    copper:
+      ingredient:
+        item: draim:copper
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: draim:copper_bar
+        amount: 1
+    tin:
+      ingredient:
+        item: draim:tin
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: draim:tin_bar
+        amount: 1
+    iron:
+      ingredient:
+        item: draim:iron
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: draim:iron_bar
+        amount: 1
+    lead:
+      ingredient:
+        item: draim:lead
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: draim:lead_bar
+        amount: 1
+    goal:
+      ingredient:
+        item: draim:gold
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: draim:gold_bar
+        amount: 1
+    platinum:
+      ingredient:
+        item: draim:platinum
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: draim:platinum_bar
+        amount: 1

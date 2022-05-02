@@ -1,0 +1,272 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cooked_porkchop"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/pizza"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/taco"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:auto_generated/hamburger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/chips"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "itemsadder:auto_generated/hotdog"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "itemsadder:auto_generated/tropical_fish_nigiri"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "itemsadder:auto_generated/cod_nigiri"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "itemsadder:auto_generated/salmon_nigiri"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "itemsadder:auto_generated/sausage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10009
+      },
+      "model": "itemsadder:auto_generated/cooked_sausage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10010
+      },
+      "model": "itemsadder:auto_generated/baguette"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10011
+      },
+      "model": "itemsadder:auto_generated/broken_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10012
+      },
+      "model": "itemsadder:auto_generated/fried_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10013
+      },
+      "model": "itemsadder:auto_generated/peeled_potato"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10014
+      },
+      "model": "itemsadder:auto_generated/potato_sticks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10015
+      },
+      "model": "itemsadder:auto_generated/fried_potato_sticks"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10016
+      },
+      "model": "itemsadder:auto_generated/french_fries"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10017
+      },
+      "model": "itemsadder:auto_generated/donut_base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10018
+      },
+      "model": "itemsadder:auto_generated/cooked_donut_base"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10019
+      },
+      "model": "itemsadder:auto_generated/sweet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10020
+      },
+      "model": "itemsadder:auto_generated/sweet_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10021
+      },
+      "model": "itemsadder:auto_generated/pink_donut"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10022
+      },
+      "model": "itemsadder:auto_generated/nether_donut"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10023
+      },
+      "model": "itemsadder:auto_generated/cheese"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10024
+      },
+      "model": "itemsadder:auto_generated/pufferfish_nigiri"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10025
+      },
+      "model": "itemsadder:auto_generated/sliced_bread"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10026
+      },
+      "model": "itemsadder:auto_generated/sliced_baguette"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10027
+      },
+      "model": "itemsadder:auto_generated/sliced_cheese"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10028
+      },
+      "model": "itemsadder:auto_generated/blue_parrotfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10029
+      },
+      "model": "itemsadder:auto_generated/cooked_blue_parrotfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10030
+      },
+      "model": "itemsadder:auto_generated/green_sunfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10031
+      },
+      "model": "itemsadder:auto_generated/cooked_green_sunfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10032
+      },
+      "model": "itemsadder:auto_generated/goldfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10033
+      },
+      "model": "itemsadder:auto_generated/cooked_goldfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10034
+      },
+      "model": "itemsadder:auto_generated/black_moor_goldfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10035
+      },
+      "model": "itemsadder:auto_generated/cooked_black_moor_goldfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10036
+      },
+      "model": "itemsadder:auto_generated/tuna"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10037
+      },
+      "model": "itemsadder:auto_generated/cooked_tuna"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10038
+      },
+      "model": "itemsadder:auto_generated/sliced_raw_beef"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10039
+      },
+      "model": "itemsadder:auto_generated/sliced_roast_beef"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10040
+      },
+      "model": "itemsadder:auto_generated/sliced_bread_with_sweet_berries_jam"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10041
+      },
+      "model": "itemsadder:auto_generated/sliced_bread_with_pear_jam"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10042
+      },
+      "model": "itemsadder:auto_generated/sliced_bread_with_apple_jam"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10043
+      },
+      "model": "minecraft:item/cooked_porkchop"
+    }
+  ]
+}

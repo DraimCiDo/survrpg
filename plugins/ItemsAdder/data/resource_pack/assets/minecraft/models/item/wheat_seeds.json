@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/wheat_seeds"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "itemsadder:auto_generated/tomato_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "itemsadder:auto_generated/garlic_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "itemsadder:auto_generated/lettuce_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "itemsadder:auto_generated/chili_pepper_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "itemsadder:auto_generated/rice_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "itemsadder:auto_generated/tobacco_seeds"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "minecraft:item/wheat_seeds"
+    }
+  ]
+}
