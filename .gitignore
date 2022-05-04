@@ -9,3 +9,7 @@
 /world
 /world_nether
 /world_the_end
+/maze
+/spawn
+
+*.db
