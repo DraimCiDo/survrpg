@@ -13,3 +13,5 @@
 /spawn
 
 *.db
+*.log
+*.mca
