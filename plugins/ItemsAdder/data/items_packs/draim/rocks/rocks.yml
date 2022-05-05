@@ -41,11 +41,14 @@ items:
       material: WOODEN_SWORD
       textures:
       - item/knife.png
-    durbaility:
+    durability:
       max_custom_durability: 5
       custom_durability: 5
       disappear_when_broken: true
+      unbreakable: false
+      usages: 5
     blocked_enchants:
     - ALL
     item_flags:
     - HIDE_ATTRIBUTES
+    - HIDE_DESTROYS
