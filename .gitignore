@@ -15,3 +15,15 @@
 *.db
 *.log
 *.mca
+*.dat
+*.logs
+*.dat_old
+*.realsm
+*.zip
+*.sqlite
+*.nbt
+server.properties
+.console_history
+server.properties
+plugins/LootChest/backups/*
+server.properties
