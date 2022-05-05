@@ -407,6 +407,7 @@ WOODEN_SWORD:
   itemsadder:knife: 10005
   itemsadder:chisel: 10006
   realcraft:waterskin: 10007
+  draim:knife: 10008
 GOLDEN_SWORD:
   itemsadder:ruby_dagger: 10000
   itemsadder:revolver: 10001

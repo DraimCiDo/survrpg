@@ -73,7 +73,7 @@ npc:
         lockPitch: false
         lockYaw: false
         stepHeight: '0.5'
-    traitnames: type,equipment,profession,location,age,spawned,lookclose,villagertrait,model,scoreboardtrait,commandtrait,owner,inventory,mounttrait
+    traitnames: spawned,scoreboardtrait,age,villagertrait,owner,inventory,equipment,location,model,mounttrait,profession,lookclose,commandtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -153,7 +153,7 @@ npc:
         lockPitch: false
         lockYaw: false
         stepHeight: '0.5'
-    traitnames: type,equipment,profession,location,age,lookclose,spawned,villagertrait,model,scoreboardtrait,commandtrait,owner,inventory,mounttrait
+    traitnames: spawned,scoreboardtrait,age,villagertrait,owner,inventory,equipment,location,model,mounttrait,profession,lookclose,commandtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -231,7 +231,7 @@ npc:
         lockPitch: false
         lockYaw: false
         stepHeight: '0.5'
-    traitnames: type,equipment,profession,location,age,spawned,lookclose,villagertrait,model,scoreboardtrait,constants,commandtrait,owner,inventory,mounttrait
+    traitnames: spawned,scoreboardtrait,constants,age,villagertrait,inventory,owner,equipment,location,model,mounttrait,profession,lookclose,commandtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -303,7 +303,7 @@ npc:
         lockPitch: false
         lockYaw: false
         stepHeight: '0.5'
-    traitnames: type,equipment,profession,location,lookclose,spawned,skintrait,villagertrait,model,scoreboardtrait,commandtrait,owner,inventory,mounttrait
+    traitnames: scoreboardtrait,spawned,villagertrait,owner,inventory,equipment,location,model,mounttrait,skintrait,profession,lookclose,commandtrait,type
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -363,7 +363,7 @@ npc:
         z: '-123.6818'
         yaw: '-78.3101'
         pitch: '0.0'
-    traitnames: scoreboardtrait,type,commandtrait,owner,location,age,spawned,mounttrait,model
+    traitnames: model,scoreboardtrait,spawned,age,owner,mounttrait,commandtrait,type,location
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

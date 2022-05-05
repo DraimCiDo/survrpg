@@ -35,16 +35,17 @@ items:
           break:
             name: block.grass.break
   knife:
-    enabled: true
     display_name: Наждачка
+    resource:
+      generate: true
+      material: WOODEN_SWORD
+      textures:
+      - item/knife.png
     durbaility:
       max_custom_durability: 5
       custom_durability: 5
       disappear_when_broken: true
-      unbreakable: false
-      usages: 5
-    resource:
-      generate: true
-      material: PAPER
-      textures:
-      - item/knife.png
+    blocked_enchants:
+    - ALL
+    item_flags:
+    - HIDE_ATTRIBUTES
