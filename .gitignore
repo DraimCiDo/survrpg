@@ -27,3 +27,6 @@ server.properties
 server.properties
 plugins/LootChest/backups/*
 server.properties
+plugins/Citizens/lang/messages_en.properties
+plugins/Citizens/lang/messages_en.properties
+plugins/CMI/skinsCache.yml
