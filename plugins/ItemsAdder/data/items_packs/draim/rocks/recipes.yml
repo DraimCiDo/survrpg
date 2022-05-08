@@ -90,3 +90,26 @@ recipes:
       result:
         item: kaylo
         ammount: 1
+    rope:
+      enabled: true
+      pattern:
+        - XXX
+        - SSS
+        - SSS
+      pattern_2:
+        - XSS
+        - XSS
+        - XSS
+      pattern_3:
+        - SSS
+        - SSS
+        - XXX
+      pattern_4:
+        - SSX
+        - SSX
+        - SSX
+      ingredients:
+        S: ragoz
+      result:
+        item: rope
+        ammount: 2
