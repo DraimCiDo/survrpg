@@ -59,3 +59,27 @@ items:
       material: PAPER
       textures:
       - item/sharp_stone.png
+  kaylo:
+    display_name: Каменное кайло
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - item/kaylo.png
+  ragoz:
+    display_name: Рагоз
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - item/ragoz.png
+loots:
+  blocks:
+    grass:
+      type: GRASS
+      items:
+        ragoz:
+          item: draim:ragoz
+          min_amount: 1
+          max_amount: 1
+          chance: 40
