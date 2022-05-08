@@ -56,6 +56,10 @@ recipes:
         - XXX
         - XKS
         - XXX
+      pattern_2:
+        - XXX
+        - XXX
+        - XKS
       ingredients:
         S: stone
         K: sandpaper
@@ -73,6 +77,14 @@ recipes:
         - XXX
         - SSS
         - XXX
+      pattern_2:
+        - SSS
+        - XXX
+        - XXX
+      pattern_3:
+        - XXX
+        - XXX
+        - SSS
       ingredients:
         S: sharp_stone
       result:
