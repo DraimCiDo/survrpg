@@ -322,6 +322,7 @@ PAPER:
   draim:rocks: 10181
   draim:leaves: 10182
   draim:knife: 10183
+  draim:sharp_stone: 10184
 DIAMOND_SWORD:
   example:example_item: 10000
   itemsadder:closed_lightsaber: 10001
@@ -408,6 +409,7 @@ WOODEN_SWORD:
   itemsadder:chisel: 10006
   realcraft:waterskin: 10007
   draim:knife: 10008
+  draim:sandpaper: 10009
 GOLDEN_SWORD:
   itemsadder:ruby_dagger: 10000
   itemsadder:revolver: 10001
