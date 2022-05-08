@@ -70,12 +70,11 @@ recipes:
     kaylo:
       enabled: true
       pattern:
+        - XXX
         - SSS
-        - XIX
-        - XIX
+        - XXX
       ingredients:
         S: sharp_stone
-        I: leaves
       result:
         item: kaylo
         ammount: 1
