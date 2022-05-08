@@ -67,3 +67,15 @@ recipes:
           sandpaper:
             item: sandpaper
             amount: 1
+    kaylo:
+      enabled: true
+      pattern:
+        - SSS
+        - XIX
+        - XIX
+      ingredients:
+        S: sharp_stone
+        I: leaves
+      result:
+        item: kaylo
+        ammount: 1
