@@ -112,4 +112,24 @@ recipes:
         S: ragoz
       result:
         item: rope
-        ammount: 2
+        amount: 2
+    megapalka:
+      enabled: true
+      pattern: 
+        - XXX
+        - SIS 
+        - XXX
+      pattern_2:
+        - SIS
+        - XXX
+        - XXX
+      pattern_3:
+        - XXX
+        - XXX
+        - SIS
+      ingredients:
+        S: palka
+        I: rope
+      result:
+        item: megapalka
+        amount: 1

@@ -29,6 +29,7 @@ items:
       block:
         placed_model:
           type: REAL_WIRE
+        cancel_drop: true
         sound:
           place:
             name: block.grass.place
@@ -80,6 +81,20 @@ items:
       material: PAPER
       textures:
         - item/rope.png
+  palka:
+    display_name: Палка
+    resource: 
+      generate: true
+      material: PAPER
+      textures:
+        - item/palka.png
+  megapalka:
+    display_name: Связка палок
+    resource:
+      generate: true 
+      material: PAPER
+      textures:
+        - item/megapalka.png
 loots:
   blocks:
     grass:
@@ -90,3 +105,11 @@ loots:
           min_amount: 1
           max_amount: 1
           chance: 40
+    palka:
+      type: draim:leaves
+      items:
+        palka:
+          item: draim:palka
+          min_amount: 1
+          max_amount: 1
+          chance: 100
