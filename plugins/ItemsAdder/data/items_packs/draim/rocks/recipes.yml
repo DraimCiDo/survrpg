@@ -58,12 +58,12 @@ recipes:
         - XXX
       ingredients:
         S: stone
-        K: knife
+        K: sandpaper
       result:
-        item: stone
-        amount: 2
+        item: sharp_stone
+        amount: 1
       return_items:
         decrement_durability:
-          knife:
-            item: knife
+          sandpaper:
+            item: sandpaper
             amount: 1

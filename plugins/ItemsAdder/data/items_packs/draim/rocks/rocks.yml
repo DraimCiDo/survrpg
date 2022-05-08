@@ -34,13 +34,13 @@ items:
             name: block.grass.place
           break:
             name: block.grass.break
-  knife:
-    display_name: Наждачка
+  sandpaper:
+    display_name: Наждачная бумага
     resource:
       generate: true
       material: WOODEN_SWORD
       textures:
-      - item/knife.png
+      - item/nazda4ka.png
     durability:
       max_custom_durability: 5
       custom_durability: 5
@@ -52,3 +52,10 @@ items:
     item_flags:
     - HIDE_ATTRIBUTES
     - HIDE_DESTROYS
+  sharp_stone:
+    display_name: Отполированный камень
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/sharp_stone.png
