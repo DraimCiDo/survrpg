@@ -44,7 +44,7 @@ items:
     durability:
       max_custom_durability: 5
       custom_durability: 5
-      disappear_when_broken: true
+      disappear_when_broken: false
       unbreakable: false
       usages: 5
     blocked_enchants:
