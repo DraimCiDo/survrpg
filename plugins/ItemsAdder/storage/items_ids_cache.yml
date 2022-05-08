@@ -323,6 +323,8 @@ PAPER:
   draim:leaves: 10182
   draim:knife: 10183
   draim:sharp_stone: 10184
+  draim:kaylo: 10185
+  draim:ragoz: 10186
 DIAMOND_SWORD:
   example:example_item: 10000
   itemsadder:closed_lightsaber: 10001
