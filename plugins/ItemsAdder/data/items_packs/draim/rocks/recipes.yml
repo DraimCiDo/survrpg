@@ -133,3 +133,34 @@ recipes:
       result:
         item: megapalka
         amount: 1
+    rukoyat:
+      enabled: true
+      pattern:
+        - XXX
+        - XSX
+        - XSX
+      pattern_2:
+        - XXX
+        - XXS
+        - XXS
+      pattern_3:
+        - XXX
+        - SXX
+        - SXX
+      pattern_4:
+        - SXX
+        - SXX
+        - XXX
+      pattern_5:
+        - XSX
+        - XSX
+        - XXX
+      pattern_6:
+        - XXS
+        - XXS
+        - XXX
+      ingredients:
+        S: megapalka
+      result:
+        item: rukoyat
+        amount: 1

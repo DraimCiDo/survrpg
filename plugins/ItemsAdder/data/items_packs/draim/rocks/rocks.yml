@@ -95,6 +95,13 @@ items:
       material: PAPER
       textures:
         - item/megapalka.png
+  rukoyat:
+    display_name: Рукоять
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - item/rukoyat.png
 loots:
   blocks:
     grass:
