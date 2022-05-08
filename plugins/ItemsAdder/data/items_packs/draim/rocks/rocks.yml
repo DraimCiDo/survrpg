@@ -73,6 +73,13 @@ items:
       material: PAPER
       textures:
         - item/ragoz.png
+  rope:
+    display_name: Верёвка
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - item/rope.png
 loots:
   blocks:
     grass:
